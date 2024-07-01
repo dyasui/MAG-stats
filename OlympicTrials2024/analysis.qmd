@@ -1,0 +1,405 @@
+---
+title: "2024 US Men's Gymnastics Olympic Team Selection"
+author: "Dante Yasui"
+date: "2024/06/29"
+format:
+  html:
+    df-print: kable
+    toc: true
+---
+
+# TODO
+
+- Calculate what the other top team compositions were
+  <!-- - [x] Figure out how to generate a dataframe where each row is a different team combination. Maybe using one of: -->
+  <!--   -  `expand_grid()` -->
+  <!--   -  `combn()` -->
+  <!--   -  `split()` ? -->
+  - [x] apply [@lst-functions] to each possible team combo 
+  and select the max scoring team based on the averages in [@lst-data]
+- [ ] visualize the relative strengths of the team by comparing against distributions in [@fig-eventdist]
+- [ ] compare to similar scores of other national teams
+- [ ] make events print in olympic order, not alphabetic
+
+---
+
+# Data
+
+I copied the data from <https://myusagym.com>
+and manually cleaned it up into `.csv` format.
+
+```{r}
+#| message: FALSE
+#| lst-label: lst-data
+#| lst-cap: combining data from nationals and trials
+library(tidyverse)
+# read all results across usa champs and olympic trials
+nc1_df <- read_csv("./natnls-d1.csv")
+nc2_df <- read_csv("./natnls-d2.csv")
+ot1_df <- read_csv("./trials-day1.csv")
+ot2_df <- read_csv("./trials-day2.csv")
+# merge all results into one dataframe
+results_df <- bind_rows(list(nc1_df, nc2_df, ot1_df, ot2_df))
+```
+
+To visualize the data overall, 
+I grouped scores by event from all USA Championships and Olympic Trials 
+routines and plotted the spread of observed scores.
+
+```{r}
+#| label: fig-eventdist
+#| fig-cap: national distributions of scores on each event
+#| lst-label: lst-eventdist
+#| lst-cap: plot of event distributions
+library(ggthemes)
+eventsdist <- results_df %>% select(!AA) %>%
+  pivot_longer(
+    cols = c(FX, PH, SR, VT, PB, HB),
+    names_to = "Event",
+    values_to = "Score",
+  ) %>% filter(Score > 1) %>%
+  ggplot(aes(x=Score)) +
+  geom_density() +
+  xlim(11, 16) +
+  facet_wrap(~Event, ncol = 2) +
+  theme_pander()
+eventsdist
+```
+
+Not surprisingly, out of all six event Pommel has the largest variance in
+scores and the lowest average.
+P-Bars and Vault are high-scoring events on average but Vault 
+(at least for these competitions) is more consistently grouped around 14
+while the P-Bars distribution seem to have a large right tail 
+with a lot of potential for 15+ scores.
+
+## Averages across usa championships and olympic trials
+
+```{r}
+#| label: tbl-averagescores
+#| tbl-cap: "Individuals' average scores across nationals and trials"
+# average individual gymnasts' scores across four days
+indv.averages_df <- results_df %>% 
+  filter(NAME %in% ot1_df$NAME) %>%  # who qualified to olympic trials 
+  group_by(NAME) %>% 
+  summarise_at(vars(FX:AA), mean, na.rm=TRUE) %>% 
+  arrange(desc(AA))
+indv.averages_df
+```
+
+---
+
+## Predicting a Team's performance
+```{r}
+#| lst-label: lst-functions
+#| lst-cap: functions for calculating team performance
+
+# function to pick top three scores on each event from a team
+team_top_scores <- function(names, scores = indv.averages_df, perevent = 3) {
+  scores %>% 
+    filter(NAME %in% names) %>%
+    select(-AA) %>% 
+    pivot_longer(
+      -NAME,
+      names_to = "Event",
+      values_to = "Score",
+    ) %>% 
+    # take top 3 on each event dropping extra tied scores
+    group_by(Event) %>% 
+    slice_max(n = perevent, order_by = Score, with_ties = FALSE) %>% 
+    mutate(
+      teamscore = sum(Score),
+      # names     = c(unique(NAME))
+      )  %>%
+    group_by(Event) %>% 
+    summarise(
+      Score   = first(teamscore),
+      OnEvent = list((NAME))
+      ) %>% ungroup()
+}
+
+# function to take output of select_top_scores and calculate total
+team_total <- function(top_scores) {
+  top_scores %>% 
+    summarise(x=sum(Score)) %>% 
+    pull()
+}
+
+```
+
+This method assumes that scores earned at the USA Championships and Olympic
+Trials are accurate predictions of scores earned at the actual Olympics.
+These will be over-estimates of a potential team's Olympic performance if the 
+domestic judging is less strict than the Olympic Committee judges panels.
+
+My code also implicitly uses a 5-up, 3-count scoring system which is different
+from the actual 3-up, 3-count rule during Olympic team finals.
+While the US might choose the lineup in this way, they will also probably 
+have to take into account the health of their athletes
+(e.g., resting Brody's leg by not having him vault).
+
+# Team USA's expected performance
+
+## Event scores breakdown
+```{r}
+#| label: tbl-teamevents
+#| tbl-cap: "Team USA expected event scores"
+#| lst-label: lst-actualteam
+#| lst-cap: team_top_scores() of actual team picks
+team_names <- c("Brody Malone", "Fred Richard", "Asher Hong", "Paul Juda",
+                "Stephen Nedoroscik")
+actual_team <- team_top_scores(team_names)
+actual_team_tot <- actual_team %>% 
+  team_total()
+actual_team
+```
+
+### Interpreting the team's average scores
+
+The expected team score for this team ^[with domestic judging]
+is `r actual_team_tot`.
+For some context, the gold medal Japanese team at 2023 world championships
+^[according to the [wikipedia page](https://en.m.wikipedia.org/wiki/2023_World_Artistic_Gymnastics_Championships)]
+scored 255.594 and USA won bronze at the same competition with 252.428.
+
+On paper this teams strengths relative to international competition seem to be
+Floor, Pommel, and High Bar with scores of 
+`r actual_team %>% filter(Event=="FX") %>% pull(Score)`,
+`r actual_team %>% filter(Event=="PH") %>% pull(Score)`, and
+`r actual_team %>% filter(Event=="HB") %>% pull(Score)`,
+respectively.
+However, the US is pretty infamous for not being able to pull together their 
+full potential on Pommel.
+
+This team also remains competitive on  Rings with an average score of 
+`r actual_team %>% filter(Event=="SR") %>% pull(Score)`
+and on P-Bars with a
+`r actual_team %>% filter(Event=="PB") %>% pull(Score)`.
+With China being so dominant on those two events they probably won't win any
+event final medals there but having those two events as strengths will definitely help the team score against Japan and Great Britain.
+
+It's kind of surprising that the main weakness on paper of this team is vault.
+With Brody, Paul, and Asher vaulting at a total predicted score of 
+`r actual_team %>% filter(Event=="VT") %>% pull(Score)`,
+they fall behind both China's and Great Britain's scores as well as the 
+previous US team's own score on the event from last year.
+I heard that judging on Asher's Ri Se Gwang vault seemed overly harsh,
+so it's possible that this team vault score gets better,
+but I think he's the only one with a D-score higher than 5.6 on this event.
+
+### Potential vs Expectations
+
+There will also be more psychological strain on these athletes which comes with
+the media attention and unfamiliar setting in Paris.
+This could be a factor that could potentially affect this team more than other
+alternative US teams.
+
+I was hoping that Yul Muldauer could provide the same kind of leadership
+he showed at the World Championships to a younger and less-internationally 
+experienced team.
+Unfortunately he didn't perform up to his usual level of execution and 
+consistency in these past few competitions so I understand why he was left off.
+These five guys (with maybe the exception of Paul?) have experience competing
+at the World/Olympic level, but I think Yul is one of those guys who gets along
+with everyone and feels comfortable in the spotlight.
+I think Fred has a very similar enthusiasm and drive, but this is still only 
+his second year of competing at the senior international level.
+
+The first night of the Olympic Trials made me pretty nervous about the 
+ability for US gymnasts to stay consistent with increased attention on them.
+It was great to see how full the stadium in Minneapolis was for men's gymnastics,
+but I also thought that some of the extra shakiness on Pommel and throughout the night might have been attributable to all the extra energy around.
+This team has a lot of potential and I just hope that they don't get 
+overwhelmed by the pressure of thinking that they need to live up to the 
+high expectations of a domestic audience who only tune in every four years
+with the anticipation that anything team USA touches at the Olympics could turn to gold.
+
+### Comparing to the rest of the field
+
+```{r}
+#| warning: false
+#| label: fig-eventdist_team
+#| fig-cap: "Olympic team's scores relative to everyone else"
+team_scores <- indv.averages_df %>% 
+    filter(NAME %in% team_names) %>%
+    select(-AA) %>% 
+    pivot_longer(
+      -NAME,
+      names_to = "Event",
+      values_to = "Score",
+    )
+eventsdist +
+  geom_vline(
+    data = team_scores, 
+    aes(
+      xintercept = Score, 
+      color = Score,
+      ),
+      linetype = "dashed"
+    ) +
+  geom_text(
+    data = team_scores, 
+    aes(
+      y = 0.4,
+      x = Score,
+      label = NAME,
+      color = Score
+      ),
+    angle = 270,
+    size = 2,
+    nudge_x = 0.05,
+    ) +
+  scale_color_viridis_c(option = "turbo", direction = -1) +
+  xlim(12, 15)
+```
+
+---
+
+# Other hypothetical compositions
+
+### Picking only the top all-arounders
+```{r}
+#| label: tbl-altteam1events
+#| tbl-cap: "Top 5 all-arounders team event scores"
+# If they had taken top five all arounders
+alt_team1_names <- indv.averages_df %>% 
+  slice_head(n=5) %>% 
+  select(NAME) %>% 
+  pull()
+alt_team1 <- team_top_scores(alt_team1_names)
+alt_team1
+```
+
+This team has an expected score of `r team_total(alt_team1)` 
+which is `r round(actual_team_tot - team_total(alt_team1), digits=1)` points 
+behind the selected team's expected score,
+so it makes sense they didn't go with this team.
+Paul and Shane are both similar in that their main strengths are contributing 
+solid performances on any event but neither have any standout routines with
+enough difficulty to put them in event finals. 
+It makes sense to have one gymnast fill this roll on a team, 
+but I don't think it makes sense to leave behind world-class routines like 
+Stephen's pommel horse or Asher's, Khoi's, or Donnell's vaults to gain
+the additional safe scores from sending both Paul and Shane together.
+
+It was really cool to see how hyped the Minneapolis crowd was to see 
+shane compete in his hometown and he did a great job over the two nights there,
+but ultimately Paul just put on a more consistent performance during 
+US Championships. 
+And that's what this type of role on team USA is all about;
+just proving that you will put up a decent score every time you go up.
+
+### My team picks
+```{r}
+#| label: tbl-altteam2events
+#| tbl-cap: "My custom team's event breakdown"
+# My own personal picks
+my_team_names <- c("Fred Richard", "Brody Malone", "Yul Moldauer", "Shane Wiskus", "Khoi Young")
+alt_team2 <- team_top_scores(my_team_names)
+alt_team2
+```
+
+This team also falls short by `r round(actual_team_tot - team_total(alt_team2), 1)` points and looking at the event breakdowns,
+it really seems like pommel horse is the deciding factor.
+I would have put Shane on the team ahead of Paul based on his experience,
+but now I see how much of an impact Paul's 14 pommel average had on him
+making the team.
+
+```{r}
+#| echo: false
+PH_actual_team <- actual_team %>% filter(Event=="PH") %>% 
+  select(Score) %>% pull()
+PH_second_best <- indv.averages_df %>% 
+  filter(!is.na(AA)) %>% 
+  select(PH) %>% 
+  slice_max(order_by = PH, n = 3) %>% 
+  summarise(x = sum(PH)) %>% 
+  pull()
+```
+
+```{r}
+#| echo: false
+pull_score <- function(scores, name, event) {
+  scores %>% 
+    filter(NAME == name) %>% 
+    select(event) %>% 
+    pull()
+}
+```
+
+
+Without sending a pommel horse specialist to Paris, 
+the best possible team score they could put up on this event would be 
+`r PH_second_best`.
+So Stephen is contributing at least an extra 
+`r PH_actual_team - PH_second_best` points to the team score
+and likely more considering that he's making sure Fred's 13.3 PH average 
+won't have to be counted. 
+If Khoi had hit his pommel routines consistently then he would have seemed
+like a much more obvious replacement for Stephen because he has the potential
+to put up a 15.0 like he showed in night 2 of US Championships.
+He would also make the team's vault score a lot more competitive where his 
+average score of 
+`r pull_score(indv.averages_df, "Khoi Young", "VT")` is actually 
+`r round(pull_score(indv.averages_df, "Khoi Young", "VT") - pull_score(indv.averages_df, "Asher Hong", "VT"), 1)*10`
+tenths higher than Asher's and seems to be a lot more consistent.
+
+# Other potential teams
+```{r}
+#| eval: false
+#| label: sim_results
+
+names <- indv.averages_df %>% select(NAME) %>% pull()
+
+# all combinations of gymnasts choosing five at a time
+teams_possible <- combinat::combn(names, 5, simplify = T) %>% 
+  as_tibble() %>% 
+  pivot_longer(
+    cols = everything(),
+    names_to = "team",
+    values_to = "name") %>% 
+  group_by(team) %>% 
+  summarise(
+    names = list(name)
+  )
+
+# function to apply team_total to list of names
+team_top_total <- function(x) team_total(team_top_scores(unlist(x)))
+
+# record top scores for every possible team combination
+teamsim_df <- teams_possible %>% 
+  mutate(
+    total = as.numeric(map(names, team_top_total)),
+    # names = map(names, toString)
+  ) %>% 
+  arrange(desc(total))
+
+# save sim results to file
+save(teamsim_df, file = "teamsim.RData")
+```
+
+```{r}
+#| label: tbl-topteams
+#| tbl-cap: "Top twenty scoring teams on average"
+load("./teamsim.RData")
+teamsim_df %>% 
+  select(-team) %>% 
+  filter(!("Patrick Hoopes" %in% names)) %>% 
+  head(n=20)
+```
+
+It's not surprising that Brody and Fred show up on all of these teams.
+Asher is also pretty dominant in this ranking, which seems to be coming from his higher performances on rings and p-bars compared to Donnell and being close enough to Khoi on vault and floor.
+
+However, I didn't expect that all of these top 20 teams would have at least 
+one pommel specialist.
+A lot of these teams are just variations of the same teams except swapping 
+Stephen and Patrick Hoopes (and one team with both of them).
+
+This also highlights how close Shane came to being on the team (by just .75)! 
+But it also how similar his contributions are to Paul's which sort of put him
+in the same unfortunate position as Patrick Hoopes who's status as a pommel 
+specialist means that he can only really be swapped out with Stephen.
+
+
+
