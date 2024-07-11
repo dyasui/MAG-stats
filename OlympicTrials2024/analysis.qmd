@@ -11,15 +11,13 @@ format:
 # TODO
 
 - Calculate what the other top team compositions were
-  <!-- - [x] Figure out how to generate a dataframe where each row is a different team combination. Maybe using one of: -->
-  <!--   -  `expand_grid()` -->
-  <!--   -  `combn()` -->
-  <!--   -  `split()` ? -->
   - [x] apply [@lst-functions] to each possible team combo 
   and select the max scoring team based on the averages in [@lst-data]
-- [ ] visualize the relative strengths of the team by comparing against distributions in [@fig-eventdist]
+- [x] visualize the relative strengths of the team by comparing against distributions in [@fig-eventdist]
 - [ ] compare to similar scores of other national teams
 - [ ] make events print in olympic order, not alphabetic
+- [ ] calculate each team members contribution by picking best team 
+when they are dropped from results dataset
 
 ---
 
@@ -255,96 +253,7 @@ eventsdist +
 
 ---
 
-# Other hypothetical compositions
-
-### Picking only the top all-arounders
-```{r}
-#| label: tbl-altteam1events
-#| tbl-cap: "Top 5 all-arounders team event scores"
-# If they had taken top five all arounders
-alt_team1_names <- indv.averages_df %>% 
-  slice_head(n=5) %>% 
-  select(NAME) %>% 
-  pull()
-alt_team1 <- team_top_scores(alt_team1_names)
-alt_team1
-```
-
-This team has an expected score of `r team_total(alt_team1)` 
-which is `r round(actual_team_tot - team_total(alt_team1), digits=1)` points 
-behind the selected team's expected score,
-so it makes sense they didn't go with this team.
-Paul and Shane are both similar in that their main strengths are contributing 
-solid performances on any event but neither have any standout routines with
-enough difficulty to put them in event finals. 
-It makes sense to have one gymnast fill this roll on a team, 
-but I don't think it makes sense to leave behind world-class routines like 
-Stephen's pommel horse or Asher's, Khoi's, or Donnell's vaults to gain
-the additional safe scores from sending both Paul and Shane together.
-
-It was really cool to see how hyped the Minneapolis crowd was to see 
-shane compete in his hometown and he did a great job over the two nights there,
-but ultimately Paul just put on a more consistent performance during 
-US Championships. 
-And that's what this type of role on team USA is all about;
-just proving that you will put up a decent score every time you go up.
-
-### My team picks
-```{r}
-#| label: tbl-altteam2events
-#| tbl-cap: "My custom team's event breakdown"
-# My own personal picks
-my_team_names <- c("Fred Richard", "Brody Malone", "Yul Moldauer", "Shane Wiskus", "Khoi Young")
-alt_team2 <- team_top_scores(my_team_names)
-alt_team2
-```
-
-This team also falls short by `r round(actual_team_tot - team_total(alt_team2), 1)` points and looking at the event breakdowns,
-it really seems like pommel horse is the deciding factor.
-I would have put Shane on the team ahead of Paul based on his experience,
-but now I see how much of an impact Paul's 14 pommel average had on him
-making the team.
-
-```{r}
-#| echo: false
-PH_actual_team <- actual_team %>% filter(Event=="PH") %>% 
-  select(Score) %>% pull()
-PH_second_best <- indv.averages_df %>% 
-  filter(!is.na(AA)) %>% 
-  select(PH) %>% 
-  slice_max(order_by = PH, n = 3) %>% 
-  summarise(x = sum(PH)) %>% 
-  pull()
-```
-
-```{r}
-#| echo: false
-pull_score <- function(scores, name, event) {
-  scores %>% 
-    filter(NAME == name) %>% 
-    select(event) %>% 
-    pull()
-}
-```
-
-
-Without sending a pommel horse specialist to Paris, 
-the best possible team score they could put up on this event would be 
-`r PH_second_best`.
-So Stephen is contributing at least an extra 
-`r PH_actual_team - PH_second_best` points to the team score
-and likely more considering that he's making sure Fred's 13.3 PH average 
-won't have to be counted. 
-If Khoi had hit his pommel routines consistently then he would have seemed
-like a much more obvious replacement for Stephen because he has the potential
-to put up a 15.0 like he showed in night 2 of US Championships.
-He would also make the team's vault score a lot more competitive where his 
-average score of 
-`r pull_score(indv.averages_df, "Khoi Young", "VT")` is actually 
-`r round(pull_score(indv.averages_df, "Khoi Young", "VT") - pull_score(indv.averages_df, "Asher Hong", "VT"), 1)*10`
-tenths higher than Asher's and seems to be a lot more consistent.
-
-# Other potential teams
+# Team Selection Analysis
 ```{r}
 #| eval: false
 #| label: sim_results
@@ -394,38 +303,158 @@ specialist_rule <- function(teams, individuals) {
 
 ```{r}
 #| label: tbl-topteams
-#| tbl-cap: "Top twenty scoring teams on average"
+#| tbl-cap: "Top ten scoring teams on average"
 load("./teamsim.RData")
-teamsim_df %>% 
-  select(-team) %>% 
-  specialist_rule(individuals = indv.averages_df) %>% 
-  head(n=20) %>% 
-  kableExtra::kable()
-```
-
-It's not surprising that Brody and Fred show up on all of these teams.
-Asher is also pretty dominant in this ranking, which seems to be coming from his higher performances on rings and p-bars compared to Donnell and being close enough to Khoi on vault and floor.
-
-However, I didn't expect that all of these top 20 teams would have at least 
-one pommel specialist.
-A lot of these teams are just variations of the same teams except swapping 
-Stephen and Patrick Hoopes.
-
-```{r}
-# filtering Patrick Hoopes out:
 teamsim_df %>% 
   select(-team) %>% 
   filter(str_detect(.$names, "Patrick Hoopes", negate = T)) %>% 
   specialist_rule(individuals = indv.averages_df) %>% 
-  head(n=20) %>% 
-  kableExtra::kable()
+  head(n=10)
 ```
 
+It's not surprising that Brody and Fred show up on all of these teams.
+Asher is also pretty dominant in this ranking, which seems to be coming from his
+higher performances on rings and p-bars compared to Donnell and being close
+enough to Khoi on vault and floor.
+
+The top team of all all-arounders just swaps out Stephen for Shane 
+and scores more than a point lower.
+Interesting that Yul has a better all-around average than Asher, 
+and yet he wouldn't actually the better pick in an all all-arounder team.
+A lot of these teams are just variations of the same teams except swapping 
+Stephen and Patrick Hoopes.
+Because Stephen had a higher four-score average and potential difficulty 
+than Patrick, I drop Patrick from the list to get a sense of some more 
+realistic alternate team selections.
 
 This also highlights how close Shane came to being on the team (by just .75)! 
 But it also how similar his contributions are to Paul's which sort of put him
 in the same unfortunate position as Patrick Hoopes who's status as a pommel 
 specialist means that he can only really be swapped out with Stephen.
 
+### Importance of Pommel Horse Specialists
 
+One thing I didn't expect before seeing these simulated teams
+is that almost all of these top 20 teams have at least one pommel specialist
+(before I dropped Patrick).
+
+```{r}
+#| echo: true
+PH_actual_team <- actual_team %>% filter(Event=="PH") %>% 
+  select(Score) %>% pull()
+PH_second_best <- indv.averages_df %>% 
+  filter(!is.na(AA)) %>% 
+  select(NAME, PH) %>% 
+  slice_max(order_by = PH, n = 3)
+PH_second_best
+```
+
+```{r}
+#| echo: false
+PH_second_best_score <- PH_second_best %>% 
+  summarise(x = sum(PH)) %>% 
+  pull()
+```
+
+Without sending a pommel horse specialist to Paris, 
+the best possible team score USA could put up on this event would be 
+`r PH_second_best_score`.
+So Stephen is contributing at least an extra 
+`r PH_actual_team - PH_second_best_score` points to the team score
+and likely more considering that he's making sure Fred's 13.3 PH average 
+won't have to be counted. 
+
+```{r}
+#| echo: false
+pull_score <- function(scores, name, event) {
+  scores %>% 
+    filter(NAME == name) %>% 
+    select(event) %>% 
+    pull()
+}
+```
+
+If Khoi had hit his pommel routines consistently then he would have seemed
+like a much more obvious replacement for Stephen because he has the potential
+to put up a 15.0 like he showed in night 2 of US Championships.
+He would also make the team's vault score a lot more competitive where his 
+average score of 
+`r pull_score(indv.averages_df, "Khoi Young", "VT")` is actually 
+`r round(pull_score(indv.averages_df, "Khoi Young", "VT") - pull_score(indv.averages_df, "Asher Hong", "VT"), 1)*10`
+tenths higher than Asher's and seems to be a lot more consistent.
+
+# Other hypothetical compositions
+
+### Picking only the top all-arounders
+```{r}
+#| label: tbl-altteam1events
+#| tbl-cap: "Top 5 all-arounders team event scores"
+# If they had taken top five all arounders
+alt_team1_names <- indv.averages_df %>% 
+  slice_head(n=5) %>% 
+  select(NAME) %>% 
+  pull()
+alt_team1 <- team_top_scores(alt_team1_names)
+alt_team1
+```
+
+This team has an expected score of `r team_total(alt_team1)` 
+which is `r round(actual_team_tot - team_total(alt_team1), digits=1)` points 
+behind the selected team's expected score,
+so it makes sense they didn't go with this team.
+Paul and Shane are both similar in that their main strengths are contributing 
+solid performances on any event but neither have any standout routines with
+enough difficulty to put them in event finals. 
+It makes sense to have one gymnast fill this roll on a team, 
+but I don't think it makes sense to leave behind world-class routines like 
+Stephen's pommel horse or Asher's, Khoi's, or Donnell's vaults to gain
+the additional safe scores from sending both Paul and Shane together.
+
+It was really cool to see how hyped the Minneapolis crowd was to see 
+shane compete in his hometown and he did a great job over the two nights there,
+but ultimately Paul just put on a more consistent performance during 
+US Championships. 
+And that's what this type of role on team USA is all about;
+just proving that you will put up a decent score every time you go up.
+
+### My team picks
+```{r}
+#| label: tbl-altteam2events
+#| tbl-cap: "My custom team's event breakdown"
+# My own personal picks
+alt_team2_names <- c("Fred Richard", "Brody Malone", "Yul Moldauer", "Donnell Whittenburg", "Khoi Young")
+alt_team2 <- team_top_scores(alt_team2_names)
+alt_team2
+```
+
+This team falls short by `r round(actual_team_tot - team_total(alt_team2), 1)` points
+although I think they would have more opporunities to make event finals 
+on Floor, P-Bars, and Vault.
+Given Donnell's vs Asher's performances over Nationals and Trials,
+it probably makes more sense to have Asher 
+but I think Donnell has more international experience 
+and I also just really wanted to see him get to represent USA at the Olympics
+after working so hard for his entire career and not really getting that much recognition.
+
+### Using Maximum Scores instead of Averages
+
+```{r}
+indv.max_df <- results_df %>% 
+  filter(NAME %in% ot1_df$NAME) %>%  # who qualified to olympic trials 
+  group_by(NAME) %>% 
+  summarise_at(vars(FX:AA), max, na.rm=TRUE) %>% 
+  arrange(desc(AA))
+
+team_max_total <- function(x) team_total(team_top_scores(unlist(x), scores = indv.max_df))
+
+# record top scores for every possible team combination using individual max's
+teamsim_df <- teams_possible %>% 
+  mutate(
+    total = as.numeric(map(names, team_max_total)),
+    # names = map(names, toString)
+  ) %>% 
+  arrange(desc(total))
+
+team_top_scores(teams_possible, scores = indv.max_df)
+```
 
