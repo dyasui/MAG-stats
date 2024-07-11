@@ -378,14 +378,29 @@ teamsim_df <- teams_possible %>%
 save(teamsim_df, file = "teamsim.RData")
 ```
 
+```{r specialist_rule}
+specialist_rule <- function(teams, individuals) {
+  specialists <- individuals %>% 
+    filter(is.na(AA)) %>% 
+    select(NAME) %>% 
+    pull()
+  teams %>% 
+    filter(
+      str_count(.$names, paste(specialists, collapse='|')) < 2
+    )
+}
+```
+
+
 ```{r}
 #| label: tbl-topteams
 #| tbl-cap: "Top twenty scoring teams on average"
 load("./teamsim.RData")
 teamsim_df %>% 
   select(-team) %>% 
-  filter(!("Patrick Hoopes" %in% names)) %>% 
-  head(n=20)
+  specialist_rule(individuals = indv.averages_df) %>% 
+  head(n=20) %>% 
+  kableExtra::kable()
 ```
 
 It's not surprising that Brody and Fred show up on all of these teams.
@@ -394,7 +409,18 @@ Asher is also pretty dominant in this ranking, which seems to be coming from his
 However, I didn't expect that all of these top 20 teams would have at least 
 one pommel specialist.
 A lot of these teams are just variations of the same teams except swapping 
-Stephen and Patrick Hoopes (and one team with both of them).
+Stephen and Patrick Hoopes.
+
+```{r}
+# filtering Patrick Hoopes out:
+teamsim_df %>% 
+  select(-team) %>% 
+  filter(str_detect(.$names, "Patrick Hoopes", negate = T)) %>% 
+  specialist_rule(individuals = indv.averages_df) %>% 
+  head(n=20) %>% 
+  kableExtra::kable()
+```
+
 
 This also highlights how close Shane came to being on the team (by just .75)! 
 But it also how similar his contributions are to Paul's which sort of put him
