@@ -4,7 +4,7 @@
     "href": "OlympicTrials2024/analysis.html",
     "title": "2024 US Men’s Gymnastics Olympic Team Selection",
     "section": "",
-    "text": "Calculate what the other top team compositions were    \n\napply Listing 3 to each possible team combo and select the max scoring team based on the averages in Listing 1\n\nvisualize the relative strengths of the team by comparing against distributions in Figure 1\ncompare to similar scores of other national teams\nmake events print in olympic order, not alphabetic"
+    "text": "Calculate what the other top team compositions were\n\napply Listing 3 to each possible team combo and select the max scoring team based on the averages in Listing 1\n\nvisualize the relative strengths of the team by comparing against distributions in Figure 1\ncompare to similar scores of other national teams\nmake events print in olympic order, not alphabetic\ncalculate each team members contribution by picking best team when they are dropped from results dataset"
   },
   {
     "objectID": "OlympicTrials2024/analysis.html#averages-across-usa-championships-and-olympic-trials",
