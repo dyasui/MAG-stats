@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.5.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,7 +35,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -192,7 +192,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Data</h1>
 <p>I copied the data from <a href="https://myusagym.com" class="uri">https://myusagym.com</a> and manually cleaned it up into <code>.csv</code> format.</p>
 <div class="cell">
-<div id="lst-data" class="r cell-code listing quarto-float">
+<div id="lst-data" class="r cell-code listing quarto-float quarto-figure quarto-figure-left anchored">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-data-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Listing&nbsp;1: combining data from nationals and trials
@@ -212,7 +212,7 @@ Listing&nbsp;1: combining data from nationals and trials
 </div>
 <p>To visualize the data overall, I grouped scores by event from all USA Championships and Olympic Trials routines and plotted the spread of observed scores.</p>
 <div class="cell">
-<div id="lst-eventdist" class="r cell-code listing quarto-float">
+<div id="lst-eventdist" class="r cell-code listing quarto-float quarto-figure quarto-figure-left anchored">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-eventdist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Listing&nbsp;2: plot of event distributions
@@ -239,7 +239,7 @@ Listing&nbsp;2: plot of event distributions
 (`stat_density()`).</code></pre>
 </div>
 <div class="cell-output-display">
-<div id="fig-eventdist" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-eventdist" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-eventdist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="analysis_files/figure-html/fig-eventdist-1.png" class="img-fluid figure-img" width="672">
@@ -262,7 +262,7 @@ Figure&nbsp;1: national distributions of scores on each event
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise_at</span>(<span class="fu">vars</span>(FX<span class="sc">:</span>AA), mean, <span class="at">na.rm=</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(AA))</span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>indv.averages_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="tbl-averagescores" class="cell quarto-float anchored">
+<div id="tbl-averagescores" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-averagescores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1: Individuals’ average scores across nationals and trials
@@ -270,7 +270,7 @@ Table&nbsp;1: Individuals’ average scores across nationals and trials
 <div aria-describedby="tbl-averagescores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell table table-sm table-striped small">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
 <colgroup>
 <col style="width: 25%">
 <col style="width: 10%">
@@ -507,7 +507,7 @@ Table&nbsp;1: Individuals’ average scores across nationals and trials
 <section id="predicting-a-teams-performance" class="level2">
 <h2 class="anchored" data-anchor-id="predicting-a-teams-performance">Predicting a Team’s performance</h2>
 <div class="cell">
-<div id="lst-functions" class="r cell-code listing quarto-float">
+<div id="lst-functions" class="r cell-code listing quarto-float quarto-figure quarto-figure-left anchored">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-functions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Listing&nbsp;3: functions for calculating team performance
@@ -556,7 +556,7 @@ Listing&nbsp;3: functions for calculating team performance
 <section id="event-scores-breakdown" class="level2">
 <h2 class="anchored" data-anchor-id="event-scores-breakdown">Event scores breakdown</h2>
 <div class="cell">
-<div id="lst-actualteam" class="r cell-code listing quarto-float">
+<div id="lst-actualteam" class="r cell-code listing quarto-float quarto-figure quarto-figure-left anchored">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-actualteam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Listing&nbsp;4: team_top_scores() of actual team picks
@@ -571,7 +571,7 @@ Listing&nbsp;4: team_top_scores() of actual team picks
 </div>
 </figure>
 </div>
-<div id="tbl-teamevents" class="cell quarto-float anchored">
+<div id="tbl-teamevents" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-teamevents-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;2: Team USA expected event scores
@@ -579,7 +579,7 @@ Table&nbsp;2: Team USA expected event scores
 <div aria-describedby="tbl-teamevents-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell table table-sm table-striped small">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Event</th>
@@ -674,7 +674,7 @@ Table&nbsp;2: Team USA expected event scores
 <span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_viridis_c</span>(<span class="at">option =</span> <span class="st">"turbo"</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>) <span class="sc">+</span></span>
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">12</span>, <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="fig-eventdist_team" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-eventdist_team" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-eventdist_team-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="analysis_files/figure-html/fig-eventdist_team-1.png" class="img-fluid figure-img" width="672">
@@ -702,7 +702,7 @@ Figure&nbsp;2: Olympic team’s scores relative to everyone else
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>()</span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>alt_team1 <span class="ot">&lt;-</span> <span class="fu">team_top_scores</span>(alt_team1_names)</span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>alt_team1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="tbl-altteam1events" class="cell quarto-float anchored">
+<div id="tbl-altteam1events" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-altteam1events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;3: Top 5 all-arounders team event scores
@@ -710,7 +710,7 @@ Table&nbsp;3: Top 5 all-arounders team event scores
 <div aria-describedby="tbl-altteam1events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell table table-sm table-striped small">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Event</th>
@@ -767,7 +767,7 @@ Table&nbsp;3: Top 5 all-arounders team event scores
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>my_team_names <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Fred Richard"</span>, <span class="st">"Brody Malone"</span>, <span class="st">"Yul Moldauer"</span>, <span class="st">"Shane Wiskus"</span>, <span class="st">"Khoi Young"</span>)</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>alt_team2 <span class="ot">&lt;-</span> <span class="fu">team_top_scores</span>(my_team_names)</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>alt_team2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="tbl-altteam2events" class="cell quarto-float anchored">
+<div id="tbl-altteam2events" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-altteam2events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;4: My custom team’s event breakdown
@@ -775,7 +775,7 @@ Table&nbsp;4: My custom team’s event breakdown
 <div aria-describedby="tbl-altteam2events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell table table-sm table-striped small">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Event</th>
@@ -858,20 +858,38 @@ Table&nbsp;4: My custom team’s event breakdown
 <span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(teamsim_df, <span class="at">file =</span> <span class="st">"teamsim.RData"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">"./teamsim.RData"</span>)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>teamsim_df <span class="sc">%&gt;%</span> </span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>team) <span class="sc">%&gt;%</span> </span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span>(<span class="st">"Patrick Hoopes"</span> <span class="sc">%in%</span> names)) <span class="sc">%&gt;%</span> </span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n=</span><span class="dv">20</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="tbl-topteams" class="cell quarto-float anchored">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>specialist_rule <span class="ot">&lt;-</span> <span class="cf">function</span>(teams, individuals) {</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  specialists <span class="ot">&lt;-</span> individuals <span class="sc">%&gt;%</span> </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="fu">is.na</span>(AA)) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(NAME) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">pull</span>()</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  teams <span class="sc">%&gt;%</span> </span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_count</span>(.<span class="sc">$</span>names, <span class="fu">paste</span>(specialists, <span class="at">collapse=</span><span class="st">'|'</span>)) <span class="sc">&lt;</span> <span class="dv">2</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">"./teamsim.RData"</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>teamsim_df <span class="sc">%&gt;%</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>team) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">specialist_rule</span>(<span class="at">individuals =</span> indv.averages_df) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n=</span><span class="dv">20</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There was 1 warning in `filter()`.
+ℹ In argument: `str_count(.$names, paste(specialists, collapse = "|")) &lt; 2`.
+Caused by warning in `stri_count_regex()`:
+! argument is not an atomic vector; coercing</code></pre>
+</div>
+<div id="tbl-topteams" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-topteams-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;5: Top twenty scoring teams on average
 </figcaption>
 <div aria-describedby="tbl-topteams-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div class="kable-table">
-<table class="do-not-create-environment cell table table-sm table-striped small">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
 <colgroup>
 <col style="width: 91%">
 <col style="width: 8%">
@@ -896,83 +914,199 @@ Table&nbsp;5: Top twenty scoring teams on average
 <td style="text-align: right;">257.9500</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Curran Phillips , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.9208</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Patrick Hoopes , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.8875</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Asher Hong , Patrick Hoopes</td>
 <td style="text-align: right;">257.8750</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Patrick Hoopes , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.8625</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Khoi Young , Stephen Nedoroscik</td>
 <td style="text-align: right;">257.8625</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Donnell Whittenburg, Stephen Nedoroscik</td>
 <td style="text-align: right;">257.8250</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Cameron Bock , Stephen Nedoroscik</td>
 <td style="text-align: right;">257.8125</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Curran Phillips , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.7958</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Yul Moldauer , Stephen Nedoroscik</td>
 <td style="text-align: right;">257.7750</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Curran Phillips, Patrick Hoopes</td>
-<td style="text-align: right;">257.7708</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Khoi Young , Stephen Nedoroscik</td>
 <td style="text-align: right;">257.7375</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Paul Juda , Stephen Nedoroscik</td>
 <td style="text-align: right;">257.7250</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Khoi Young , Patrick Hoopes</td>
 <td style="text-align: right;">257.7125</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Yul Moldauer , Stephen Nedoroscik</td>
 <td style="text-align: right;">257.7000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Donnell Whittenburg, Patrick Hoopes</td>
 <td style="text-align: right;">257.6750</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Cameron Bock , Patrick Hoopes</td>
 <td style="text-align: right;">257.6625</td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Yul Moldauer , Patrick Hoopes</td>
+<td style="text-align: right;">257.6250</td>
+</tr>
 <tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Curran Phillips, Patrick Hoopes</td>
-<td style="text-align: right;">257.6458</td>
+<td style="text-align: left;">Brody Malone, Fred Richard, Shane Wiskus, Paul Juda , Asher Hong</td>
+<td style="text-align: right;">257.6000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Khoi Young , Patrick Hoopes</td>
+<td style="text-align: right;">257.5875</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Donnell Whittenburg, Stephen Nedoroscik</td>
+<td style="text-align: right;">257.5875</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Paul Juda , Patrick Hoopes</td>
+<td style="text-align: right;">257.5750</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.5625</td>
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 </div>
 </figure>
 </div>
 </div>
 <p>It’s not surprising that Brody and Fred show up on all of these teams. Asher is also pretty dominant in this ranking, which seems to be coming from his higher performances on rings and p-bars compared to Donnell and being close enough to Khoi on vault and floor.</p>
-<p>However, I didn’t expect that all of these top 20 teams would have at least one pommel specialist. A lot of these teams are just variations of the same teams except swapping Stephen and Patrick Hoopes (and one team with both of them).</p>
+<p>However, I didn’t expect that all of these top 20 teams would have at least one pommel specialist. A lot of these teams are just variations of the same teams except swapping Stephen and Patrick Hoopes.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># filtering Patrick Hoopes out:</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>teamsim_df <span class="sc">%&gt;%</span> </span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>team) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(.<span class="sc">$</span>names, <span class="st">"Patrick Hoopes"</span>, <span class="at">negate =</span> T)) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">specialist_rule</span>(<span class="at">individuals =</span> indv.averages_df) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n=</span><span class="dv">20</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There was 1 warning in `filter()`.
+ℹ In argument: `str_detect(.$names, "Patrick Hoopes", negate = T)`.
+Caused by warning in `stri_detect_regex()`:
+! argument is not an atomic vector; coercing</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There was 1 warning in `filter()`.
+ℹ In argument: `str_count(.$names, paste(specialists, collapse = "|")) &lt; 2`.
+Caused by warning in `stri_count_regex()`:
+! argument is not an atomic vector; coercing</code></pre>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 91%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">names</th>
+<th style="text-align: right;">total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Asher Hong , Stephen Nedoroscik</td>
+<td style="text-align: right;">258.1000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Asher Hong , Stephen Nedoroscik</td>
+<td style="text-align: right;">258.0250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.8625</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Donnell Whittenburg, Stephen Nedoroscik</td>
+<td style="text-align: right;">257.8250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Cameron Bock , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.8125</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Yul Moldauer , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.7750</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.7375</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Paul Juda , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.7250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Yul Moldauer , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.7000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone, Fred Richard, Shane Wiskus, Paul Juda , Asher Hong</td>
+<td style="text-align: right;">257.6000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Donnell Whittenburg, Stephen Nedoroscik</td>
+<td style="text-align: right;">257.5875</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.5625</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Paul Juda , Curran Phillips</td>
+<td style="text-align: right;">257.5083</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone, Fred Richard, Paul Juda , Asher Hong , Cameron Bock</td>
+<td style="text-align: right;">257.4750</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Asher Hong , Curran Phillips</td>
+<td style="text-align: right;">257.4708</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Cameron Bock , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.4625</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Donnell Whittenburg, Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.4375</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Fuzzy Benas , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.4125</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone, Fred Richard, Paul Juda , Asher Hong , Khoi Young</td>
+<td style="text-align: right;">257.4000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Asher Hong , Curran Phillips</td>
+<td style="text-align: right;">257.3958</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <p>This also highlights how close Shane came to being on the team (by just .75)! But it also how similar his contributions are to Paul’s which sort of put him in the same unfortunate position as Patrick Hoopes who’s status as a pommel specialist means that he can only really be swapped out with Stephen.</p>
 
 
@@ -1021,18 +1155,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1064,7 +1187,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/dyasui\.github\.io\/MAG-stats\/");
@@ -1072,7 +1217,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
