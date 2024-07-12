@@ -1,0 +1,122 @@
+---
+title: "2024 Japanese Men's Gymnastics Olympic Team"
+author: "Dante Yasui"
+date: "2024/07/11"
+format:
+  html:
+    df-print: kable
+    toc: true
+---
+
+# Data
+
+Results from: <https://thegymter.net/2024/04/16/2024-all-japan-championships-mens-results/>
+```{r}
+#| message: FALSE
+#| lst-label: lst-data
+library(tidyverse)
+allJA_df <- read_csv("./AllJapan_results.csv")
+nhkJA_df <- read_csv("./NHK_results.csv")
+results_df <- bind_rows(list(allJA_df, nhkJA_df)) %>% 
+  select(!Total)
+```
+```{r}
+#| label: fig-eventdist
+#| fig-cap: national distributions of scores on each event
+#| lst-label: lst-eventdist
+#| lst-cap: plot of event distributions
+library(ggthemes)
+eventsdist <- results_df %>% select(!AA) %>%
+  pivot_longer(
+    cols = c(FX, PH, SR, VT, PB, HB),
+    names_to = "Event",
+    values_to = "Score",
+  ) %>% filter(Score > 1) %>%
+  ggplot(aes(x=Score)) +
+  geom_density() +
+  xlim(11, 16) +
+  facet_wrap(~Event, ncol = 2) +
+  theme_pander()
+eventsdist
+```
+
+```{r}
+#| label: fig-aadist
+#| fig-cap: national distributions of all-around scores
+#| lst-label: lst-aadist
+#| lst-cap: plot of all-around distribution
+aadist <- 
+  results_df %>% select(AA) %>%
+  ggplot(aes(x=AA)) +
+  geom_density() +
+  xlim(70, 90) +
+  theme_pander()
+aadist
+```
+
+```{r}
+#| label: tbl-averagescores
+#| tbl-cap: "Individuals' average scores across nhk and all-japan championships"
+team_japan <- c("Hashimoto Daiki", "Oka Shinnosuke", "Kaya Kazuma", "Sugino Takaaki", "Tanigawa Wataru")
+# average individual gymnasts' scores across four days
+averages_df <- results_df %>% 
+  filter(NAME %in% team_japan) %>%  # on olympic team
+  group_by(NAME) %>% 
+  summarise_at(vars(FX:AA), mean, na.rm=TRUE) %>% 
+  arrange(desc(AA))
+averages_df
+```
+
+
+```{r}
+#| echo: false
+#| lst-label: lst-functions
+#| lst-cap: functions for calculating team performance
+
+# function to pick top three scores on each event from a team
+team_top_scores <- function(names, scores = averages_df, perevent = 3) {
+  scores %>% 
+    filter(NAME %in% names) %>%
+    select(NAME:HB) %>% 
+    pivot_longer(
+      -NAME,
+      names_to = "Event",
+      values_to = "Score",
+    ) %>% 
+    # take top 3 on each event dropping extra tied scores
+    group_by(Event) %>% 
+    slice_max(n = perevent, order_by = Score, with_ties = FALSE) %>% 
+    mutate(
+      teamscore = sum(Score),
+      # names     = c(unique(NAME))
+      )  %>%
+    group_by(Event) %>% 
+    summarise(
+      Score   = first(teamscore),
+      OnEvent = list((NAME))
+      ) %>% ungroup()
+}
+
+# function to take output of select_top_scores and calculate total
+team_total <- function(top_scores) {
+  top_scores %>% 
+    summarise(x=sum(Score)) %>% 
+    pull()
+}
+
+```
+
+## Event scores breakdown
+```{r}
+#| label: tbl-teamevents
+#| tbl-cap: "Team Japan expected event scores"
+#| lst-label: lst-actualteam
+#| lst-cap: team_top_scores() of actual team picks
+actual_team <- team_top_scores(team_japan)
+actual_team_tot <- actual_team %>% 
+  team_total()
+actual_team %>% 
+  kableExtra::kable()
+```
+
+Expected Team Score : `r actual_team_tot`
