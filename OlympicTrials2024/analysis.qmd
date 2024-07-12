@@ -31,6 +31,8 @@ and manually cleaned it up into `.csv` format.
 #| lst-label: lst-data
 #| lst-cap: combining data from nationals and trials
 library(tidyverse)
+library(furrr)
+library(future)
 # read all results across usa champs and olympic trials
 nc1_df <- read_csv("./natnls-d1.csv")
 nc2_df <- read_csv("./natnls-d2.csv")
@@ -276,9 +278,10 @@ teams_possible <- combinat::combn(names, 5, simplify = T) %>%
 team_top_total <- function(x) team_total(team_top_scores(unlist(x)))
 
 # record top scores for every possible team combination
+plan(multisession, workers = 10)
 teamsim_df <- teams_possible %>% 
   mutate(
-    total = as.numeric(map(names, team_top_total)),
+    total = as.numeric(furrr::future_map(names, team_top_total)),
     # names = map(names, toString)
   ) %>% 
   arrange(desc(total))
@@ -439,6 +442,7 @@ after working so hard for his entire career and not really getting that much rec
 ### Using Maximum Scores instead of Averages
 
 ```{r}
+#| warning: false
 indv.max_df <- results_df %>% 
   filter(NAME %in% ot1_df$NAME) %>%  # who qualified to olympic trials 
   group_by(NAME) %>% 
@@ -446,15 +450,27 @@ indv.max_df <- results_df %>%
   arrange(desc(AA))
 
 team_max_total <- function(x) team_total(team_top_scores(unlist(x), scores = indv.max_df))
+team_max_total(alt_team2)
+```
 
+```{r}
 # record top scores for every possible team combination using individual max's
-teamsim_df <- teams_possible %>% 
+plan(multisession, workers = 10)
+teamsim_df <- teamsim_df %>% 
   mutate(
-    total = as.numeric(map(names, team_max_total)),
+    total_max = as.numeric(future_map(names, team_max_total)),
     # names = map(names, toString)
   ) %>% 
-  arrange(desc(total))
+  arrange(desc(total_max))
 
-team_top_scores(teams_possible, scores = indv.max_df)
+save(teamsim_df, file = "teamsim.RData")
+
+load("teamsim.RData")
+
+teamsim_df %>% 
+  select(-team) %>% 
+  filter(str_detect(.$names, "Patrick Hoopes", negate = T)) %>% 
+  specialist_rule(individuals = indv.averages_df) %>% 
+  head(n=10)
 ```
 
