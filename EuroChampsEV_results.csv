@@ -1,0 +1,50 @@
+MEET,      NAME,                     Nation,          FX_D, FX,     PH_D, PH,     SR_D, SR,     VT1_D, VT1,    VT2_D, VT2,    VT,     PB_D, PB,     HB_D, HB
+"eur_evF", "Luke Whitehouse",        "Great Britain", 6.5,  14.866, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Artem Dolgopyat",        "Israel",        6.4,  14.833, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Krisztofer Meszaros",    "Hungary",       6.3,  14.600, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Unai Baigorri",          "Spain",         5.8,  14.233, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Léo Saladino",           "France",        5.9,  14.066, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Jake Jarman",            "Great Britain", 6.3,  13.966, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Nicolau Mir",            "Spain",         5.5,  13.666, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Jim Zona",               "France",        5.1,  12.933, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Rhys McClenaghan",       "Ireland",       NA,   NA,     6.5,  15.300, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Loran de Munck",         "Netherlands",   NA,   NA,     6.5,  14.933, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Marios Georgiou",        "Cyprus",        NA,   NA,     6.2,  14.800, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Matteo Giubellini",      "Switzerland",   NA,   NA,     6.1,  14.600, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Filip Ude",              "Croatia",       NA,   NA,     5.8,  14.533, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Levan Skhiladze",        "Georgia",       NA,   NA,     5.8,  14.233, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Oleg Verniaiev",         "Ukraine",       NA,   NA,     6.7,  14.200, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Ilia Liubimov",          "Israel",        NA,   NA,     5.8,  13.133, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Gagik Khachikyan",       "Armenia",       NA,   NA,     6.1,  12.466, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Eleftherios Petrounias", "Greece",        NA,   NA,     NA,   NA,     6.3,  15.000, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Nikita Simonov",         "Azerbaijan",    NA,   NA,     NA,   NA,     6.2,  14.900, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Adem Asil",              "Türkiye",       NA,   NA,     NA,   NA,     6.3,  14.900, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Artur Avetisyan",        "Armenia",       NA,   NA,     NA,   NA,     6.1,  14.800, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Vinzenz Höck",           "Austria",       NA,   NA,     NA,   NA,     6.1,  14.800, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Courtney Tulloch",       "Great Britain", NA,   NA,     NA,   NA,     6.0,  14.700, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Salvatore Maresca",      "Italy",         NA,   NA,     NA,   NA,     6.2,  14.566, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Ibrahim Colak",          "Türkiye",       NA,   NA,     NA,   NA,     5.9,  14.500, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"eur_evF", "Jake Jarman",            "Great Britain", NA,   NA,     NA,   NA,     NA,   NA,     6.0,   15.000, 5.6,   14.766, 14.883, NA,   NA,     NA,   NA
+"eur_evF", "Artur Davtyan",          "Armenia",       NA,   NA,     NA,   NA,     NA,   NA,     5.6,   15.100, 5.6,   14.600, 14.850, NA,   NA,     NA,   NA
+"eur_evF", "Nazar Chepurnyi",        "Ukraine",       NA,   NA,     NA,   NA,     NA,   NA,     5.6,   14.733, 5.6,   14.766, 14.749, NA,   NA,     NA,   NA
+"eur_evF", "Igor Radivilov",         "Ukraine",       NA,   NA,     NA,   NA,     NA,   NA,     5.6,   14.800, 5.6,   13.200, 14.000, NA,   NA,     NA,   NA
+"eur_evF", "Dominick Cunningham",    "Ireland",       NA,   NA,     NA,   NA,     NA,   NA,     5.2,   14.133, 4.8,   13.800, 13.966, NA,   NA,     NA,   NA
+"eur_evF", "Luke Whitehouse",        "Great Britain", NA,   NA,     NA,   NA,     NA,   NA,     5.6,   13.066, 5.2,   14.300, 13.683, NA,   NA,     NA,   NA
+"eur_evF", "Casimir Schmidt",        "Netherlands",   NA,   NA,     NA,   NA,     NA,   NA,     5.6,   13.200, 5.6,   13.933, 13.566, NA,   NA,     NA,   NA
+"eur_evF", "Luca Giubellini",        "Switzerland",   NA,   NA,     NA,   NA,     NA,   NA,     5.6,   14.366, 5.2,   12.666, 13.516, NA,   NA,     NA,   NA
+"eur_evF", "Illia Kovtun",           "Ukraine",       NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.9,  15.633, NA,   NA
+"eur_evF", "Marios Georgiou",        "Cyprus",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.1,  14.866, NA,   NA
+"eur_evF", "Noe Seifert",            "Switzerland",   NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.3,  14.833, NA,   NA
+"eur_evF", "Cameron-Lie Bernard",    "France",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.3,  14.500, NA,   NA
+"eur_evF", "James Hall",             "Great Britain", NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.1,  14.366, NA,   NA
+"eur_evF", "Nazar Chepurnyi",        "Ukraine",       NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.3,  13.866, NA,   NA
+"eur_evF", "Mario Macchiati",        "Italy",         NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.7,  13.300, NA,   NA
+"eur_evF", "Thierno Diallo",         "Spain",         NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.9,  12.900, NA,   NA
+"eur_evF", "Illia Kovtun",           "Ukraine",       NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.9,  14.600
+"eur_evF", "Robert Tvorogal",        "Lithuania",     NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.8,  14.566
+"eur_evF", "Marios Georgiou",        "Cyprus",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.9,  14.366
+"eur_evF", "Noe Seifert",            "Switzerland",   NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     6.0,  14.266
+"eur_evF", "Alexander Myakinin",     "Israel",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.9,  14.100
+"eur_evF", "Tin Srbic",              "Croatia",       NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.5,  14.066
+"eur_evF", "Yumin Abbadini",         "Italy",         NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     6.1,  13.833
+"eur_evF", "Joel Plata",             "Spain",         NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.9,  13.366
