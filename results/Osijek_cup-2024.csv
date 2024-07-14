@@ -1,0 +1,87 @@
+MEET,     ROUND, NAME,                     TEAM,            FX_D, FX,     PH_D, PH,     SR_D, SR,     VT1_D, VT1,    VT2_D, VT2,    VT,     PB_D, PB,     HB_D, HB
+"Osijek", "EV",  "Illia Kovtun",           "Ukraine",       5.9,  14.400, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.9,  15.350, NA,   NA
+"Osijek", "EV",  "Ilyas Azizov",           "Kazakshtan",    5.8,  14.200, 5.9,  14.600, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Kevin Penev",            "Bulgaria",      6.1,  13.950, NA,   NA,     5.0,  13.250, 5.4,   14.400, 5.2,   14.200, 14.300, NA,   NA,     NA,   NA
+"Osijek", "EV",  "Enkhtuvshin Damdindorj", "Mongolia",      5.5,  13.800, NA,   NA,     NA,   NA,     4.8,   13.750, 4.8,   13.950, 13.850, NA,   NA,     NA,   NA
+"Osijek", "EV",  "Usukhbayar Erkhembayar", "Mongolia",      5.6,  13.550, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Krisztofer Meszaros",    "Hungary",       6.3,  13.550, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.9,  12.650, NA,   NA
+"Osijek", "EV",  "Aurel Benovic",          "Croatia",       6.3,  13.550, NA,   NA,     NA,   NA,     5.6,   14.300, 5.6,   14.850, 14.575, NA,   NA,     NA,   NA
+"Osijek", "EV",  "Cameron Lynn",           "Great Britain", 5.6,  13.400, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.5,  14.000, 5.4,  13.450
+"Osijek", "EV",  "Filip Ude",              "Croatia",       NA,   NA,     5.9,  14.300, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Marko Sambolec",         "Croatia",       NA,   NA,     6.0,  14.000, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Unai Baigorri",          "Spain",         NA,   NA,     5.1,  13.650, NA,   NA,     5.2,   14.550, 4.8,   13.700, 14.125, NA,   NA,     NA,   NA
+"Osijek", "EV",  "Adam Tobin",             "Great Britain", NA,   NA,     5.8,  13.600, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.5,  13.700, 5.5,  13.500
+"Osijek", "EV",  "Ahmet Burak Ekici",      "Türkiye",       NA,   NA,     4.6,  12.500, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Kevin Buckley",          "Slovenia",      NA,   NA,     4.1,  11.850, 4.3,  13.000, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Adam Steele",            "Ireland",       NA,   NA,     4.8,  8.400,  NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Pau Jimenez",            "Spain",         NA,   NA,     NA,   NA,     4.9,  12.950, 5.2,   14.700, 5.2,   14.450, 14.575, NA,   NA,     NA,   NA
+"Osijek", "EV",  "Balazs Kiss",            "Hungary",       NA,   NA,     NA,   NA,     5.1,  12.900, NA,    NA,     NA,    NA,     NA,     NA,   NA,     4.9,  13.350
+"Osijek", "EV",  "Yunus Gündogdu",         "Türkiye",       NA,   NA,     NA,   NA,     5.8,  12.850, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Jermain Grünberg",       "Netherlands",   NA,   NA,     NA,   NA,     4.3,  12.450, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Roman Mamenov",          "Kazakhstan",    NA,   NA,     NA,   NA,     4.8,  12.300, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Szilard Zavory",         "Hungary",       NA,   NA,     NA,   NA,     4.9,  12.200, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "EV",  "Daniel Trifonov",        "Bulgaria",      NA,   NA,     NA,   NA,     NA,   NA,     4.8,   14.100, 4.8,   14.300, 14.200, NA,   NA,     NA,   NA
+"Osijek", "EV",  "Dusan Djordjevic",       "Serbia",        NA,   NA,     NA,   NA,     NA,   NA,     5.2,   13.000, 5.2,   14.050, 13.525, NA,   NA,     NA,   NA
+"Osijek", "EV",  "Luca Giubellini",        "Switzerland",   NA,   NA,     NA,   NA,     NA,   NA,     5.6,   13.750, 4.0,   13.200, 13.475, NA,   NA,     NA,   NA
+"Osijek", "EV",  "Lukas Dauser",           "Germany",       NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.7,  15.550, NA,   NA
+"Osijek", "EV",  "Noe Seifert",            "Switzerland",   NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.3,  14.600, NA,   NA
+"Osijek", "EV",  "Daniel Carrion",         "Spain",         NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.3,  13.750, 5.0,  13.150
+"Osijek", "EV",  "Sercan Demir",           "Türkiye",       NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.9,  13.500, NA,   NA
+"Osijek", "EV",  "Tang Chia-Hung",         "Taiwan",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     6.5,  15.350
+"Osijek", "EV",  "Tin Srbic",              "Croatia",       NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     6.1,  14.650
+"Osijek", "EV",  "Alexander Myakinin",     "Israel",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.9,  14.500
+"Osijek", "EV",  "Taha Serhani",           "Switzerland",   NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.5,  13.400
+"Osijek", "QU",  "Aurel Benovic",          "Croatia",       6.3,  14.150, NA,   NA,     NA,   NA,     5.6,   14.800, 5.2,   14.750, 14.775, NA,   NA,     NA,   NA
+"Osijek", "QU",  "Krisztofer Meszaros",    "Hungary",       6.3,  14.050, 5.8,  13.450, NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.2,  14.700, 5.1,  12.950
+"Osijek", "QU",  "Illia Kovtun",           "Ukraine",       5.9,  13.850, 6.4,  13.100, 5.3,  13.500, 2.8,   10.600, 5.6,   14.450, 12.525, 7.0,  14.650, 5.5,  12.050
+"Osijek", "QU",  "Enkhtuvshin Damdindorj", "Mongolia",      5.5,  13.700, 5.7,  13.200, NA,   NA,     4.8,   13.950, 4.8,   13.700, 13.825, NA,   NA,     3.7,  10.450
+"Osijek", "QU",  "Usukhbayar Erkhembayar", "Mongolia",      5.6,  13.500, NA,   NA,     NA,   NA,     4.8,   13.450, 4.0,   13.150, 13.300, NA,   NA,     NA,   NA
+"Osijek", "QU",  "Ilyas Azizov",           "Kazakhstan",    5.8,  13.450, 5.9,  14.650, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     4.7,  13.100
+"Osijek", "QU",  "Kevin Penev",            "Bulgaria",      6.1,  13.400, 5.6,  13.200, 5.0,  12.800, 5.0,   14.150, 5.2,   14.150, 14.150, NA,   NA,     4.9,  12.800
+"Osijek", "QU",  "Cameron Lynn",           "Great Britain", 5.6,  13.350, 5.7,  13.500, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.5,  14.000, 5.4,  13.300
+"Osijek", "QU",  "Anze Hribar",            "Slovenia",      5.7,  13.350, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Taha Serhani",           "Switzerland",   5.5,  13.300, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.6,  13.950, 5.9,  13.950
+"Osijek", "QU",  "Pau Jimenez",            "Spain",         5.4,  13.250, NA,   NA,     4.9,  13.050, 5.2,   14.100, 5.2,   14.250, 14.175, NA,   NA,     NA,   NA
+"Osijek", "QU",  "Adam Tobin",             "Great Britain", 5.5,  13.100, 5.8,  14.100, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.5,  14.050, 5.4,  13.350
+"Osijek", "QU",  "Pascal Brendel",         "Germany",       5.9,  12.950, 5.3,  12.300, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.8,  14.000, 4.8,  12.150
+"Osijek", "QU",  "Unai Baigorri",          "Spain",         4.9,  12.800, 5.1,  13.700, NA,   NA,     5.2,   14.250, 4.8,   13.750, 14.000, NA,   NA,     NA,   NA
+"Osijek", "QU",  "Dusan Djordjevic",       "Serbia",        5.4,  12.800, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Adam Steele",            "Ireland",       5.5,  12.800, 5.3,  13.750, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.2,  13.550, 4.5,  12.900
+"Osijek", "QU",  "Ahmet Burak Ekici",      "Türkiye",       5.2,  12.750, 5.5,  13.650, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     2.9,  10.900
+"Osijek", "QU",  "Sercan Demir",           "Türkiye",       5.2,  12.250, NA,   NA,     4.6,  11.750, NA,    NA,     NA,    NA,     NA,     5.9,  14.050, 4.7,  13.000
+"Osijek", "QU",  "Teodor Trifonov",        "Bulgaria",      5.2,  12.000, NA,   NA,     4.2,  11.800, NA,    NA,     NA,    NA,     NA,     4.6,  12.150, NA,   NA
+"Osijek", "QU",  "Volodymyr Otreshko",     "Slovakia",      4.6,  11.600, 5.4,  13.300, 4.2,  11.350, NA,    NA,     NA,    NA,     NA,     4.8,  12.950, 3.0,  11.200
+"Osijek", "QU",  "Luca Giubellini",        "Switzerland",   5.9,  11.600, 5.9,  12.700, NA,   NA,     5.6,   14.450, 4.0,   13.000, 13.725, NA,   NA,     NA,   NA
+"Osijek", "QU",  "Jermain Grünberg",       "Netherlands",   5.3,  11.500, 4.6,  11.650, 4.3,  12.950, NA,    NA,     NA,    NA,     NA,     6.2,  13.200, 5.0,  12.600
+"Osijek", "QU",  "Petar Vefic",            "Serbia",        5.2,  11.400, 4.2,  12.550, NA,   NA,     4.8,   13.450, 4.0,   13.100, 13.275, 5.0,  12.050, 4.2,  11.250
+"Osijek", "QU",  "Oliver Kasala",          "Slovakia",      4.8,  10.950, 4.8,  12.550, 4.4,  12.400, NA,    NA,     NA,    NA,     NA,     5.4,  13.300, 4.6,  12.650
+"Osijek", "QU",  "Roman Mamenov",          "Kazakhstan",    5.0,  10.400, NA,   NA,     4.8,  12.800, 5.2,   13.350, 4.8,   12.450, 12.900, NA,   NA,     NA,   NA
+"Osijek", "QU",  "Marko Jovicic",          "Croatia",       4.4,  10.300, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Gregor Turk",            "Slovenia",      4.8,  10.200, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Marko Sambolec",         "Croatia",       NA,   NA,     5.7,  13.850, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Kevin Buckley",          "Slovenia",      NA,   NA,     5.1,  13.600, 4.3,  12.600, NA,    NA,     NA,    NA,     NA,     4.2,  10.900, 4.8,  11.850
+"Osijek", "QU",  "Filip Ude",              "Croatia",       NA,   NA,     5.9,  13.550, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Daniel Carrion",         "Spain",         NA,   NA,     5.2,  13.450, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.3,  14.000, 5.0,  13.350
+"Osijek", "QU",  "Alexander Myakinin",     "Israel",        NA,   NA,     5.7,  13.400, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.9,  14.250
+"Osijek", "QU",  "Gregor Rakovic",         "Slovenia",      NA,   NA,     5.2,  13.350, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Balazs Kiss",            "Hungary",       NA,   NA,     5.2,  13.100, 5.1,  12.900, NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.0,  13.550
+"Osijek", "QU",  "Noe Seifert",            "Switzerland",   NA,   NA,     6.1,  12.900, 5.1,  12.400, NA,    NA,     NA,    NA,     NA,     6.1,  14.450, 5.5,  12.950
+"Osijek", "QU",  "Lukas Dauser",           "Germany",       NA,   NA,     5.4,  12.800, NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.6,  14.600, 5.0,  12.650
+"Osijek", "QU",  "Rayan Radkov",           "Bulgaria",      NA,   NA,     5.8,  12.450, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Daniel Fox",             "Ireland",       NA,   NA,     4.9,  12.100, 5.1,  12.600, NA,    NA,     NA,    NA,     NA,     5.0,  13.350, NA,   NA
+"Osijek", "QU",  "Umur Mehmet Filiz",      "Türkiye",       NA,   NA,     4.3,  10.400, NA,   NA,     4.8,   13.700, NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Petar Velickovic",       "Serbia",        NA,   NA,     4.4,  10.300, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Alisher Toibazarov",     "Kazakhstan",    NA,   NA,     4.3,  10.150, 4.4,  11.400, NA,    NA,     NA,    NA,     NA,     5.0,  12.450, NA,   NA
+"Osijek", "QU",  "Szilard Zavory",         "Hungary",       NA,   NA,     NA,   NA,     4.9,  13.050, 4.0,   11.400, 4.8,   13.700, 12.550, 4.4,  12.200, NA,   NA
+"Osijek", "QU",  "Yunus Gündogdu",         "Türkiye",       NA,   NA,     NA,   NA,     5.8,  12.750, 5.2,   14.150, 4.8,   12.650, 13.400, 5.2,  13.600, NA,   NA
+"Osijek", "QU",  "Marco Bencomo",          "Spain",         NA,   NA,     NA,   NA,     4.7,  12.350, NA,    NA,     NA,    NA,     NA,     4.3,  10.400, 4.1,  10.350
+"Osijek", "QU",  "Luka Bojanc",            "Slovenia",      NA,   NA,     NA,   NA,     5.8,  12.250, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Srecko Stojadinovic",    "Serbia",        NA,   NA,     NA,   NA,     3.7,  11.500, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
+"Osijek", "QU",  "Daniel Trifonov",        "Bulgaria",      NA,   NA,     NA,   NA,     NA,   NA,     4.8,   14.100, 4.8,   14.150, 14.125, 4.3,  11.750, 4.2,  11.650
+"Osijek", "QU",  "Dusan Dordjevic",        "Serbia",        NA,   NA,     NA,   NA,     NA,   NA,     5.2,   13.150, 5.2,   14.200, 13.675, NA,   NA,     NA,   NA
+"Osijek", "QU",  "Beno Kunst",             "Slovenia",      NA,   NA,     NA,   NA,     NA,   NA,     5.2,   12.950, 4.8,   14.200, 13.575, NA,   NA,     NA,   NA
+"Osijek", "QU",  "Farukh Nabiyev",         "Kazakhstan",    NA,   NA,     NA,   NA,     NA,   NA,     5.2,   13.900, 4.8,   12.400, 13.150, 4.9,  11.100, 4.5,  12.350
+"Osijek", "QU",  "Ron Pyatov",             "Israel",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.7,  13.950, NA,   NA
+"Osijek", "QU",  "Tang Chia-Hung",         "Taiwan",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     6.3,  15.100
+"Osijek", "QU",  "Tin Srbic",              "Croatia",       NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.2,  13.450
+"Osijek", "QU",  "Ivan Dejanovic",         "Serbia",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.1,  13.200
