@@ -54,6 +54,12 @@ read_gymternet_international <- function(url, meet_name) {
   # initialize the loop:
   i = 1; j = 1; k = 1 # index for all tables, aa tables, and ev tables
   table_aa = list(); table_ev = list()
+  aa_results = event_results = tibble(
+    ROUND=character(), NAME=character(), TEAM=character(), FX=numeric(), 
+    PH=numeric(), SR=numeric(), VT=numeric(), PB=numeric(), HB=numeric(), 
+    AA=numeric(), FX_D=numeric(), PH_D=numeric(), SR_D=numeric(), VT_D=numeric(),
+    PB_D=numeric(), HB_D=numeric()
+  )
   table_list <- webpage %>% html_table(header = TRUE)
   # loop over all tables (indexed by their headers):
   for (header in headers) {
@@ -75,19 +81,12 @@ read_gymternet_international <- function(url, meet_name) {
     i = i + 1
   }
   
-  if (is_empty(table_aa)) { break } else {
+  if (!is_empty(table_aa)) {
     aa_results <- bind_rows(table_aa)
     }
   
-  if (is_empty(table_ev)) { 
-    event_results <- tibble(
-      ROUND = numeric(),
-      # TODO: make this return an empty tibble with column names
-      break
-    )
-    } else {
-    event_results <- ifelse(nrow(table_ev)>0, 
-    bind_rows(table_ev) %>% 
+  if (!is_empty(table_ev)) { 
+    event_results <- bind_rows(table_ev) %>% 
     pivot_wider(
       id_cols = c(ROUND, NAME, TEAM),
       names_from = EVENT,
@@ -98,8 +97,7 @@ read_gymternet_international <- function(url, meet_name) {
       FX = Total_FX, PH = Total_PH, SR = Total_SR, VT = Total_VT, PB = Total_PB, HB = Total_HB,
       FX_D = D_FX, PH_D = D_PH, SR_D = D_SR, VT_D = D_VT, PB_D = D_PB, HB_D = D_HB,
       FX_E = E_FX, PH_E = E_PH, SR_E = E_SR, VT_E = E_VT, PB_E = E_PB, HB_E = E_HB) %>% 
-    mutate(AA = NA),
-    tibble())
+    mutate(AA = NA)
   }
   
   
@@ -121,7 +119,7 @@ save_gym_results <- function(results, year = "2024") {
   filename <- paste("./results/", meet_name, "-", year, ".csv", sep = "")
   write_csv(results, file = filename)
 }
-
+  
 meet_tbl <- tibble(
   url = c(
     "https://thegymter.net/2024/04/29/2024-european-mens-championships-results/",
@@ -158,9 +156,10 @@ meet_tbl <- tibble(
 )
 
 
-i = 6
 read_gymternet_international(
-  url = meet_tbl$url[i],
-  meet_name = meet_tbl$meet_name[i]
+  url = 
+    "https://thegymter.net/2024/03/23/2024-antalya-friendly-results/",
+  meet_name = 
+    "antalya_friendly"
 ) %>% 
 save_gym_results()
