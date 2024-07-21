@@ -7,9 +7,6 @@ olympians <- olympic_teams %>%
   select(NAME) %>% 
   pull()
 
-bgc_df   <- read_csv("./GreatBritain2024/BritChamps_results.csv") %>% 
-  mutate(TEAM = "GBR")
-
 nc1_df <- read_csv("./OlympicTrials2024/natnls-d1.csv")
 nc2_df <- read_csv("./OlympicTrials2024/natnls-d2.csv")
 ot1_df <- read_csv("./OlympicTrials2024/trials-day1.csv")
@@ -27,7 +24,7 @@ results_files <- str_c("./results/", list.files("./results"))
 results_other <- read_csv(results_files)
 
 # merge all results into one dataframe
-results_df <- bind_rows(list(bgc_df, usa_df, jpn_df, results_other)) %>% 
+results_df <- bind_rows(list( usa_df, jpn_df, results_other)) %>% 
   filter(NAME %in% olympians)
 
 library(ggthemes)
@@ -106,32 +103,19 @@ results_df %>%
   summarise(score = team_total(team_top_scores(unlist(list(unique(NAME)))))) %>% 
   arrange(desc(score))
 
-team_jpn <- results_df %>% 
-  filter(TEAM == "JPN") %>% 
-  pull(NAME) %>% 
-  unique() %>% 
-  team_top_scores() 
+# TODO: 
+#   - prevent doubling up on same athlete in team_top_scores function
+#   - fix club names instead of nations
+#   - fix Igor Radivlov showing up as on team DEU not UKR
 
-team_usa <- results_df %>% 
+results_df %>% 
   filter(TEAM == "USA") %>% 
   pull(NAME) %>% 
   unique() %>% 
-  team_top_scores() 
+  team_top_scores() %>% kableExtra::kable()
   
-team_gbr <- indv.averages_df %>% 
+indv.averages_df %>% 
   filter(TEAM == "GBR") %>% 
   pull(NAME) %>% 
   unique() %>% 
   team_top_scores()
-
-team_ukr <- indv.averages_df %>% 
-  filter(TEAM == "UKR") %>% 
-  pull(NAME) %>% 
-  unique() %>% 
-  team_top_scores()
-
-
-team_jpn %>% kableExtra::kable()
-team_usa %>% kableExtra::kable()
-team_gbr %>% kableExtra::kable()
-team_ukr %>% kableExtra::kable()
