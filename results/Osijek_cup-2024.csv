@@ -1,87 +1,89 @@
-MEET,     ROUND, NAME,                     TEAM,         FX_D, FX,     PH_D, PH,     SR_D, SR,     VT1_D, VT1,    VT2_D, VT2,    VT,     PB_D, PB,     HB_D, HB
-"Osijek", "EV",  "Illia Kovtun",           "UKR",        5.9,  14.400, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.9,  15.350, NA,   NA
-"Osijek", "EV",  "Ilyas Azizov",           "KAZ", 5.8,  14.200, 5.9,  14.600, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Kevin Penev",            "BUL",        6.1,  13.950, NA,   NA,     5.0,  13.250, 5.4,   14.400, 5.2,   14.200, 14.300, NA,   NA,     NA,   NA
-"Osijek", "EV",  "Enkhtuvshin Damdindorj", "MON",        5.5,  13.800, NA,   NA,     NA,   NA,     4.8,   13.750, 4.8,   13.950, 13.850, NA,   NA,     NA,   NA
-"Osijek", "EV",  "Usukhbayar Erkhembayar", "MON",        5.6,  13.550, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Krisztofer Meszaros",    "HUN",        6.3,  13.550, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.9,  12.650, NA,   NA
-"Osijek", "EV",  "Aurel Benovic",          "CRO",        6.3,  13.550, NA,   NA,     NA,   NA,     5.6,   14.300, 5.6,   14.850, 14.575, NA,   NA,     NA,   NA
-"Osijek", "EV",  "Cameron Lynn",           "GBR",        5.6,  13.400, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.5,  14.000, 5.4,  13.450
-"Osijek", "EV",  "Filip Ude",              "CRO",        NA,   NA,     5.9,  14.300, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Marko Sambolec",         "CRO",        NA,   NA,     6.0,  14.000, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Unai Baigorri",          "ESP",        NA,   NA,     5.1,  13.650, NA,   NA,     5.2,   14.550, 4.8,   13.700, 14.125, NA,   NA,     NA,   NA
-"Osijek", "EV",  "Adam Tobin",             "GBR",        NA,   NA,     5.8,  13.600, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.5,  13.700, 5.5,  13.500
-"Osijek", "EV",  "Ahmet Burak Ekici",      "TUR",        NA,   NA,     4.6,  12.500, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Kevin Buckley",          "SLO",        NA,   NA,     4.1,  11.850, 4.3,  13.000, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Adam Steele",            "IRE",        NA,   NA,     4.8,  8.400,  NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Pau Jimenez",            "ESP",        NA,   NA,     NA,   NA,     4.9,  12.950, 5.2,   14.700, 5.2,   14.450, 14.575, NA,   NA,     NA,   NA
-"Osijek", "EV",  "Balazs Kiss",            "HUN",        NA,   NA,     NA,   NA,     5.1,  12.900, NA,    NA,     NA,    NA,     NA,     NA,   NA,     4.9,  13.350
-"Osijek", "EV",  "Yunus Gündogdu",         "TUR",        NA,   NA,     NA,   NA,     5.8,  12.850, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Jermain Grünberg",       "NDL",        NA,   NA,     NA,   NA,     4.3,  12.450, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Roman Mamenov",          "KAZ",        NA,   NA,     NA,   NA,     4.8,  12.300, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Szilard Zavory",         "HUN",        NA,   NA,     NA,   NA,     4.9,  12.200, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "EV",  "Daniel Trifonov",        "BUL",        NA,   NA,     NA,   NA,     NA,   NA,     4.8,   14.100, 4.8,   14.300, 14.200, NA,   NA,     NA,   NA
-"Osijek", "EV",  "Dusan Djordjevic",       "SRB",        NA,   NA,     NA,   NA,     NA,   NA,     5.2,   13.000, 5.2,   14.050, 13.525, NA,   NA,     NA,   NA
-"Osijek", "EV",  "Luca Giubellini",        "SWI",        NA,   NA,     NA,   NA,     NA,   NA,     5.6,   13.750, 4.0,   13.200, 13.475, NA,   NA,     NA,   NA
-"Osijek", "EV",  "Lukas Dauser",           "GER",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.7,  15.550, NA,   NA
-"Osijek", "EV",  "Noe Seifert",            "SWI",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.3,  14.600, NA,   NA
-"Osijek", "EV",  "Daniel Carrion",         "ESP",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.3,  13.750, 5.0,  13.150
-"Osijek", "EV",  "Sercan Demir",           "TUR",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.9,  13.500, NA,   NA
-"Osijek", "EV",  "Tang Chia-Hung",         "TAI",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     6.5,  15.350
-"Osijek", "EV",  "Tin Srbic",              "CRO",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     6.1,  14.650
-"Osijek", "EV",  "Alexander Myakinin",     "ISR",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.9,  14.500
-"Osijek", "EV",  "Taha Serhani",           "SWI",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.5,  13.400
-"Osijek", "QU",  "Aurel Benovic",          "CRO",        6.3,  14.150, NA,   NA,     NA,   NA,     5.6,   14.800, 5.2,   14.750, 14.775, NA,   NA,     NA,   NA
-"Osijek", "QU",  "Krisztofer Meszaros",    "HUN",        6.3,  14.050, 5.8,  13.450, NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.2,  14.700, 5.1,  12.950
-"Osijek", "QU",  "Illia Kovtun",           "UKR",        5.9,  13.850, 6.4,  13.100, 5.3,  13.500, 2.8,   10.600, 5.6,   14.450, 12.525, 7.0,  14.650, 5.5,  12.050
-"Osijek", "QU",  "Enkhtuvshin Damdindorj", "MON",        5.5,  13.700, 5.7,  13.200, NA,   NA,     4.8,   13.950, 4.8,   13.700, 13.825, NA,   NA,     3.7,  10.450
-"Osijek", "QU",  "Usukhbayar Erkhembayar", "MON",        5.6,  13.500, NA,   NA,     NA,   NA,     4.8,   13.450, 4.0,   13.150, 13.300, NA,   NA,     NA,   NA
-"Osijek", "QU",  "Ilyas Azizov",           "KAZ",        5.8,  13.450, 5.9,  14.650, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     4.7,  13.100
-"Osijek", "QU",  "Kevin Penev",            "BUL",        6.1,  13.400, 5.6,  13.200, 5.0,  12.800, 5.0,   14.150, 5.2,   14.150, 14.150, NA,   NA,     4.9,  12.800
-"Osijek", "QU",  "Cameron Lynn",           "GBR",        5.6,  13.350, 5.7,  13.500, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.5,  14.000, 5.4,  13.300
-"Osijek", "QU",  "Anze Hribar",            "SLO",        5.7,  13.350, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Taha Serhani",           "SWI",        5.5,  13.300, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.6,  13.950, 5.9,  13.950
-"Osijek", "QU",  "Pau Jimenez",            "ESP",        5.4,  13.250, NA,   NA,     4.9,  13.050, 5.2,   14.100, 5.2,   14.250, 14.175, NA,   NA,     NA,   NA
-"Osijek", "QU",  "Adam Tobin",             "GBR",        5.5,  13.100, 5.8,  14.100, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.5,  14.050, 5.4,  13.350
-"Osijek", "QU",  "Pascal Brendel",         "GER",        5.9,  12.950, 5.3,  12.300, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.8,  14.000, 4.8,  12.150
-"Osijek", "QU",  "Unai Baigorri",          "ESP",        4.9,  12.800, 5.1,  13.700, NA,   NA,     5.2,   14.250, 4.8,   13.750, 14.000, NA,   NA,     NA,   NA
-"Osijek", "QU",  "Dusan Djordjevic",       "SRB",        5.4,  12.800, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Adam Steele",            "IRE",        5.5,  12.800, 5.3,  13.750, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.2,  13.550, 4.5,  12.900
-"Osijek", "QU",  "Ahmet Burak Ekici",      "TUR",        5.2,  12.750, 5.5,  13.650, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     2.9,  10.900
-"Osijek", "QU",  "Sercan Demir",           "TUR",        5.2,  12.250, NA,   NA,     4.6,  11.750, NA,    NA,     NA,    NA,     NA,     5.9,  14.050, 4.7,  13.000
-"Osijek", "QU",  "Teodor Trifonov",        "BUL",        5.2,  12.000, NA,   NA,     4.2,  11.800, NA,    NA,     NA,    NA,     NA,     4.6,  12.150, NA,   NA
-"Osijek", "QU",  "Volodymyr Otreshko",     "SVK",        4.6,  11.600, 5.4,  13.300, 4.2,  11.350, NA,    NA,     NA,    NA,     NA,     4.8,  12.950, 3.0,  11.200
-"Osijek", "QU",  "Luca Giubellini",        "SWI",        5.9,  11.600, 5.9,  12.700, NA,   NA,     5.6,   14.450, 4.0,   13.000, 13.725, NA,   NA,     NA,   NA
-"Osijek", "QU",  "Jermain Grünberg",       "NDL",        5.3,  11.500, 4.6,  11.650, 4.3,  12.950, NA,    NA,     NA,    NA,     NA,     6.2,  13.200, 5.0,  12.600
-"Osijek", "QU",  "Petar Vefic",            "SRB",        5.2,  11.400, 4.2,  12.550, NA,   NA,     4.8,   13.450, 4.0,   13.100, 13.275, 5.0,  12.050, 4.2,  11.250
-"Osijek", "QU",  "Oliver Kasala",          "SVK",        4.8,  10.950, 4.8,  12.550, 4.4,  12.400, NA,    NA,     NA,    NA,     NA,     5.4,  13.300, 4.6,  12.650
-"Osijek", "QU",  "Roman Mamenov",          "KAZ",        5.0,  10.400, NA,   NA,     4.8,  12.800, 5.2,   13.350, 4.8,   12.450, 12.900, NA,   NA,     NA,   NA
-"Osijek", "QU",  "Marko Jovicic",          "CRO",        4.4,  10.300, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Gregor Turk",            "SLO",        4.8,  10.200, NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Marko Sambolec",         "CRO",        NA,   NA,     5.7,  13.850, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Kevin Buckley",          "SLO",        NA,   NA,     5.1,  13.600, 4.3,  12.600, NA,    NA,     NA,    NA,     NA,     4.2,  10.900, 4.8,  11.850
-"Osijek", "QU",  "Filip Ude",              "CRO",        NA,   NA,     5.9,  13.550, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Daniel Carrion",         "ESP",        NA,   NA,     5.2,  13.450, NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.3,  14.000, 5.0,  13.350
-"Osijek", "QU",  "Alexander Myakinin",     "ISR",        NA,   NA,     5.7,  13.400, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.9,  14.250
-"Osijek", "QU",  "Gregor Rakovic",         "SLO",        NA,   NA,     5.2,  13.350, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Balazs Kiss",            "HUN",        NA,   NA,     5.2,  13.100, 5.1,  12.900, NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.0,  13.550
-"Osijek", "QU",  "Noe Seifert",            "SWI",        NA,   NA,     6.1,  12.900, 5.1,  12.400, NA,    NA,     NA,    NA,     NA,     6.1,  14.450, 5.5,  12.950
-"Osijek", "QU",  "Lukas Dauser",           "GER",        NA,   NA,     5.4,  12.800, NA,   NA,     NA,    NA,     NA,    NA,     NA,     6.6,  14.600, 5.0,  12.650
-"Osijek", "QU",  "Rayan Radkov",           "BUL",        NA,   NA,     5.8,  12.450, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Daniel Fox",             "IRE",        NA,   NA,     4.9,  12.100, 5.1,  12.600, NA,    NA,     NA,    NA,     NA,     5.0,  13.350, NA,   NA
-"Osijek", "QU",  "Umur Mehmet Filiz",      "TUR",        NA,   NA,     4.3,  10.400, NA,   NA,     4.8,   13.700, NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Petar Velickovic",       "SRB",        NA,   NA,     4.4,  10.300, NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Alisher Toibazarov",     "KAZ",        NA,   NA,     4.3,  10.150, 4.4,  11.400, NA,    NA,     NA,    NA,     NA,     5.0,  12.450, NA,   NA
-"Osijek", "QU",  "Szilard Zavory",         "HUN",        NA,   NA,     NA,   NA,     4.9,  13.050, 4.0,   11.400, 4.8,   13.700, 12.550, 4.4,  12.200, NA,   NA
-"Osijek", "QU",  "Yunus Gündogdu",         "TUR",        NA,   NA,     NA,   NA,     5.8,  12.750, 5.2,   14.150, 4.8,   12.650, 13.400, 5.2,  13.600, NA,   NA
-"Osijek", "QU",  "Marco Bencomo",          "ESP",        NA,   NA,     NA,   NA,     4.7,  12.350, NA,    NA,     NA,    NA,     NA,     4.3,  10.400, 4.1,  10.350
-"Osijek", "QU",  "Luka Bojanc",            "SLO",        NA,   NA,     NA,   NA,     5.8,  12.250, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Srecko Stojadinovic",    "SRB",        NA,   NA,     NA,   NA,     3.7,  11.500, NA,    NA,     NA,    NA,     NA,     NA,   NA,     NA,   NA
-"Osijek", "QU",  "Daniel Trifonov",        "BUL",        NA,   NA,     NA,   NA,     NA,   NA,     4.8,   14.100, 4.8,   14.150, 14.125, 4.3,  11.750, 4.2,  11.650
-"Osijek", "QU",  "Dusan Dordjevic",        "SRB",        NA,   NA,     NA,   NA,     NA,   NA,     5.2,   13.150, 5.2,   14.200, 13.675, NA,   NA,     NA,   NA
-"Osijek", "QU",  "Beno Kunst",             "SLO",        NA,   NA,     NA,   NA,     NA,   NA,     5.2,   12.950, 4.8,   14.200, 13.575, NA,   NA,     NA,   NA
-"Osijek", "QU",  "Farukh Nabiyev",         "KAZ",        NA,   NA,     NA,   NA,     NA,   NA,     5.2,   13.900, 4.8,   12.400, 13.150, 4.9,  11.100, 4.5,  12.350
-"Osijek", "QU",  "Ron Pyatov",             "ISR",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     5.7,  13.950, NA,   NA
-"Osijek", "QU",  "Tang Chia-Hung",         "TAI",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     6.3,  15.100
-"Osijek", "QU",  "Tin Srbic",              "CRO",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.2,  13.450
-"Osijek", "QU",  "Ivan Dejanovic",         "SRB",        NA,   NA,     NA,   NA,     NA,   NA,     NA,    NA,     NA,    NA,     NA,     NA,   NA,     5.1,  13.200
+MEET,ROUND,NAME,TEAM,FX,PH,SR,VT,PB,HB,AA,FX_D,PH_D,SR_D,VT_D,PB_D,HB_D
+antalya_cup,F,Illia Kovtun,UKR,14.4,NA,NA,NA,15.35,NA,NA,5.9,NA,NA,NA,6.9,NA
+antalya_cup,F,Ilyas Azizov,KAZ,14.2,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+antalya_cup,F,Kevin Penev,BGR,13.95,NA,13.25,14.4,NA,NA,NA,6.1,NA,5,5.4,NA,NA
+antalya_cup,F,Enkhtuvshin Damdindorj,MNG,13.8,NA,NA,13.95,NA,NA,NA,5.5,NA,NA,4.8,NA,NA
+antalya_cup,F,Usukhbayar Erkhembayar,MNG,13.55,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+antalya_cup,F,Krisztofer Meszaros,HUN,13.55,NA,NA,NA,12.65,NA,NA,6.3,NA,NA,NA,5.9,NA
+antalya_cup,F,Aurel Benovic,HRV,13.55,NA,NA,14.85,NA,NA,NA,6.3,NA,NA,5.6,NA,NA
+antalya_cup,F,Cameron Lynn,GBR,13.4,NA,NA,NA,14,13.45,NA,5.6,NA,NA,NA,5.5,5.4
+antalya_cup,F,Ilyas Azizov,KAZ,NA,14.6,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+antalya_cup,F,Filip Ude,HRV,NA,14.3,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+antalya_cup,F,Marko Sambolec,HRV,NA,14,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+antalya_cup,F,Unai Baigorri,ESP,NA,13.65,NA,14.55,NA,NA,NA,NA,5.1,NA,5.2,NA,NA
+antalya_cup,F,Adam Tobin,GBR,NA,13.6,NA,NA,13.7,13.5,NA,NA,5.8,NA,NA,5.5,5.5
+antalya_cup,F,Ahmet Burak Ekici,TUR,NA,12.5,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA
+antalya_cup,F,Kevin Buckley,SVN,NA,11.85,13,NA,NA,NA,NA,NA,4.1,4.3,NA,NA,NA
+antalya_cup,F,Adam Steele,IRL,NA,8.4,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
+antalya_cup,F,Pau Jimenez,ESP,NA,NA,12.95,14.7,NA,NA,NA,NA,NA,4.9,5.2,NA,NA
+antalya_cup,F,Balazs Kiss,HUN,NA,NA,12.9,NA,NA,13.35,NA,NA,NA,5.1,NA,NA,4.9
+antalya_cup,F,Yunus Gündogdu,TUR,NA,NA,12.85,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+antalya_cup,F,Jermain Grünberg,NLD,NA,NA,12.45,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA
+antalya_cup,F,Roman Mamenov,KAZ,NA,NA,12.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
+antalya_cup,F,Szilard Zavory,HUN,NA,NA,12.2,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+antalya_cup,F,Daniel Trifonov,BGR,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+antalya_cup,F,Dusan Djordjevic,SRB,NA,NA,NA,14.05,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+antalya_cup,F,Luca Giubellini,CHE,NA,NA,NA,13.75,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+antalya_cup,F,Lukas Dauser,DEU,NA,NA,NA,NA,15.55,NA,NA,NA,NA,NA,NA,6.7,NA
+antalya_cup,F,Noe Seifert,CHE,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.3,NA
+antalya_cup,F,Daniel Carrion,ESP,NA,NA,NA,NA,13.75,13.15,NA,NA,NA,NA,NA,5.3,5
+antalya_cup,F,Sercan Demir,TUR,NA,NA,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.9,NA
+antalya_cup,F,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,15.35,NA,NA,NA,NA,NA,NA,6.5
+antalya_cup,F,Tin Srbic,HRV,NA,NA,NA,NA,NA,14.65,NA,NA,NA,NA,NA,NA,6.1
+antalya_cup,F,Alexander Myakinin,ISR,NA,NA,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,5.9
+antalya_cup,F,Taha Serhani,CHE,NA,NA,NA,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.5
+antalya_cup,Q,Aurel Benovic,HRV,14.15,NA,NA,14.8,NA,NA,NA,6.3,NA,NA,5.6,NA,NA
+antalya_cup,Q,Krisztofer Meszaros,HUN,14.05,13.45,NA,NA,14.7,12.95,NA,6.3,5.8,NA,NA,6.2,5.1
+antalya_cup,Q,Illia Kovtun,UKR,13.85,13.1,NA,14.45,14.65,12.05,NA,5.9,6.4,NA,5.6,7,5.5
+antalya_cup,Q,Enkhtuvshin Damdindorj,MNG,13.7,13.2,NA,13.95,NA,10.45,NA,5.5,5.7,NA,4.8,NA,3.7
+antalya_cup,Q,Usukhbayar Erkhembayar,MNG,13.5,NA,NA,13.45,NA,NA,NA,5.6,NA,NA,4.8,NA,NA
+antalya_cup,Q,Ilyas Azizov,KAZ,13.45,14.65,NA,NA,NA,13.1,NA,5.8,5.9,NA,NA,NA,4.7
+antalya_cup,Q,Kevin Penev,BGR,13.4,13.2,12.8,14.15,NA,12.8,NA,6.1,5.6,5,5.2,NA,4.9
+antalya_cup,Q,Cameron Lynn,GBR,13.35,13.5,NA,NA,14,13.3,NA,5.6,5.7,NA,NA,5.5,5.4
+antalya_cup,Q,Anze Hribar,SVN,13.35,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+antalya_cup,Q,Taha Serhani,CHE,13.3,NA,NA,NA,13.95,13.95,NA,5.5,NA,NA,NA,5.6,5.9
+antalya_cup,Q,Pau Jimenez,ESP,13.25,NA,13.05,14.25,NA,NA,NA,5.4,NA,4.9,5.2,NA,NA
+antalya_cup,Q,Adam Tobin,GBR,13.1,14.1,NA,NA,14.05,13.35,NA,5.5,5.8,NA,NA,5.5,5.4
+antalya_cup,Q,Pascal Brendel,DEU,12.95,12.3,NA,NA,14,12.15,NA,5.9,5.3,NA,NA,5.8,4.8
+antalya_cup,Q,Unai Baigorri,ESP,12.8,13.7,NA,14.25,NA,NA,NA,4.9,5.1,NA,5.2,NA,NA
+antalya_cup,Q,Dusan Djordjevic,SRB,12.8,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+antalya_cup,Q,Adam Steele,IRL,12.8,13.75,NA,NA,13.55,12.9,NA,5.5,5.3,NA,NA,5.2,4.5
+antalya_cup,Q,Ahmet Burak Ekici,TUR,12.75,13.65,NA,NA,NA,10.9,NA,5.2,5.5,NA,NA,NA,2.9
+antalya_cup,Q,Sercan Demir,TUR,12.25,NA,11.75,NA,14.05,13,NA,5.2,NA,4.6,NA,5.9,4.7
+antalya_cup,Q,Teodor Trifonov,BGR,12,NA,11.8,NA,12.15,NA,NA,5.2,NA,4.2,NA,4.6,NA
+antalya_cup,Q,Volodymyr Otreshko,SVK,11.6,13.3,11.35,NA,12.95,11.2,NA,4.6,5.4,4.2,NA,4.8,3
+antalya_cup,Q,Luca Giubellini,CHE,11.6,12.7,NA,14.45,NA,NA,NA,5.9,5.9,NA,5.6,NA,NA
+antalya_cup,Q,Jermain Grünberg,NLD,11.5,11.65,12.95,NA,13.2,12.6,NA,5.3,4.6,4.3,NA,6.2,5
+antalya_cup,Q,Petar Vefic,SRB,11.4,12.55,NA,13.45,12.05,11.25,NA,5.2,4.2,NA,4.8,5,4.2
+antalya_cup,Q,Oliver Kasala,SVK,10.95,12.55,12.4,NA,13.3,12.65,NA,4.8,4.8,4.4,NA,5.4,4.6
+antalya_cup,Q,Roman Mamenov,KAZ,10.4,NA,12.8,13.35,NA,NA,NA,5,NA,4.8,5.2,NA,NA
+antalya_cup,Q,Marko Jovicic,HRV,10.3,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA,NA
+antalya_cup,Q,Gregor Turk,SVN,10.2,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA,NA
+antalya_cup,Q,Marko Sambolec,HRV,NA,13.85,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+antalya_cup,Q,Kevin Buckley,SVN,NA,13.6,12.6,NA,10.9,11.85,NA,NA,5.1,4.3,NA,4.2,4.8
+antalya_cup,Q,Filip Ude,HRV,NA,13.55,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+antalya_cup,Q,Daniel Carrion,ESP,NA,13.45,NA,NA,14,13.35,NA,NA,5.2,NA,NA,5.3,5
+antalya_cup,Q,Alexander Myakinin,ISR,NA,13.4,NA,NA,NA,14.25,NA,NA,5.7,NA,NA,NA,5.9
+antalya_cup,Q,Gregor Rakovic,SVN,NA,13.35,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
+antalya_cup,Q,Balazs Kiss,HUN,NA,13.1,12.9,NA,NA,13.55,NA,NA,5.2,5.1,NA,NA,5
+antalya_cup,Q,Noe Seifert,CHE,NA,12.9,12.4,NA,14.45,12.95,NA,NA,6.1,5.1,NA,6.1,5.5
+antalya_cup,Q,Lukas Dauser,DEU,NA,12.8,NA,NA,14.6,12.65,NA,NA,5.4,NA,NA,6.6,5
+antalya_cup,Q,Rayan Radkov,BGR,NA,12.45,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+antalya_cup,Q,Daniel Fox,IRL,NA,12.1,12.6,NA,13.35,NA,NA,NA,4.9,5.1,NA,5,NA
+antalya_cup,Q,Umur Mehmet Filiz,TUR,NA,10.4,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA,NA
+antalya_cup,Q,Petar Velickovic,SRB,NA,10.3,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA
+antalya_cup,Q,Alisher Toibazarov,KAZ,NA,10.15,11.4,NA,12.45,NA,NA,NA,4.3,4.4,NA,5,NA
+antalya_cup,Q,Illia Kovtun,TUR,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+antalya_cup,Q,Szilard Zavory,HUN,NA,NA,13.05,13.7,12.2,NA,NA,NA,NA,4.9,4.8,4.4,NA
+antalya_cup,Q,Yunus Gündogdu,TUR,NA,NA,12.75,14.15,13.6,NA,NA,NA,NA,5.8,5.2,5.2,NA
+antalya_cup,Q,Marco Bencomo,ESP,NA,NA,12.35,NA,10.4,10.35,NA,NA,NA,4.7,NA,4.3,4.1
+antalya_cup,Q,Luka Bojanc,SVN,NA,NA,12.25,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+antalya_cup,Q,Srecko Stojadinovic,SRB,NA,NA,11.5,NA,NA,NA,NA,NA,NA,3.7,NA,NA,NA
+antalya_cup,Q,Daniel Trifonov,BGR,NA,NA,NA,14.15,11.75,11.65,NA,NA,NA,NA,4.8,4.3,4.2
+antalya_cup,Q,Dusan Dordjevic,SRB,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+antalya_cup,Q,Beno Kunst,SVN,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+antalya_cup,Q,Farukh Nabiyev,KAZ,NA,NA,NA,13.9,11.1,12.35,NA,NA,NA,NA,5.2,4.9,4.5
+antalya_cup,Q,Ron Pyatov,ISR,NA,NA,NA,NA,13.95,NA,NA,NA,NA,NA,NA,5.7,NA
+antalya_cup,Q,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,6.3
+antalya_cup,Q,Tin Srbic,HRV,NA,NA,NA,NA,NA,13.45,NA,NA,NA,NA,NA,NA,5.2
+antalya_cup,Q,Ivan Dejanovic,SRB,NA,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.1

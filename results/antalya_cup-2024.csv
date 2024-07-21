@@ -1,0 +1,75 @@
+MEET,ROUND,NAME,TEAM,FX,PH,SR,VT,PB,HB,AA,FX_D,PH_D,SR_D,VT_D,PB_D,HB_D
+antalya_cup,F,Adem Asil,TUR,14.4,NA,14.6,NA,NA,NA,NA,5.5,NA,6.2,NA,NA,NA
+antalya_cup,F,Joel Plata,ESP,14.25,NA,NA,NA,NA,14,NA,5.7,NA,NA,NA,NA,5.5
+antalya_cup,F,Benedek Tomcsanyi,HUN,13.6,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+antalya_cup,F,Nicolau Mir,ESP,13.25,NA,NA,NA,14.8,NA,NA,5.5,NA,NA,NA,5.8,NA
+antalya_cup,F,Usukhbayar Erkhembayar,MNG,13.1,NA,NA,13.4,NA,NA,NA,5.6,NA,NA,4.8,NA,NA
+antalya_cup,F,Diogo Soares,BRA,12.55,NA,12.3,NA,NA,13.8,NA,5.4,NA,5,NA,NA,5.4
+antalya_cup,F,Ahmet Önder,TUR,12.45,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA,NA
+antalya_cup,F,Ricards Plate,LVA,12.25,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+antalya_cup,F,Ahmad Abu Al Soud,JOR,NA,14.9,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+antalya_cup,F,Nariman Kurbanov,KAZ,NA,14.85,NA,NA,NA,NA,NA,NA,6.6,NA,NA,NA,NA
+antalya_cup,F,Radomyr Stelmakh,UKR,NA,14,NA,14.15,14.5,13.5,NA,NA,6,NA,5.2,5.8,5.5
+antalya_cup,F,Zeinolla Idrissov,KAZ,NA,14,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+antalya_cup,F,Thierno Diallo,ESP,NA,13.3,NA,NA,12.75,NA,NA,NA,5.9,NA,NA,5.6,NA
+antalya_cup,F,Mert Efe Kilicer,TUR,NA,12.85,NA,NA,12.85,13.7,NA,NA,5.1,NA,NA,5.2,4.7
+antalya_cup,F,Mateo Zugec,HRV,NA,12.4,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+antalya_cup,F,Daniel Carrion,ESP,NA,12.25,NA,14.05,NA,NA,NA,NA,5.4,NA,5.2,NA,NA
+antalya_cup,F,Ibrahim Colak,TUR,NA,NA,14.65,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+antalya_cup,F,Artur Sahakyan,DEU,NA,NA,13.7,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+antalya_cup,F,Balazs Kiss,HUN,NA,NA,13.35,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA
+antalya_cup,F,Szilard Zavory,HUN,NA,NA,13.05,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+antalya_cup,F,Nestor Abad,ESP,NA,NA,13.05,NA,NA,13.6,NA,NA,NA,5.7,NA,NA,4.9
+antalya_cup,F,Volodymyr Kostiuk,UKR,NA,NA,12.95,14,13.65,12.7,NA,NA,NA,4.5,5.2,6.1,4.9
+antalya_cup,F,Assan Salimov,KAZ,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+antalya_cup,F,Timo Eder,DEU,NA,NA,NA,13.05,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+antalya_cup,F,Adria Vera,ESP,NA,NA,NA,13.05,NA,NA,NA,NA,NA,NA,4,NA,NA
+antalya_cup,F,Enkhtuvshin Damdindorj,MNG,NA,NA,NA,13.5,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+antalya_cup,F,Andrei Muntean,ROU,NA,NA,NA,NA,14.15,NA,NA,NA,NA,NA,NA,5.8,NA
+antalya_cup,F,Kerem Sener,TUR,NA,NA,NA,NA,13.7,NA,NA,NA,NA,NA,NA,5.5,NA
+antalya_cup,F,Rasul Ahmadzada,AZE,NA,NA,NA,NA,13.3,NA,NA,NA,NA,NA,NA,4.8,NA
+antalya_cup,F,Razvan-Denis Marc,ROU,NA,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5
+antalya_cup,F,Toma Modoianu-Zseder,ROU,NA,NA,NA,NA,NA,11.2,NA,NA,NA,NA,NA,NA,4.5
+antalya_cup,Q,Ahmet Önder,TUR,14.65,NA,NA,NA,NA,11.4,NA,5.8,NA,NA,NA,NA,4.8
+antalya_cup,Q,Adem Asil,TUR,14.3,NA,14.75,NA,NA,NA,NA,5.5,NA,6.2,NA,NA,NA
+antalya_cup,Q,Benedek Tomcsanyi,HUN,13.9,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+antalya_cup,Q,Joel Plata,ESP,13.85,NA,NA,NA,NA,13.3,NA,5.7,NA,NA,NA,NA,5.5
+antalya_cup,Q,Nicolau Mir,ESP,13.75,NA,NA,NA,14.15,NA,NA,5.5,NA,NA,NA,5.8,NA
+antalya_cup,Q,Ricards Plate,LVA,13.7,NA,NA,NA,12.5,NA,NA,5.2,NA,NA,NA,3.9,NA
+antalya_cup,Q,Diogo Soares,BRA,13.7,11.9,13,13.1,10.9,12.75,NA,5.4,6,5,5.2,4.6,5.5
+antalya_cup,Q,Usukhbayar Erkhembayar,MNG,13.7,12,NA,13.95,NA,NA,NA,5.6,5.2,NA,4.8,NA,NA
+antalya_cup,Q,Ilyas Azizov,KAZ,13.7,NA,NA,NA,12.4,12.05,NA,5.8,NA,NA,NA,5.1,4.5
+antalya_cup,Q,Assan Salimov,KAZ,13.65,NA,NA,14.2,NA,11.4,NA,5.8,NA,NA,5.2,NA,4.2
+antalya_cup,Q,Murad Agharzayev,AZE,13.6,8.2,NA,NA,NA,NA,NA,5.5,4.2,NA,NA,NA,NA
+antalya_cup,Q,Mansum Safarov,AZE,13.3,NA,NA,NA,NA,10.75,NA,5.1,NA,NA,NA,NA,3.5
+antalya_cup,Q,Enkhtuvshin Damdindorj,MNG,13.3,13.35,NA,14,NA,NA,NA,5.5,5.6,NA,4.8,NA,NA
+antalya_cup,Q,Carlo Hörr,DEU,13.3,11.85,NA,NA,12.15,12.3,NA,5.3,5.6,NA,NA,4.9,5.3
+antalya_cup,Q,Volodymyr Kostiuk,UKR,13.1,2.25,13.05,13.9,13.7,12.8,NA,5.7,2.8,4.5,5.2,6.1,4.9
+antalya_cup,Q,Timo Eder,DEU,12.8,12.6,NA,13.6,NA,NA,NA,5.3,5.5,NA,5.2,NA,NA
+antalya_cup,Q,Radomyr Stelmakh,UKR,12.8,14.1,12.85,14.6,13.9,13.35,NA,5.4,6,4.6,5.2,5.8,5.4
+antalya_cup,Q,Yi Guan-Jun,TWN,12.55,13.35,NA,NA,NA,NA,NA,4.6,5.4,NA,NA,NA,NA
+antalya_cup,Q,Razvan-Denis Marc,ROU,12.2,12.95,NA,NA,NA,12.7,NA,5.6,4.7,NA,NA,NA,4.5
+antalya_cup,Q,Nicholas Tarca,ROU,12.05,13.45,NA,NA,NA,NA,NA,5.6,5.7,NA,NA,NA,NA
+antalya_cup,Q,Nariman Kurbanov,KAZ,NA,15.6,NA,NA,NA,NA,NA,NA,6.7,NA,NA,NA,NA
+antalya_cup,Q,Ahmad Abu Al Soud,JOR,NA,14.9,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+antalya_cup,Q,Zeinolla Idrissov,KAZ,NA,14.7,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+antalya_cup,Q,Daniel Carrion,ESP,NA,13.8,NA,13.4,NA,NA,NA,NA,5.2,NA,5.2,NA,NA
+antalya_cup,Q,Mert Efe Kilicer,TUR,NA,13.75,NA,NA,13.4,12.3,NA,NA,5.1,NA,NA,5.2,4.6
+antalya_cup,Q,Thierno Diallo,ESP,NA,13.55,NA,NA,14.55,NA,NA,NA,5.9,NA,NA,6.2,NA
+antalya_cup,Q,Mateo Zugec,HRV,NA,13.5,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+antalya_cup,Q,Ahmad Habeeb,JOR,NA,13.2,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+antalya_cup,Q,Liam Rabic,HRV,NA,13.15,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
+antalya_cup,Q,Dmitrijs Mickevics,LVA,NA,12.85,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
+antalya_cup,Q,Rasul Ahmadzada,AZE,NA,12.6,NA,NA,13.25,NA,NA,NA,5.2,NA,NA,4.8,NA
+antalya_cup,Q,Balazs Kiss,HUN,NA,12.1,13.35,NA,12.7,NA,NA,NA,5.5,5.1,NA,4.3,NA
+antalya_cup,Q,Ahmet Burak Ekici,TUR,NA,12.05,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
+antalya_cup,Q,Ibrahim Colak,TUR,NA,NA,14.55,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+antalya_cup,Q,Artur Sahakyan,DEU,NA,NA,13.85,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+antalya_cup,Q,Nestor Abad,ESP,NA,NA,13.5,NA,NA,13.5,NA,NA,NA,5.3,NA,NA,5.2
+antalya_cup,Q,Szilard Zavory,HUN,NA,NA,12.95,NA,NA,12.05,NA,NA,NA,4.9,NA,NA,5.3
+antalya_cup,Q,Gabriel Eichhorn,DEU,NA,NA,12.6,NA,12.15,11.8,NA,NA,NA,4.3,NA,5,4.8
+antalya_cup,Q,Toma Modoianu-Zseder,ROU,NA,NA,12.45,NA,NA,12.4,NA,NA,NA,5.4,NA,NA,4.5
+antalya_cup,Q,Adria Vera,ESP,NA,NA,12.1,13.15,NA,NA,NA,NA,NA,4.1,5.2,NA,NA
+antalya_cup,Q,Andrei Muntean,ROU,NA,NA,NA,NA,14.65,NA,NA,NA,NA,NA,NA,5.8,NA
+antalya_cup,Q,Kerem Sener,TUR,NA,NA,NA,NA,12.95,NA,NA,NA,NA,NA,NA,5.2,NA
+antalya_cup,Q,Ahmad Salameh,JOR,NA,NA,NA,NA,NA,10.5,NA,NA,NA,NA,NA,NA,4.6

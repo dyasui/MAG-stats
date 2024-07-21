@@ -23,7 +23,7 @@ read_gymternet_EV <- function(table, label) {
   table %>% 
     mutate( 
       across( # convert DNS, —— to NA and make numeric for event results
-        where(is.character) & matches(c("D", "Total")),
+        where(is.character) & matches(c("D", "E", "Total")),
         ~as.numeric(na_if(., "DNS")) ),
       EVENT = case_when(
         str_detect(label, "Floor|FX") ~ "FX",
@@ -39,6 +39,7 @@ read_gymternet_EV <- function(table, label) {
     select(EVENT, ROUND, NAME, TEAM, D, E, Total)
 }
 
+# function to combine multiple event and aa finals from an international meet
 read_gymternet_international <- function(url, meet_name) {
   webpage <- read_html(url)
   # save all results tables in a list
@@ -100,6 +101,7 @@ read_gymternet_international <- function(url, meet_name) {
   results
 }
 
+# function to save results from read_gymternet_ as as csv in results/ subdir.
 save_gym_results <- function(results, year = "2024") {
   meet_name <- results %>% 
     select(MEET) %>% head(n=1) %>% pull()
@@ -107,8 +109,46 @@ save_gym_results <- function(results, year = "2024") {
   write_csv(results, file = filename)
 }
 
-read_gymternet_international(
-  "https://thegymter.net/2024/04/29/2024-european-mens-championships-results/",
-  "euro_champs"
+meet_tbl <- tibble(
+  url = c(
+    "https://thegymter.net/2024/04/29/2024-european-mens-championships-results/",
+    "https://thegymter.net/2024/02/18/2024-cairo-world-cup-mens-results/",
+    "https://thegymter.net/2024/02/27/2024-cottbus-world-cup-mens-results/",
+    "https://thegymter.net/2024/03/10/2024-baku-world-cup-mens-results/",
+    "https://thegymter.net/2024/03/19/2024-dtb-pokal-team-challenge-mens-results/",
+    "https://thegymter.net/2024/03/23/2024-antalya-friendly-results/",
+    "https://thegymter.net/2024/04/02/2024-antalya-challenge-cup-mens-results/",
+    "https://thegymter.net/2024/04/08/2024-osijek-challenge-cup-mens-results/",
+    "https://thegymter.net/2024/04/20/2024-doha-world-cup-mens-results/",
+    "https://thegymter.net/2024/04/29/2024-pacific-rim-championships-mens-results/",
+    "https://thegymter.net/2024/05/21/2024-asian-championships-mens-results/",
+    "https://thegymter.net/2024/05/28/2024-pan-american-championships-mens-results/",
+    "https://thegymter.net/2024/05/28/2024-varna-challenge-cup-mens-results/",
+    "https://thegymter.net/2024/06/03/2024-koper-challenge-cup-mens-results/"
+  ),
+  meet_name = c(
+    "euro_champs",
+    "cairo_cup",
+    "cottbus_cup",
+    "baku_cup",
+    "dtppokal",
+    "antalya_friendly",
+    "antalya_cup",
+    "osijek_cup",
+    "doha_cup",
+    "pacrim_champs",
+    "asian_champs",
+    "panamer_champs",
+    "varna_cup",
+    "koper_cup"
+  )
+)
+
+
+for (i in nrow(meet_tbl)) {
+  read_gymternet_international(
+    url = meet_tbl$url[i],
+    meet_name = meet_tbl$meet_name[i]
   ) %>% 
-  save_gym_results()
+    save_gym_results()
+}
