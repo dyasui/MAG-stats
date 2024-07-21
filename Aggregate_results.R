@@ -1,12 +1,14 @@
 # aggregating results from major national and international competitions
 library(tidyverse)
-eurAA_df <- read_csv("./EuroChampsAA_results.csv")
-eurEV_df <- read_csv("./EuroChampsEV_results.csv")
-eurQU_df <- read_csv("./EuroChampsQU_results.csv")
-eurTF_df <- read_csv("./EuroChampsTF_results.csv")
+
+# Selected Olympic teams:
+olympic_teams <- read_csv("./olympic_teams.csv")
+olympians <- olympic_teams %>% 
+  select(NAME) %>% 
+  pull()
+
 bgc_df   <- read_csv("./GreatBritain2024/BritChamps_results.csv") %>% 
   mutate(TEAM = "GBR")
-eur_df <- bind_rows(list(eurAA_df, eurEV_df, eurQU_df, eurTF_df, bgc_df))
 
 nc1_df <- read_csv("./OlympicTrials2024/natnls-d1.csv")
 nc2_df <- read_csv("./OlympicTrials2024/natnls-d2.csv")
@@ -21,11 +23,12 @@ jpn_df <- bind_rows(list(allJA_df, nhkJA_df)) %>%
   select(!Total) %>% 
   mutate(TEAM = "JPN")
 
-osijek_df <- read_csv("./results/Osijek_cup-2024.csv")
-cairo_df <- read_csv("./results/cairo_cup-2024.csv")
+results_files <- str_c("./results/", list.files("./results"))
+results_other <- read_csv(results_files)
 
 # merge all results into one dataframe
-results_df <- bind_rows(list(eur_df, usa_df, jpn_df, osijek_df, cairo_df))
+results_df <- bind_rows(list(bgc_df, usa_df, jpn_df, results_other)) %>% 
+  filter(NAME %in% olympians)
 
 library(ggthemes)
 eventsdist <- results_df %>% 
@@ -63,12 +66,6 @@ indv.averages_df <- results_df %>%
   summarise_at(vars(FX:AA), mean, na.rm=TRUE) %>% 
   arrange(desc(AA)) 
 
-# Selected Olympic teams:
-olympic_teams <- read_csv("./olympic_teams.csv")
-olympians <- olympic_teams %>% 
-  select(NAME) %>% 
-  pull()
-
 indv.averages_df <- indv.averages_df %>% 
   filter(NAME %in% olympians)
 
@@ -103,6 +100,18 @@ team_total <- function(top_scores) {
     pull()
 }
 
+
+results_df %>% 
+  group_by(TEAM) %>% 
+  summarise(score = team_total(team_top_scores(unlist(list(unique(NAME)))))) %>% 
+  arrange(desc(score))
+
+team_jpn <- results_df %>% 
+  filter(TEAM == "JPN") %>% 
+  pull(NAME) %>% 
+  unique() %>% 
+  team_top_scores() 
+
 team_usa <- results_df %>% 
   filter(TEAM == "USA") %>% 
   pull(NAME) %>% 
@@ -121,11 +130,8 @@ team_ukr <- indv.averages_df %>%
   unique() %>% 
   team_top_scores()
 
+
+team_jpn %>% kableExtra::kable()
 team_usa %>% kableExtra::kable()
 team_gbr %>% kableExtra::kable()
 team_ukr %>% kableExtra::kable()
-  
-team_total(team_usa)
-team_total(team_gbr)
-team_total(team_ukr)
-
