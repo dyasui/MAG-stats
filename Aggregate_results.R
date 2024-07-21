@@ -7,10 +7,10 @@ olympians <- olympic_teams %>%
   select(NAME) %>% 
   pull()
 
-nc1_df <- read_csv("./OlympicTrials2024/natnls-d1.csv")
-nc2_df <- read_csv("./OlympicTrials2024/natnls-d2.csv")
-ot1_df <- read_csv("./OlympicTrials2024/trials-day1.csv")
-ot2_df <- read_csv("./OlympicTrials2024/trials-day2.csv")
+nc1_df <- read_csv("./USA2024/natnls-d1.csv")
+nc2_df <- read_csv("./USA2024/natnls-d2.csv")
+ot1_df <- read_csv("./USA2024/trials-day1.csv")
+ot2_df <- read_csv("./USA2024/trials-day2.csv")
 usa_df <- bind_rows(list(nc1_df, nc2_df, ot1_df, ot2_df)) %>% 
   mutate(TEAM = "USA")
 
@@ -24,8 +24,9 @@ results_files <- str_c("./results/", list.files("./results"))
 results_other <- read_csv(results_files)
 
 # merge all results into one dataframe
-results_df <- bind_rows(list( usa_df, jpn_df, results_other)) %>% 
-  filter(NAME %in% olympians)
+results_df <- bind_rows(list( usa_df, jpn_df, results_other)) 
+
+write_csv(results_df, "./2024-aggregate-results.csv")
 
 library(ggthemes)
 eventsdist <- results_df %>% 
