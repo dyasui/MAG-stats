@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.43">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dante Yasui">
 <meta name="dcterms.date" content="2024-06-29">
 
-<title>2024 US Men’s Gymnastics Olympic Team Selection</title>
+<title>Gymstats - 2024 US Men’s Gymnastics Olympic Team Selection</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,7 +35,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -140,6 +140,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#picking-only-the-top-all-arounders" id="toc-picking-only-the-top-all-arounders" class="nav-link" data-scroll-target="#picking-only-the-top-all-arounders">Picking only the top all-arounders</a></li>
   <li><a href="#my-team-picks" id="toc-my-team-picks" class="nav-link" data-scroll-target="#my-team-picks">My team picks</a></li>
+  <li><a href="#using-maximum-scores-instead-of-averages" id="toc-using-maximum-scores-instead-of-averages" class="nav-link" data-scroll-target="#using-maximum-scores-instead-of-averages">Using Maximum Scores instead of Averages</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -196,27 +197,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Data</h1>
 <p>I copied the data from <a href="https://myusagym.com" class="uri">https://myusagym.com</a> and manually cleaned it up into <code>.csv</code> format.</p>
 <div class="cell">
-<div id="lst-data" class="r cell-code listing quarto-float quarto-figure quarto-figure-left anchored">
+<div id="lst-data" class="r cell-code listing quarto-float">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-data-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Listing&nbsp;1: combining data from nationals and trials
 </figcaption>
 <div aria-describedby="lst-data-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="sourceCode cell-code" id="lst-data"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="lst-data-1"><a href="#lst-data-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="lst-data-2"><a href="#lst-data-2" aria-hidden="true" tabindex="-1"></a><span class="co"># read all results across usa champs and olympic trials</span></span>
-<span id="lst-data-3"><a href="#lst-data-3" aria-hidden="true" tabindex="-1"></a>nc1_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"./natnls-d1.csv"</span>)</span>
-<span id="lst-data-4"><a href="#lst-data-4" aria-hidden="true" tabindex="-1"></a>nc2_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"./natnls-d2.csv"</span>)</span>
-<span id="lst-data-5"><a href="#lst-data-5" aria-hidden="true" tabindex="-1"></a>ot1_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"./trials-day1.csv"</span>)</span>
-<span id="lst-data-6"><a href="#lst-data-6" aria-hidden="true" tabindex="-1"></a>ot2_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"./trials-day2.csv"</span>)</span>
-<span id="lst-data-7"><a href="#lst-data-7" aria-hidden="true" tabindex="-1"></a><span class="co"># merge all results into one dataframe</span></span>
-<span id="lst-data-8"><a href="#lst-data-8" aria-hidden="true" tabindex="-1"></a>results_df <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(<span class="fu">list</span>(nc1_df, nc2_df, ot1_df, ot2_df))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="lst-data-2"><a href="#lst-data-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(furrr)</span>
+<span id="lst-data-3"><a href="#lst-data-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(future)</span>
+<span id="lst-data-4"><a href="#lst-data-4" aria-hidden="true" tabindex="-1"></a><span class="co"># read all results across usa champs and olympic trials</span></span>
+<span id="lst-data-5"><a href="#lst-data-5" aria-hidden="true" tabindex="-1"></a>nc1_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"./natnls-d1.csv"</span>)</span>
+<span id="lst-data-6"><a href="#lst-data-6" aria-hidden="true" tabindex="-1"></a>nc2_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"./natnls-d2.csv"</span>)</span>
+<span id="lst-data-7"><a href="#lst-data-7" aria-hidden="true" tabindex="-1"></a>ot1_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"./trials-day1.csv"</span>)</span>
+<span id="lst-data-8"><a href="#lst-data-8" aria-hidden="true" tabindex="-1"></a>ot2_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"./trials-day2.csv"</span>)</span>
+<span id="lst-data-9"><a href="#lst-data-9" aria-hidden="true" tabindex="-1"></a><span class="co"># merge all results into one dataframe</span></span>
+<span id="lst-data-10"><a href="#lst-data-10" aria-hidden="true" tabindex="-1"></a>results_df <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(<span class="fu">list</span>(nc1_df, nc2_df, ot1_df, ot2_df))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </figure>
 </div>
 </div>
 <p>To visualize the data overall, I grouped scores by event from all USA Championships and Olympic Trials routines and plotted the spread of observed scores.</p>
 <div class="cell">
-<div id="lst-eventdist" class="r cell-code listing quarto-float quarto-figure quarto-figure-left anchored">
+<div id="lst-eventdist" class="r cell-code listing quarto-float">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-eventdist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Listing&nbsp;2: plot of event distributions
@@ -243,7 +246,7 @@ Listing&nbsp;2: plot of event distributions
 (`stat_density()`).</code></pre>
 </div>
 <div class="cell-output-display">
-<div id="fig-eventdist" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-eventdist" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-eventdist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="analysis_files/figure-html/fig-eventdist-1.png" class="img-fluid figure-img" width="672">
@@ -266,7 +269,7 @@ Figure&nbsp;1: national distributions of scores on each event
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise_at</span>(<span class="fu">vars</span>(FX<span class="sc">:</span>AA), mean, <span class="at">na.rm=</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(AA))</span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>indv.averages_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="tbl-averagescores" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-averagescores" class="cell quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-averagescores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1: Individuals’ average scores across nationals and trials
@@ -274,7 +277,7 @@ Table&nbsp;1: Individuals’ average scores across nationals and trials
 <div aria-describedby="tbl-averagescores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 25%">
 <col style="width: 10%">
@@ -511,7 +514,7 @@ Table&nbsp;1: Individuals’ average scores across nationals and trials
 <section id="predicting-a-teams-performance" class="level2">
 <h2 class="anchored" data-anchor-id="predicting-a-teams-performance">Predicting a Team’s performance</h2>
 <div class="cell">
-<div id="lst-functions" class="r cell-code listing quarto-float quarto-figure quarto-figure-left anchored">
+<div id="lst-functions" class="r cell-code listing quarto-float">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-functions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Listing&nbsp;3: functions for calculating team performance
@@ -560,7 +563,7 @@ Listing&nbsp;3: functions for calculating team performance
 <section id="event-scores-breakdown" class="level2">
 <h2 class="anchored" data-anchor-id="event-scores-breakdown">Event scores breakdown</h2>
 <div class="cell">
-<div id="lst-actualteam" class="r cell-code listing quarto-float quarto-figure quarto-figure-left anchored">
+<div id="lst-actualteam" class="r cell-code listing quarto-float">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-actualteam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Listing&nbsp;4: team_top_scores() of actual team picks
@@ -575,7 +578,7 @@ Listing&nbsp;4: team_top_scores() of actual team picks
 </div>
 </figure>
 </div>
-<div id="tbl-teamevents" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-teamevents" class="cell quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-teamevents-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;2: Team USA expected event scores
@@ -583,7 +586,7 @@ Table&nbsp;2: Team USA expected event scores
 <div aria-describedby="tbl-teamevents-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Event</th>
@@ -678,7 +681,7 @@ Table&nbsp;2: Team USA expected event scores
 <span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_viridis_c</span>(<span class="at">option =</span> <span class="st">"turbo"</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>) <span class="sc">+</span></span>
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">12</span>, <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="fig-eventdist_team" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-eventdist_team" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-eventdist_team-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="analysis_files/figure-html/fig-eventdist_team-1.png" class="img-fluid figure-img" width="672">
@@ -715,15 +718,16 @@ Figure&nbsp;2: Olympic team’s scores relative to everyone else
 <span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>team_top_total <span class="ot">&lt;-</span> <span class="cf">function</span>(x) <span class="fu">team_total</span>(<span class="fu">team_top_scores</span>(<span class="fu">unlist</span>(x)))</span>
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co"># record top scores for every possible team combination</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>teamsim_df <span class="ot">&lt;-</span> teams_possible <span class="sc">%&gt;%</span> </span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">total =</span> <span class="fu">as.numeric</span>(<span class="fu">map</span>(names, team_top_total)),</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># names = map(names, toString)</span></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span> </span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(total))</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co"># save sim results to file</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(teamsim_df, <span class="at">file =</span> <span class="st">"teamsim.RData"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="fu">plan</span>(multisession, <span class="at">workers =</span> <span class="dv">10</span>)</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>teamsim_df <span class="ot">&lt;-</span> teams_possible <span class="sc">%&gt;%</span> </span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">total =</span> <span class="fu">as.numeric</span>(furrr<span class="sc">::</span><span class="fu">future_map</span>(names, team_top_total)),</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># names = map(names, toString)</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(total))</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="co"># save sim results to file</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(teamsim_df, <span class="at">file =</span> <span class="st">"teamsim.RData"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>specialist_rule <span class="ot">&lt;-</span> <span class="cf">function</span>(teams, individuals) {</span>
@@ -745,18 +749,14 @@ Figure&nbsp;2: Olympic team’s scores relative to everyone else
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">specialist_rule</span>(<span class="at">individuals =</span> indv.averages_df) <span class="sc">%&gt;%</span> </span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Warning: There was 1 warning in `filter()`.
-ℹ In argument: `str_detect(.$names, "Patrick Hoopes", negate = T)`.
-Caused by warning in `stri_detect_regex()`:
-! argument is not an atomic vector; coercing</code></pre>
+<pre><code>Warning in stri_detect_regex(string, pattern, negate = negate, opts_regex =
+opts(pattern)): argument is not an atomic vector; coercing</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Warning: There was 1 warning in `filter()`.
-ℹ In argument: `str_count(.$names, paste(specialists, collapse = "|")) &lt; 2`.
-Caused by warning in `stri_count_regex()`:
-! argument is not an atomic vector; coercing</code></pre>
+<pre><code>Warning in stri_count_regex(string, pattern, opts_regex = opts(pattern)):
+argument is not an atomic vector; coercing</code></pre>
 </div>
-<div id="tbl-topteams" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-topteams" class="cell quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-topteams-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;3: Top ten scoring teams on average
@@ -764,57 +764,69 @@ Table&nbsp;3: Top ten scoring teams on average
 <div aria-describedby="tbl-topteams-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
-<col style="width: 91%">
+<col style="width: 84%">
+<col style="width: 7%">
 <col style="width: 8%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">names</th>
 <th style="text-align: right;">total</th>
+<th style="text-align: right;">total_max</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Asher Hong , Stephen Nedoroscik</td>
-<td style="text-align: right;">258.1000</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Donnell Whittenburg, Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.4375</td>
+<td style="text-align: right;">265.10</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Asher Hong , Stephen Nedoroscik</td>
-<td style="text-align: right;">258.0250</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.5625</td>
+<td style="text-align: right;">265.05</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Yul Moldauer , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.2375</td>
+<td style="text-align: right;">264.60</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Khoi Young , Stephen Nedoroscik</td>
 <td style="text-align: right;">257.8625</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Donnell Whittenburg, Stephen Nedoroscik</td>
-<td style="text-align: right;">257.8250</td>
+<td style="text-align: right;">264.55</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Cameron Bock , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.8125</td>
+<td style="text-align: left;">Brody Malone, Fred Richard, Paul Juda , Asher Hong , Khoi Young</td>
+<td style="text-align: right;">257.4000</td>
+<td style="text-align: right;">264.55</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Yul Moldauer , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.7750</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Donnell Whittenburg, Khoi Young</td>
+<td style="text-align: right;">257.1625</td>
+<td style="text-align: right;">264.50</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Khoi Young , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.7375</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Asher Hong , Stephen Nedoroscik</td>
+<td style="text-align: right;">258.1000</td>
+<td style="text-align: right;">264.45</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Paul Juda , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.7250</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Donnell Whittenburg, Khoi Young , Curran Phillips</td>
+<td style="text-align: right;">256.8458</td>
+<td style="text-align: right;">264.40</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Yul Moldauer , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.7000</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Khoi Young , Curran Phillips</td>
+<td style="text-align: right;">256.9708</td>
+<td style="text-align: right;">264.35</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Brody Malone, Fred Richard, Shane Wiskus, Paul Juda , Asher Hong</td>
-<td style="text-align: right;">257.6000</td>
+<td style="text-align: left;">Brody Malone , Donnell Whittenburg, Asher Hong , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">256.2375</td>
+<td style="text-align: right;">264.30</td>
 </tr>
 </tbody>
 </table>
@@ -840,7 +852,7 @@ Table&nbsp;3: Top ten scoring teams on average
 <span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>PH_second_best</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="caption-top table table-sm table-striped small">
+<table class="table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;">NAME</th>
@@ -881,7 +893,7 @@ Table&nbsp;3: Top ten scoring teams on average
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>()</span>
 <span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>alt_team1 <span class="ot">&lt;-</span> <span class="fu">team_top_scores</span>(alt_team1_names)</span>
 <span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>alt_team1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="tbl-altteam1events" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-altteam1events" class="cell quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-altteam1events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;4: Top 5 all-arounders team event scores
@@ -889,7 +901,7 @@ Table&nbsp;4: Top 5 all-arounders team event scores
 <div aria-describedby="tbl-altteam1events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Event</th>
@@ -946,7 +958,7 @@ Table&nbsp;4: Top 5 all-arounders team event scores
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>alt_team2_names <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Fred Richard"</span>, <span class="st">"Brody Malone"</span>, <span class="st">"Yul Moldauer"</span>, <span class="st">"Donnell Whittenburg"</span>, <span class="st">"Khoi Young"</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>alt_team2 <span class="ot">&lt;-</span> <span class="fu">team_top_scores</span>(alt_team2_names)</span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>alt_team2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="tbl-altteam2events" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<div id="tbl-altteam2events" class="cell quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-altteam2events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;5: My custom team’s event breakdown
@@ -954,7 +966,7 @@ Table&nbsp;5: My custom team’s event breakdown
 <div aria-describedby="tbl-altteam2events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
 <div class="kable-table">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 7%">
 <col style="width: 10%">
@@ -1007,6 +1019,120 @@ Table&nbsp;5: My custom team’s event breakdown
 </div>
 </div>
 <p>This team falls short by 1.7 points although I think they would have more opporunities to make event finals on Floor, P-Bars, and Vault. Given Donnell’s vs Asher’s performances over Nationals and Trials, it probably makes more sense to have Asher but I think Donnell has more international experience and I also just really wanted to see him get to represent USA at the Olympics after working so hard for his entire career and not really getting that much recognition.</p>
+</section>
+<section id="using-maximum-scores-instead-of-averages" class="level3">
+<h3 class="anchored" data-anchor-id="using-maximum-scores-instead-of-averages">Using Maximum Scores instead of Averages</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>indv.max_df <span class="ot">&lt;-</span> results_df <span class="sc">%&gt;%</span> </span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(NAME <span class="sc">%in%</span> ot1_df<span class="sc">$</span>NAME) <span class="sc">%&gt;%</span>  <span class="co"># who qualified to olympic trials </span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(NAME) <span class="sc">%&gt;%</span> </span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise_at</span>(<span class="fu">vars</span>(FX<span class="sc">:</span>AA), max, <span class="at">na.rm=</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(AA))</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>team_max_total <span class="ot">&lt;-</span> <span class="cf">function</span>(x) <span class="fu">team_total</span>(<span class="fu">team_top_scores</span>(<span class="fu">unlist</span>(x), <span class="at">scores =</span> indv.max_df))</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="fu">team_max_total</span>(alt_team2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 264.15</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># record top scores for every possible team combination using individual max's</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plan</span>(multisession, <span class="at">workers =</span> <span class="dv">10</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>teamsim_df <span class="ot">&lt;-</span> teamsim_df <span class="sc">%&gt;%</span> </span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">total_max =</span> <span class="fu">as.numeric</span>(<span class="fu">future_map</span>(names, team_max_total)),</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># names = map(names, toString)</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(total_max))</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(teamsim_df, <span class="at">file =</span> <span class="st">"teamsim.RData"</span>)</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">"teamsim.RData"</span>)</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>teamsim_df <span class="sc">%&gt;%</span> </span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>team) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_detect</span>(.<span class="sc">$</span>names, <span class="st">"Patrick Hoopes"</span>, <span class="at">negate =</span> T)) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">specialist_rule</span>(<span class="at">individuals =</span> indv.averages_df) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in stri_detect_regex(string, pattern, negate = negate, opts_regex =
+opts(pattern)): argument is not an atomic vector; coercing</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in stri_count_regex(string, pattern, opts_regex = opts(pattern)):
+argument is not an atomic vector; coercing</code></pre>
+</div>
+<div class="cell-output-display">
+<div class="kable-table">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 84%">
+<col style="width: 7%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">names</th>
+<th style="text-align: right;">total</th>
+<th style="text-align: right;">total_max</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Donnell Whittenburg, Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.4375</td>
+<td style="text-align: right;">265.10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.5625</td>
+<td style="text-align: right;">265.05</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Yul Moldauer , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.2375</td>
+<td style="text-align: right;">264.60</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.8625</td>
+<td style="text-align: right;">264.55</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone, Fred Richard, Paul Juda , Asher Hong , Khoi Young</td>
+<td style="text-align: right;">257.4000</td>
+<td style="text-align: right;">264.55</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Donnell Whittenburg, Khoi Young</td>
+<td style="text-align: right;">257.1625</td>
+<td style="text-align: right;">264.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Asher Hong , Stephen Nedoroscik</td>
+<td style="text-align: right;">258.1000</td>
+<td style="text-align: right;">264.45</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Donnell Whittenburg, Khoi Young , Curran Phillips</td>
+<td style="text-align: right;">256.8458</td>
+<td style="text-align: right;">264.40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Khoi Young , Curran Phillips</td>
+<td style="text-align: right;">256.9708</td>
+<td style="text-align: right;">264.35</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Donnell Whittenburg, Asher Hong , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">256.2375</td>
+<td style="text-align: right;">264.30</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -1055,7 +1181,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1087,37 +1224,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/dyasui\.github\.io\/MAG-stats\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
