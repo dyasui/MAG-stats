@@ -23,7 +23,7 @@ read_gymternet_EV <- function(table, label) {
   table %>% 
     mutate( 
       across( # convert DNS, —— to NA and make numeric for event results
-        where(is.character) & matches(c("D", "E", "Total")),
+        where(is.character) & matches(c("\\bD\\b", "\\bE\\b", "Total")),
         ~as.numeric(na_if(., "DNS")) ),
       EVENT = case_when(
         str_detect(label, "Floor|FX") ~ "FX",
@@ -75,9 +75,19 @@ read_gymternet_international <- function(url, meet_name) {
     i = i + 1
   }
   
-  aa_results <- bind_rows(table_aa)
+  if (is_empty(table_aa)) { break } else {
+    aa_results <- bind_rows(table_aa)
+    }
   
-  event_results <- bind_rows(table_ev) %>% 
+  if (is_empty(table_ev)) { 
+    event_results <- tibble(
+      ROUND = numeric(),
+      # TODO: make this return an empty tibble with column names
+      break
+    )
+    } else {
+    event_results <- ifelse(nrow(table_ev)>0, 
+    bind_rows(table_ev) %>% 
     pivot_wider(
       id_cols = c(ROUND, NAME, TEAM),
       names_from = EVENT,
@@ -88,7 +98,10 @@ read_gymternet_international <- function(url, meet_name) {
       FX = Total_FX, PH = Total_PH, SR = Total_SR, VT = Total_VT, PB = Total_PB, HB = Total_HB,
       FX_D = D_FX, PH_D = D_PH, SR_D = D_SR, VT_D = D_VT, PB_D = D_PB, HB_D = D_HB,
       FX_E = E_FX, PH_E = E_PH, SR_E = E_SR, VT_E = E_VT, PB_E = E_PB, HB_E = E_HB) %>% 
-    mutate(AA = NA)
+    mutate(AA = NA),
+    tibble())
+  }
+  
   
   results <- bind_rows(list(aa_results, event_results)) %>% 
     mutate(
@@ -145,10 +158,9 @@ meet_tbl <- tibble(
 )
 
 
-for (i in nrow(meet_tbl)) {
-  read_gymternet_international(
-    url = meet_tbl$url[i],
-    meet_name = meet_tbl$meet_name[i]
-  ) %>% 
-    save_gym_results()
-}
+i = 6
+read_gymternet_international(
+  url = meet_tbl$url[i],
+  meet_name = meet_tbl$meet_name[i]
+) %>% 
+save_gym_results()
