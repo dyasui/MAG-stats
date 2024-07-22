@@ -1,73 +1,73 @@
-MEET,ROUND,NAME,TEAM,FX,PH,SR,VT,PB,HB,AA,FX_D,PH_D,SR_D,VT_D,PB_D,HB_D
-german_champs,All-Around Results,Lukas Dauser,Unterhaching,13.433,12.7,13.433,14.066,15.333,13.8,82.765,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Andreas Toba,Turn-Klubb zu Hannover,13.133,13.133,13.933,14.1,14.166,13.933,82.398,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Timo Eder,Ludwigsburg,13.666,14.133,12.866,14.033,13.566,13.166,81.43,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Pascal Brendel,Wetzlar,14.066,12.966,13.233,13.6,13.566,13.733,81.164,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Nils Dunkel,Halle,13.3,12.833,13.333,13.433,13.533,13.133,79.565,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Milan Hosseini,Böckingen,14.133,11.933,12.733,14.2,13.066,13.233,79.298,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Alexander Kunz,Pfuhl,12.966,13,12.9,13.666,13.766,12.933,79.231,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Glenn Trebing,Turn-Klubb zu Hannover,13.333,11.5,13.1,13.966,14.166,13,79.065,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Carlo Hörr,Schmiden,13.4,12.6,13.166,13.266,12.433,13.6,78.465,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Daniel Mousichidis,Schwalbach,13.933,13.233,12.533,13.866,12.933,11.933,78.431,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Felix Remuta,Unterhaching,13.933,11.733,11.966,13.8,13.433,12.1,76.965,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Leonard Prügel,Chemnitz,13.233,11.766,11.533,13.733,13.5,13.033,76.798,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Karim Rida,Sportclub Berlin,12.233,12.866,12.6,13.6,12.9,12.566,76.765,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Nils Matache,Sportclub Berlin,11.3,12.866,12.266,14.433,11.533,13,75.398,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Lucas Buschmann,Chemnitz,12.8,12.366,12.033,13.2,12.333,12.566,75.298,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Alexander Kirchner,Kirchheim unter Teck,13.066,11.233,12.7,13.2,12.166,12.133,74.498,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Marcel Graf,Rinteln,13.166,12.3,11.633,13.566,12.266,10.3,73.231,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Sebastian Bock,Siegerländer KV,12.233,11.233,12.966,11.866,11.566,12.9,72.764,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Maxim Kovalenko,Bous,12.333,11.6,11.933,13.833,11.633,11.3,72.632,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Gabriel Eichhorn,Stuttgart,11.833,8.7,12.933,13.366,12.933,12,71.765,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Dario Sissakis,Sportclub Berlin,13.633,7.7,13.566,13.633,13.066,9.8,71.398,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Nico Köhler,Kieler TV,12.8,10.533,11.5,12.833,12,11.566,71.232,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Niklas Neuhäusel,Eintracht Frankfurt,9.666,11.366,12.233,13,12.9,11.866,71.031,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Berkay Sen,Altendorf-Essen,12.8,7.833,11.933,13.733,12.633,11.633,70.565,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Maximilian Henning,Adlersberg,11.7,11.933,11.333,11.733,11.166,11.9,69.765,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Sascha Wilhelm,Monheim,12.133,9.9,11.733,13.133,12.666,10.166,69.731,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Leon Pfeil,Cottbus Turnen,12.666,10,10.566,12.766,9.733,11.5,67.231,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Meik Layer,Neckarau,12.2,6.533,11.466,12.8,12.333,9.933,65.265,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Pavel Kostiukin,Steele,10.8,9.4,10.9,NA,11.266,11.366,53.732,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Artur Sahakyan,Altendorf Essen,NA,11.733,13.9,12.566,11,NA,49.199,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Moritz Steinmetz,Bous,10.1,8.366,11.233,13.033,4.733,NA,47.465,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,David Schlüter,Bochum,12.833,NA,9.766,NA,10.833,8.833,42.265,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Thore Beissel,Kronshagen,NA,12.733,NA,NA,12.7,11.266,36.699,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Luca Ehrmanntraut,Limbach,NA,NA,NA,NA,NA,10.1,10.1,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Mykyta Streltsov,Unterhaching,12.833,11.6,11.9,12.866,12.733,11.866,73.798,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Oleksandr Petrenko,Inningen,12.1,12.3,10.466,12.933,12.6,10.4,71.799,NA,NA,NA,NA,NA,NA
-german_champs,All-Around Results,Tom Schultze,Cottbus Turnen,13.2,NA,12.933,12.866,NA,NA,38.999,NA,NA,NA,NA,NA,NA
-german_champs,Floor Final Results,Pascal Brendel,Wetzlar,14.325,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-german_champs,Floor Final Results,Daniel Mousichidis,Schwalbach,13.975,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-german_champs,Floor Final Results,Dario Sissakis,Sportclub Berlin,13.8,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-german_champs,Floor Final Results,Timo Eder,Ludwigsburg,13.425,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
-german_champs,Floor Final Results,Felix Remuta,Unterhaching,13.05,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-german_champs,Floor Final Results,Milan Hosseini,Böckingen,12.9,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
-german_champs,Pommels Final Results,Daniel Mousichidis,Schwalbach,NA,14.225,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
-german_champs,Pommels Final Results,Timo Eder,Ludwigsburg,NA,14.025,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-german_champs,Pommels Final Results,Andreas Toba,Turn-Klubb zu Hannover,NA,13.975,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-german_champs,Pommels Final Results,Pascal Brendel,Wetzlar,NA,13.075,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
-german_champs,Pommels Final Results,Alexander Kunz,Pfuhl,NA,12.975,NA,NA,NA,NA,NA,NA,4.7,NA,NA,NA,NA
-german_champs,Pommels Final Results,Nils Matache,Sportclub Berlin,NA,12.625,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
-german_champs,Rings Final Results,Artur Sahakyan,Altendorf Essen,NA,NA,14.05,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
-german_champs,Rings Final Results,Andreas Toba,Turn-Klubb zu Hannover,NA,NA,13.95,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA
-german_champs,Rings Final Results,Nils Dunkel,Halle,NA,NA,13.825,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA
-german_champs,Rings Final Results,Dario Sissakis,Sportclub Berlin,NA,NA,13.6,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
-german_champs,Rings Final Results,Carlo Hörr,Schmiden,NA,NA,13.35,NA,NA,NA,NA,NA,NA,5,NA,NA,NA
-german_champs,Rings Final Results,Pascal Brendel,Wetzlar,NA,NA,11.425,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
-german_champs,Vault Final Results,Felix Remuta,Unterhaching,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-german_champs,Vault Final Results,Tom Schultze,Cottbus Turnen,NA,NA,NA,14.05,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-german_champs,Vault Final Results,Maxim Kovalenko,Bous,NA,NA,NA,13.6,NA,NA,NA,NA,NA,NA,4.8,NA,NA
-german_champs,Vault Final Results,Sascha Wilhelm,Monheim,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,4.4,NA,NA
-german_champs,Vault Final Results,Gabriel Eichhorn,Stuttgart,NA,NA,NA,12.825,NA,NA,NA,NA,NA,NA,4.8,NA,NA
-german_champs,P-Bars Final Results,Lukas Dauser,Unterhaching,NA,NA,NA,NA,15.5,NA,NA,NA,NA,NA,NA,6.6,NA
-german_champs,P-Bars Final Results,Glenn Trebing,Turn-Klubb zu Hannover,NA,NA,NA,NA,14.025,NA,NA,NA,NA,NA,NA,5.3,NA
-german_champs,P-Bars Final Results,Andreas Toba,Turn-Klubb zu Hannover,NA,NA,NA,NA,13.55,NA,NA,NA,NA,NA,NA,5.3,NA
-german_champs,P-Bars Final Results,Pascal Brendel,Wetzlar,NA,NA,NA,NA,13.125,NA,NA,NA,NA,NA,NA,5.8,NA
-german_champs,P-Bars Final Results,Alexander Kunz,Pfuhl,NA,NA,NA,NA,13.05,NA,NA,NA,NA,NA,NA,5.2,NA
-german_champs,P-Bars Final Results,Timo Eder,Ludwigsburg,NA,NA,NA,NA,12.1,NA,NA,NA,NA,NA,NA,4.8,NA
-german_champs,High Bar Final Results,Andreas Toba,Turn-Klubb zu Hannover,NA,NA,NA,NA,NA,14.475,NA,NA,NA,NA,NA,NA,6.3
-german_champs,High Bar Final Results,Lukas Dauser,Unterhaching,NA,NA,NA,NA,NA,13.825,NA,NA,NA,NA,NA,NA,5.3
-german_champs,High Bar Final Results,Carlo Hörr,Schmiden,NA,NA,NA,NA,NA,13.825,NA,NA,NA,NA,NA,NA,5.4
-german_champs,High Bar Final Results,Milan Hosseini,Böckingen,NA,NA,NA,NA,NA,13.475,NA,NA,NA,NA,NA,NA,5.1
-german_champs,High Bar Final Results,Pascal Brendel,Wetzlar,NA,NA,NA,NA,NA,13.175,NA,NA,NA,NA,NA,NA,5.1
-german_champs,High Bar Final Results,Timo Eder,Ludwigsburg,NA,NA,NA,NA,NA,13.1,NA,NA,NA,NA,NA,NA,4.8
+MEET,          ROUND,                  NAME,               TEAM,                   FX,     PH,     SR,     VT,     PB,     HB,     AA,     FX_D, PH_D, SR_D, VT_D, PB_D, HB_D
+german_champs, All-Around Results,     Lukas Dauser,       DEU, 13.433, 12.7,   13.433, 14.066, 15.333, 13.8,   82.765, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Andreas Toba,       DEU, 13.133, 13.133, 13.933, 14.1,   14.166, 13.933, 82.398, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Timo Eder,          DEU, 13.666, 14.133, 12.866, 14.033, 13.566, 13.166, 81.43,  NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Pascal Brendel,     DEU, 14.066, 12.966, 13.233, 13.6,   13.566, 13.733, 81.164, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Nils Dunkel,        DEU, 13.3,   12.833, 13.333, 13.433, 13.533, 13.133, 79.565, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Milan Hosseini,     DEU, 14.133, 11.933, 12.733, 14.2,   13.066, 13.233, 79.298, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Alexander Kunz,     DEU, 12.966, 13,     12.9,   13.666, 13.766, 12.933, 79.231, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Glenn Trebing,      DEU, 13.333, 11.5,   13.1,   13.966, 14.166, 13,     79.065, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Carlo Hörr,         DEU, 13.4,   12.6,   13.166, 13.266, 12.433, 13.6,   78.465, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Daniel Mousichidis, DEU, 13.933, 13.233, 12.533, 13.866, 12.933, 11.933, 78.431, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Felix Remuta,       DEU, 13.933, 11.733, 11.966, 13.8,   13.433, 12.1,   76.965, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Leonard Prügel,     DEU, 13.233, 11.766, 11.533, 13.733, 13.5,   13.033, 76.798, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Karim Rida,         DEU, 12.233, 12.866, 12.6,   13.6,   12.9,   12.566, 76.765, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Nils Matache,       DEU, 11.3,   12.866, 12.266, 14.433, 11.533, 13,     75.398, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Lucas Buschmann,    DEU, 12.8,   12.366, 12.033, 13.2,   12.333, 12.566, 75.298, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Alexander Kirchner, DEU, 13.066, 11.233, 12.7,   13.2,   12.166, 12.133, 74.498, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Marcel Graf,        DEU, 13.166, 12.3,   11.633, 13.566, 12.266, 10.3,   73.231, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Sebastian Bock,     DEU, 12.233, 11.233, 12.966, 11.866, 11.566, 12.9,   72.764, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Maxim Kovalenko,    DEU, 12.333, 11.6,   11.933, 13.833, 11.633, 11.3,   72.632, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Gabriel Eichhorn,   DEU, 11.833, 8.7,    12.933, 13.366, 12.933, 12,     71.765, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Dario Sissakis,     DEU, 13.633, 7.7,    13.566, 13.633, 13.066, 9.8,    71.398, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Nico Köhler,        DEU, 12.8,   10.533, 11.5,   12.833, 12,     11.566, 71.232, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Niklas Neuhäusel,   DEU, 9.666,  11.366, 12.233, 13,     12.9,   11.866, 71.031, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Berkay Sen,         DEU, 12.8,   7.833,  11.933, 13.733, 12.633, 11.633, 70.565, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Maximilian Henning, DEU, 11.7,   11.933, 11.333, 11.733, 11.166, 11.9,   69.765, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Sascha Wilhelm,     DEU, 12.133, 9.9,    11.733, 13.133, 12.666, 10.166, 69.731, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Leon Pfeil,         DEU, 12.666, 10,     10.566, 12.766, 9.733,  11.5,   67.231, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Meik Layer,         DEU, 12.2,   6.533,  11.466, 12.8,   12.333, 9.933,  65.265, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Pavel Kostiukin,    DEU, 10.8,   9.4,    10.9,   NA,     11.266, 11.366, 53.732, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Artur Sahakyan,     DEU, NA,     11.733, 13.9,   12.566, 11,     NA,     49.199, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Moritz Steinmetz,   DEU, 10.1,   8.366,  11.233, 13.033, 4.733,  NA,     47.465, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     David Schlüter,     DEU, 12.833, NA,     9.766,  NA,     10.833, 8.833,  42.265, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Thore Beissel,      DEU, NA,     12.733, NA,     NA,     12.7,   11.266, 36.699, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Luca Ehrmanntraut,  DEU, NA,     NA,     NA,     NA,     NA,     10.1,   10.1,   NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Mykyta Streltsov,   DEU, 12.833, 11.6,   11.9,   12.866, 12.733, 11.866, 73.798, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Oleksandr Petrenko, DEU, 12.1,   12.3,   10.466, 12.933, 12.6,   10.4,   71.799, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, All-Around Results,     Tom Schultze,       DEU, 13.2,   NA,     12.933, 12.866, NA,     NA,     38.999, NA,   NA,   NA,   NA,   NA,   NA
+german_champs, Floor Final Results,    Pascal Brendel,     DEU, 14.325, NA,     NA,     NA,     NA,     NA,     NA,     5.9,  NA,   NA,   NA,   NA,   NA
+german_champs, Floor Final Results,    Daniel Mousichidis, DEU, 13.975, NA,     NA,     NA,     NA,     NA,     NA,     5.6,  NA,   NA,   NA,   NA,   NA
+german_champs, Floor Final Results,    Dario Sissakis,     DEU, 13.8,   NA,     NA,     NA,     NA,     NA,     NA,     5.9,  NA,   NA,   NA,   NA,   NA
+german_champs, Floor Final Results,    Timo Eder,          DEU, 13.425, NA,     NA,     NA,     NA,     NA,     NA,     5.5,  NA,   NA,   NA,   NA,   NA
+german_champs, Floor Final Results,    Felix Remuta,       DEU, 13.05,  NA,     NA,     NA,     NA,     NA,     NA,     5.8,  NA,   NA,   NA,   NA,   NA
+german_champs, Floor Final Results,    Milan Hosseini,     DEU, 12.9,   NA,     NA,     NA,     NA,     NA,     NA,     6,    NA,   NA,   NA,   NA,   NA
+german_champs, Pommels Final Results,  Daniel Mousichidis, DEU, NA,     14.225, NA,     NA,     NA,     NA,     NA,     NA,   6.1,  NA,   NA,   NA,   NA
+german_champs, Pommels Final Results,  Timo Eder,          DEU, NA,     14.025, NA,     NA,     NA,     NA,     NA,     NA,   5.8,  NA,   NA,   NA,   NA
+german_champs, Pommels Final Results,  Andreas Toba,       DEU, NA,     13.975, NA,     NA,     NA,     NA,     NA,     NA,   5.8,  NA,   NA,   NA,   NA
+german_champs, Pommels Final Results,  Pascal Brendel,     DEU, NA,     13.075, NA,     NA,     NA,     NA,     NA,     NA,   5.3,  NA,   NA,   NA,   NA
+german_champs, Pommels Final Results,  Alexander Kunz,     DEU, NA,     12.975, NA,     NA,     NA,     NA,     NA,     NA,   4.7,  NA,   NA,   NA,   NA
+german_champs, Pommels Final Results,  Nils Matache,       DEU, NA,     12.625, NA,     NA,     NA,     NA,     NA,     NA,   4.8,  NA,   NA,   NA,   NA
+german_champs, Rings Final Results,    Artur Sahakyan,     DEU, NA,     NA,     14.05,  NA,     NA,     NA,     NA,     NA,   NA,   5.8,  NA,   NA,   NA
+german_champs, Rings Final Results,    Andreas Toba,       DEU, NA,     NA,     13.95,  NA,     NA,     NA,     NA,     NA,   NA,   5.5,  NA,   NA,   NA
+german_champs, Rings Final Results,    Nils Dunkel,        DEU, NA,     NA,     13.825, NA,     NA,     NA,     NA,     NA,   NA,   5.6,  NA,   NA,   NA
+german_champs, Rings Final Results,    Dario Sissakis,     DEU, NA,     NA,     13.6,   NA,     NA,     NA,     NA,     NA,   NA,   4.8,  NA,   NA,   NA
+german_champs, Rings Final Results,    Carlo Hörr,         DEU, NA,     NA,     13.35,  NA,     NA,     NA,     NA,     NA,   NA,   5,    NA,   NA,   NA
+german_champs, Rings Final Results,    Pascal Brendel,     DEU, NA,     NA,     11.425, NA,     NA,     NA,     NA,     NA,   NA,   4.9,  NA,   NA,   NA
+german_champs, Vault Final Results,    Felix Remuta,       DEU, NA,     NA,     NA,     14.2,   NA,     NA,     NA,     NA,   NA,   NA,   5.2,  NA,   NA
+german_champs, Vault Final Results,    Tom Schultze,       DEU, NA,     NA,     NA,     14.05,  NA,     NA,     NA,     NA,   NA,   NA,   5.2,  NA,   NA
+german_champs, Vault Final Results,    Maxim Kovalenko,    DEU, NA,     NA,     NA,     13.6,   NA,     NA,     NA,     NA,   NA,   NA,   4.8,  NA,   NA
+german_champs, Vault Final Results,    Sascha Wilhelm,     DEU, NA,     NA,     NA,     13.2,   NA,     NA,     NA,     NA,   NA,   NA,   4.4,  NA,   NA
+german_champs, Vault Final Results,    Gabriel Eichhorn,   DEU, NA,     NA,     NA,     12.825, NA,     NA,     NA,     NA,   NA,   NA,   4.8,  NA,   NA
+german_champs, P-Bars Final Results,   Lukas Dauser,       DEU, NA,     NA,     NA,     NA,     15.5,   NA,     NA,     NA,   NA,   NA,   NA,   6.6,  NA
+german_champs, P-Bars Final Results,   Glenn Trebing,      DEU, NA,     NA,     NA,     NA,     14.025, NA,     NA,     NA,   NA,   NA,   NA,   5.3,  NA
+german_champs, P-Bars Final Results,   Andreas Toba,       DEU, NA,     NA,     NA,     NA,     13.55,  NA,     NA,     NA,   NA,   NA,   NA,   5.3,  NA
+german_champs, P-Bars Final Results,   Pascal Brendel,     DEU, NA,     NA,     NA,     NA,     13.125, NA,     NA,     NA,   NA,   NA,   NA,   5.8,  NA
+german_champs, P-Bars Final Results,   Alexander Kunz,     DEU, NA,     NA,     NA,     NA,     13.05,  NA,     NA,     NA,   NA,   NA,   NA,   5.2,  NA
+german_champs, P-Bars Final Results,   Timo Eder,          DEU, NA,     NA,     NA,     NA,     12.1,   NA,     NA,     NA,   NA,   NA,   NA,   4.8,  NA
+german_champs, High Bar Final Results, Andreas Toba,       DEU, NA,     NA,     NA,     NA,     NA,     14.475, NA,     NA,   NA,   NA,   NA,   NA,   6.3
+german_champs, High Bar Final Results, Lukas Dauser,       DEU, NA,     NA,     NA,     NA,     NA,     13.825, NA,     NA,   NA,   NA,   NA,   NA,   5.3
+german_champs, High Bar Final Results, Carlo Hörr,         DEU, NA,     NA,     NA,     NA,     NA,     13.825, NA,     NA,   NA,   NA,   NA,   NA,   5.4
+german_champs, High Bar Final Results, Milan Hosseini,     DEU, NA,     NA,     NA,     NA,     NA,     13.475, NA,     NA,   NA,   NA,   NA,   NA,   5.1
+german_champs, High Bar Final Results, Pascal Brendel,     DEU, NA,     NA,     NA,     NA,     NA,     13.175, NA,     NA,   NA,   NA,   NA,   NA,   5.1
+german_champs, High Bar Final Results, Timo Eder,          DEU, NA,     NA,     NA,     NA,     NA,     13.1,   NA,     NA,   NA,   NA,   NA,   NA,   4.8
