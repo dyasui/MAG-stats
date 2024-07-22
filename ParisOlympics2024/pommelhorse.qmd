@@ -1,0 +1,46 @@
+---
+title: "Olympics Pommel Medal Predictions"
+author: "Dante Yasui"
+date: "2024/07/21"
+format:
+  html:
+    df-print: kable
+    toc: true
+---
+
+```{r setup, echo=FALSE, message=FALSE}
+library(tidyverse)
+
+olympians <- read_csv("./olympic_teams.csv") %>%
+  select(NAME) %>% 
+  pull()
+
+results_df <- read_csv("./2024-aggregate-results.csv") %>% 
+  filter( !(MEET %in% c("world_champs")) )
+
+indv.averages_df <- results_df %>% 
+  group_by(NAME, TEAM) %>% 
+  summarise(
+    PH = mean(PH, na.rm=TRUE),
+    PH_D = max(PH_D, na.rm=TRUE)
+    )%>% 
+  mutate(PH_D = na_if(PH_D, -Inf))) %>% 
+  arrange(desc(PH)) 
+```
+
+## Selected Routines
+
+### Nariman Kurbanov
+{{< video https://www.youtube.com/watch?v=FOJEHyE1hsU >}}
+
+### Stephen Nederoscik
+{{< video https://www.youtube.com/watch?v=qHYwwLzQ9Y0 >}}
+
+### Lee Chih Kai
+{{< video https://www.youtube.com/watch?v=uWOYqXL6_rY >}}
+
+### Max Whitlock
+{{< video https://www.youtube.com/watch?v=qY_bIeFrj3s >}}
+
+### Ahmad Abu Al Soud
+{{< video https://www.youtube.com/watch?v=yypfmxI2e-Y >}}
