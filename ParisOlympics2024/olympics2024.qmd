@@ -1,0 +1,145 @@
+---
+title: "2024 Paris Olympic Games Predictions"
+author: "Dante Yasui"
+date: "2024/07/21"
+format:
+  html:
+    df-print: kable
+    toc: true
+---
+
+```{r setup, echo=FALSE, message=FALSE}
+library(tidyverse)
+results_df <- read_csv("./2024-aggregate-results.csv")
+```
+
+### Who are the teams going to the olympics?
+```{r}
+# Selected Olympic teams:
+olympian_list <- read_csv("./olympic_teams.csv")
+olympians <- olympian_list %>% 
+  select(NAME) %>% 
+  pull()
+olympic_teams <- olympian_list %>% 
+  filter(TEAM %in% c("CHN", "JPN", "GBR", "USA", "CAN", "DEU", "ITA", "CHE", "ESP", "TUR", "NLD", "UKR"))
+olympic_teams %>% pivot_wider(names_from = TEAM, values_from = NAME)
+```
+
+### Summarizing Individual Athletes' Stats
+```{r, warning=FALSE}
+indv.averages_df <- results_df %>% 
+  group_by(NAME, TEAM) %>% 
+  summarise(
+    across(FX:AA, mean, na.rm=TRUE) ,
+    across(FX_D:HB_D, max, na.rm=TRUE)
+    )%>% 
+  mutate(across(FX_D:HB_D, ~na_if(., -Inf))) %>% 
+  arrange(desc(AA)) 
+
+indv.averages_df <- indv.averages_df %>% 
+  filter(NAME %in% olympians)
+
+indv.averages_df %>% 
+  head()
+```
+
+
+```{r}
+#| label: fig-eventdist
+#| fig-cap: national distributions of scores on each event
+#| lst-label: lst-eventdist
+#| lst-cap: plot of event distributions
+library(ggthemes)
+eventsdist <- results_df %>% select(MEET:HB) %>%
+  # filter(NAME %in% olympic_teams$NAME) %>% 
+  pivot_longer(
+    cols = c(FX, PH, SR, VT, PB, HB),
+    names_to = "Event",
+    values_to = "Score",
+  ) %>%
+  ggplot(aes(x=Score)) +
+  geom_density() +
+  xlim(11, 16) +
+  facet_wrap(~Event, ncol = 2) +
+  theme_pander()
+eventsdist
+```
+
+```{r}
+library(ggthemes)
+
+event_averages <- results_df %>% select(!AA) %>%
+  filter(NAME %in% olympians) %>% 
+  pivot_longer(
+    cols = c(FX, PH, SR, VT, PB, HB),
+    names_to = "Event",
+    values_to = "Score",
+  ) %>% 
+  group_by(Event) %>% 
+  summarise(
+    mean_score    = mean(Score, na.rm = T),
+    sd_score      = sd(Score, na.rm = T),
+    top_dec       = quantile(Score, probs = 0.9, na.rm = TRUE)
+            )
+
+eventsdist + 
+  geom_vline(data = event_averages, aes(xintercept = mean_score)) +
+  geom_vline(data = event_averages, aes(xintercept = top_dec), linetype = "dashed") 
+```
+
+```{r}
+# function to pick top three scores on each event from a team
+team_top_scores <- function(names, scores = indv.averages_df, perevent = 3) {
+  scores %>% 
+    filter(NAME %in% names) %>%
+    select(NAME, FX, PH, SR, VT, PB, HB) %>% 
+    pivot_longer(
+      -NAME,
+      names_to = "Event",
+      values_to = "Score",
+    ) %>% 
+    # take top 3 on each event dropping extra tied scores
+    group_by(Event) %>% 
+    slice_max(n = perevent, order_by = Score, with_ties = FALSE) %>% 
+    mutate(
+      teamscore = sum(Score),
+      # names     = c(unique(NAME))
+      )  %>%
+    group_by(Event) %>% 
+    summarise(
+      Score   = first(teamscore),
+      OnEvent = list((NAME))
+      ) %>% ungroup()
+}
+
+# function to take output of select_top_scores and calculate total
+team_total <- function(top_scores) {
+  top_scores %>% 
+    summarise(x=sum(Score)) %>% 
+    pull()
+}
+
+
+results_df %>% 
+  filter(NAME %in% olympic_teams$NAME) %>% 
+  group_by(TEAM) %>% 
+  summarise(score = team_total(team_top_scores(unlist(list(unique(NAME)))))) %>% 
+  arrange(desc(score))
+```
+
+```{r}
+results_df %>% 
+  filter(TEAM == "USA") %>% 
+  pull(NAME) %>% 
+  unique() %>% 
+  team_top_scores()
+```
+  
+```{r}
+indv.averages_df %>% 
+  filter(TEAM == "GBR") %>% 
+  pull(NAME) %>% 
+  unique() %>% 
+  team_top_scores()
+```
+
