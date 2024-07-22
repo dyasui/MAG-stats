@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dyasui.github.io/MAG-stats/USA2024/analysis.html</loc>
-    <lastmod>2024-07-12T07:06:51.632Z</lastmod>
+    <lastmod>2024-07-21T18:17:56.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/MAG-stats/ParisOlympics2024/olympics2024.html</loc>
+    <lastmod>2024-07-22T00:56:36.879Z</lastmod>
   </url>
   <url>
     <loc>https://dyasui.github.io/MAG-stats/Japan2024/TeamJapan.html</loc>
     <lastmod>2024-07-12T06:54:48.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/MAG-stats/ParisOlympics2024/pommelhorse.html</loc>
+    <lastmod>2024-07-22T02:13:17.079Z</lastmod>
   </url>
 </urlset>
