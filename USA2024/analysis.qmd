@@ -10,11 +10,6 @@ format:
 
 # TODO
 
-- Calculate what the other top team compositions were
-  - [x] apply [@lst-functions] to each possible team combo 
-  and select the max scoring team based on the averages in [@lst-data]
-- [x] visualize the relative strengths of the team by comparing against distributions in [@fig-eventdist]
-- [ ] compare to similar scores of other national teams
 - [ ] make events print in olympic order, not alphabetic
 - [ ] calculate each team members contribution by picking best team 
 when they are dropped from results dataset
