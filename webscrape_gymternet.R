@@ -91,7 +91,7 @@ read_gymternet_international <- function(url, meet_name) {
   if (!is_empty(table_ev)) { 
     event_results <- bind_rows(table_ev) %>% 
     pivot_wider(
-      id_cols = c(ROUND, NAME, TEAM),
+      id_cols = c(ROUND, NAME, Nation),
       names_from = EVENT,
       values_from = c(D, E, Total), 
       values_fn = max # two vaults are annoying to keep track of
@@ -123,49 +123,49 @@ save_gym_results <- function(results, year = "2024") {
   write_csv(results, file = filename)
 }
   
-meet_tbl <- tibble(
-  url = c(
-    "https://thegymter.net/2024/04/29/2024-european-mens-championships-results/",
-    "https://thegymter.net/2024/02/18/2024-cairo-world-cup-mens-results/",
-    "https://thegymter.net/2024/02/27/2024-cottbus-world-cup-mens-results/",
-    "https://thegymter.net/2024/03/10/2024-baku-world-cup-mens-results/",
-    "https://thegymter.net/2024/03/19/2024-dtb-pokal-team-challenge-mens-results/",
-    "https://thegymter.net/2024/03/23/2024-antalya-friendly-results/",
-    "https://thegymter.net/2024/04/02/2024-antalya-challenge-cup-mens-results/",
-    "https://thegymter.net/2024/04/08/2024-osijek-challenge-cup-mens-results/",
-    "https://thegymter.net/2024/04/20/2024-doha-world-cup-mens-results/",
-    "https://thegymter.net/2024/04/29/2024-pacific-rim-championships-mens-results/",
-    "https://thegymter.net/2024/05/21/2024-asian-championships-mens-results/",
-    "https://thegymter.net/2024/05/28/2024-pan-american-championships-mens-results/",
-    "https://thegymter.net/2024/05/28/2024-varna-challenge-cup-mens-results/",
-    "https://thegymter.net/2024/06/03/2024-koper-challenge-cup-mens-results/"
-  ),
-  meet_name = c(
-    "euro_champs",
-    "cairo_cup",
-    "cottbus_cup",
-    "baku_cup",
-    "dtppokal",
-    "antalya_friendly",
-    "antalya_cup",
-    "osijek_cup",
-    "doha_cup",
-    "pacrim_champs",
-    "asian_champs",
-    "panamer_champs",
-    "varna_cup",
-    "koper_cup"
-  )
-)
+# meet_tbl <- tibble(
+#   url = c(
+#     "https://thegymter.net/2024/04/29/2024-european-mens-championships-results/",
+#     "https://thegymter.net/2024/02/18/2024-cairo-world-cup-mens-results/",
+#     "https://thegymter.net/2024/02/27/2024-cottbus-world-cup-mens-results/",
+#     "https://thegymter.net/2024/03/10/2024-baku-world-cup-mens-results/",
+#     "https://thegymter.net/2024/03/19/2024-dtb-pokal-team-challenge-mens-results/",
+#     "https://thegymter.net/2024/03/23/2024-antalya-friendly-results/",
+#     "https://thegymter.net/2024/04/02/2024-antalya-challenge-cup-mens-results/",
+#     "https://thegymter.net/2024/04/08/2024-osijek-challenge-cup-mens-results/",
+#     "https://thegymter.net/2024/04/20/2024-doha-world-cup-mens-results/",
+#     "https://thegymter.net/2024/04/29/2024-pacific-rim-championships-mens-results/",
+#     "https://thegymter.net/2024/05/21/2024-asian-championships-mens-results/",
+#     "https://thegymter.net/2024/05/28/2024-pan-american-championships-mens-results/",
+#     "https://thegymter.net/2024/05/28/2024-varna-challenge-cup-mens-results/",
+#     "https://thegymter.net/2024/06/03/2024-koper-challenge-cup-mens-results/"
+#   ),
+#   meet_name = c(
+#     "euro_champs",
+#     "cairo_cup",
+#     "cottbus_cup",
+#     "baku_cup",
+#     "dtppokal",
+#     "antalya_friendly",
+#     "antalya_cup",
+#     "osijek_cup",
+#     "doha_cup",
+#     "pacrim_champs",
+#     "asian_champs",
+#     "panamer_champs",
+#     "varna_cup",
+#     "koper_cup"
+#   )
+# )
 
 
 read_gymternet_international(
   url = 
-    "https://thegymter.net/2024/03/23/2024-antalya-friendly-results/",
+    "https://thegymter.net/2023/09/30/2022-asian-games-mens-results/",
   meet_name = 
-    "antalya_friendly"
+    "asian_games"
 ) %>% 
-save_gym_results()
+save_gym_results(year = "2023")
 
 ### National-level Competitions ###
 ###################################
@@ -247,38 +247,3 @@ read_gymternet_national(
   ) %>% 
   mutate(TEAM = "CHN") %>% 
   write_csv(file = "./results/china_champs-2024.csv")
-
-read_gymternet_national(
-  "https://thegymter.net/2024/03/05/2024-english-championships-mens-results/",
-  "english_champs"
-  ) %>% 
-  mutate(TEAM = "GBR") %>% 
-  write_csv(file = "./results/english_champs-2024.csv")
-
-read_gymternet_national(
-  "https://thegymter.net/2024/03/22/2024-swiss-euros-trials-mens-results/",
-  "swiss_eurotrials"
-  ) %>% 
-  mutate(TEAM = "CHE") %>% 
-  write_csv(file = "./results/swiss_eurotrials-2024.csv")
-
-read_gymternet_national(
-  "https://thegymter.net/2024/03/24/2024-swiss-euros-trials-2-mens-results/",
-  "swiss_eurotrials2"
-  ) %>% 
-  mutate(TEAM = "CHE") %>% 
-  write_csv(file = "./results/swiss_eurotrials2-2024.csv")
-
-read_gymternet_national(
-  "https://thegymter.net/2024/04/16/2024-all-japan-championships-mens-results/",
-  "alljapan_champs"
-  ) %>% 
-  mutate(TEAM = "JPN") %>% 
-  write_csv(file = "./results/alljapan_champs-2024.csv")
-
-read_gymternet_national(
-  "",
-  "brazil_trophy"
-  ) %>% 
-  mutate(TEAM = "BRA") %>% 
-  write_csv(file = "./results/brazil_trophy-2024.csv")
