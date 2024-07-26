@@ -1,244 +1,335 @@
 MEET,ROUND,NAME,TEAM,FX,PH,SR,VT,PB,HB,AA,FX_D,PH_D,SR_D,VT_D,PB_D,HB_D
-cairo_cup,Floor Final Results,NA,KOR,14.066,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
-cairo_cup,Floor Final Results,NA,CUB,13.9,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
-cairo_cup,Floor Final Results,NA,BGR,13.8,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cairo_cup,Floor Final Results,NA,KAZ,13.7,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Final Results,NA,FRA,13.633,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Final Results,NA,AUS,13.2,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cairo_cup,Pommels Final Results,NA,JOR,NA,15.066,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
-cairo_cup,Pommels Final Results,NA,KOR,NA,14.933,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
-cairo_cup,Pommels Final Results,NA,KAZ,NA,14.8,NA,NA,NA,NA,NA,NA,6.6,NA,NA,NA,NA
-cairo_cup,Pommels Final Results,NA,FRA,NA,14.4,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-cairo_cup,Pommels Final Results,NA,HRV,NA,13.466,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-cairo_cup,Pommels Final Results,NA,GBR,NA,13.466,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
-cairo_cup,Pommels Final Results,NA,UKR,NA,13.333,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-cairo_cup,Rings Final Results,NA,PRK,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Rings Final Results,NA,ARM,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cairo_cup,Rings Final Results,NA,ITA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Rings Final Results,NA,FRA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cairo_cup,Rings Final Results,NA,AZE,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Rings Final Results,NA,ARG,NA,NA,14.2,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cairo_cup,Rings Final Results,NA,GBR,NA,NA,12.166,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Vault Final Results,NA,ARM,NA,NA,NA,15.033,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Final Results,NA,UKR,NA,NA,NA,14.966,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Final Results,NA,HKG,NA,NA,NA,14.833,NA,NA,NA,NA,NA,NA,6,NA,NA
-cairo_cup,Vault Final Results,NA,NOR,NA,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Final Results,NA,IRN,NA,NA,NA,14.933,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Final Results,NA,VNM,NA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Final Results,NA,AUS,NA,NA,NA,14.1,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Final Results,NA,BGR,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,P-Bars Final Results,NA,UKR,NA,NA,NA,NA,15.6,NA,NA,NA,NA,NA,NA,6.7,NA
-cairo_cup,P-Bars Final Results,NA,COL,NA,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,6.7,NA
-cairo_cup,P-Bars Final Results,NA,JPN,NA,NA,NA,NA,14.866,NA,NA,NA,NA,NA,NA,6.6,NA
-cairo_cup,P-Bars Final Results,NA,FRA,NA,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,6.3,NA
-cairo_cup,P-Bars Final Results,NA,UZB,NA,NA,NA,NA,13.633,NA,NA,NA,NA,NA,NA,5.6,NA
-cairo_cup,P-Bars Final Results,NA,CYP,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.6,NA
-cairo_cup,High Bar Final Results,NA,TWN,NA,NA,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6.4
-cairo_cup,High Bar Final Results,NA,GBR,NA,NA,NA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.1
-cairo_cup,High Bar Final Results,NA,COL,NA,NA,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,6.6
-cairo_cup,High Bar Final Results,NA,JPN,NA,NA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,5.7
-cairo_cup,High Bar Final Results,NA,LTU,NA,NA,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.5
-cairo_cup,High Bar Final Results,NA,EGY,NA,NA,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.7
-cairo_cup,High Bar Final Results,NA,CYP,NA,NA,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.9
-cairo_cup,Floor Qualification Results,NA,KOR,14.266,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,FRA,14.166,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,CUB,14.133,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,KAZ,14.066,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,AUS,13.9,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,JPN,13.866,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,BGR,13.833,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,BRA,13.833,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,NOR,13.833,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,IRL,13.8,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,EGY,13.633,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,HRV,13.533,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,FIN,13.5,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,MNG,13.5,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,PRT,13.5,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,ITA,13.5,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,VNM,13.5,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,CYP,13.4,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,COL,13.266,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,MEX,13.266,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,HUN,13.166,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,GBR,13.166,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,GTM,13.133,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,BLR,13.133,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,ISL,13.1,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,CHL,12.933,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,SWE,12.9,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,MAR,12.833,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,POL,12.8,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,DOM,12.766,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,GRC,12.666,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,JOR,12.533,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,GEO,12.533,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,UKR,12.2,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,AZE,12.2,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,ESP,12,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,TUR,11.833,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,NZL,11.8,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,UZB,11.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,LVA,11.3,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
-cairo_cup,Floor Qualification Results,NA,IND,9.833,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,KOR,NA,15.233,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,KAZ,NA,15.166,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,FRA,NA,14.8,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,JOR,NA,14.8,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,GBR,NA,14.666,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,HRV,NA,14.466,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,UKR,NA,14.466,NA,NA,NA,NA,NA,NA,6.6,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,ARM,NA,14.333,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,TWN,NA,14.266,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,EGY,NA,14.2,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,ITA,NA,14.2,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,ALB,NA,14.133,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,LVA,NA,14.066,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,VNM,NA,14.066,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,CYP,NA,13.966,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,AUS,NA,13.966,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,ESP,NA,13.933,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,PRI,NA,13.8,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,JPN,NA,13.5,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,GRC,NA,13.2,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,MNG,NA,13.066,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,CZE,NA,12.9,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,GEO,NA,12.566,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,ISL,NA,12.533,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,TUR,NA,12.4,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,BGR,NA,12.133,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,HUN,NA,11.933,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,FIN,NA,11.566,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,QAT,NA,11.233,NA,NA,NA,NA,NA,NA,3.9,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,BRA,NA,11.233,NA,NA,NA,NA,NA,NA,4.1,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,AZE,NA,10.2,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,MEX,NA,10.066,NA,NA,NA,NA,NA,NA,4.5,NA,NA,NA,NA
-cairo_cup,Pommels Qualification Results,NA,NZL,NA,9.8,NA,NA,NA,NA,NA,NA,3.1,NA,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,ARM,NA,NA,14.533,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,AZE,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,FRA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,ITA,NA,NA,14.366,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,GBR,NA,NA,14.366,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,PRK,NA,NA,14.2,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,ARG,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,AUT,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,JPN,NA,NA,14.133,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,BRA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,CYP,NA,NA,13.966,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,VNM,NA,NA,13.9,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,TUR,NA,NA,13.9,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,NOR,NA,NA,13.633,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,SVN,NA,NA,13.6,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,CHL,NA,NA,13.566,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,IND,NA,NA,13.433,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,EGY,NA,NA,13.433,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,UKR,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,FIN,NA,NA,13.3,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,IRN,NA,NA,13.166,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,ESP,NA,NA,13.033,NA,NA,NA,NA,NA,NA,4.7,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,TWN,NA,NA,12.966,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,JOR,NA,NA,12.833,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,SWE,NA,NA,12.8,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,NZL,NA,NA,12.666,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,MYS,NA,NA,12.366,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,GEO,NA,NA,12.066,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,PRI,NA,NA,11.7,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA
-cairo_cup,Rings Qualification Results,NA,ISL,NA,NA,11.666,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
-cairo_cup,Vault Qualification Results,NA,ARM,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,UKR,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,HKG,NA,NA,NA,14.733,NA,NA,NA,NA,NA,NA,6,NA,NA
-cairo_cup,Vault Qualification Results,NA,IRN,NA,NA,NA,15.133,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,NOR,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,BGR,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,AUS,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,VNM,NA,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,HRV,NA,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,IRL,NA,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,ESP,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,CHL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cairo_cup,Vault Qualification Results,NA,KOR,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6,NA,NA
-cairo_cup,Vault Qualification Results,NA,GBR,NA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6,NA,NA
-cairo_cup,Vault Qualification Results,NA,TWN,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,COL,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,MNG,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,4.8,NA,NA
-cairo_cup,Vault Qualification Results,NA,PRI,NA,NA,NA,14.266,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,ITA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,MEX,NA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,HUN,NA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,AZE,NA,NA,NA,13.866,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,FRA,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,MYS,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,JOR,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,POL,NA,NA,NA,13.633,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,DOM,NA,NA,NA,13.566,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cairo_cup,Vault Qualification Results,NA,FIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-cairo_cup,Vault Qualification Results,NA,MAR,NA,NA,NA,13.566,NA,NA,NA,NA,NA,NA,4.8,NA,NA
-cairo_cup,Vault Qualification Results,NA,GTM,NA,NA,NA,13.766,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,TUR,NA,NA,NA,13.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,BLR,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,IND,NA,NA,NA,12.933,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,Vault Qualification Results,NA,BRA,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cairo_cup,P-Bars Qualification Results,NA,UKR,NA,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,6.7,NA
-cairo_cup,P-Bars Qualification Results,NA,UZB,NA,NA,NA,NA,14.866,NA,NA,NA,NA,NA,NA,5.9,NA
-cairo_cup,P-Bars Qualification Results,NA,COL,NA,NA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,6.7,NA
-cairo_cup,P-Bars Qualification Results,NA,CYP,NA,NA,NA,NA,14.633,NA,NA,NA,NA,NA,NA,6,NA
-cairo_cup,P-Bars Qualification Results,NA,JPN,NA,NA,NA,NA,14.333,NA,NA,NA,NA,NA,NA,6.3,NA
-cairo_cup,P-Bars Qualification Results,NA,FRA,NA,NA,NA,NA,14.333,NA,NA,NA,NA,NA,NA,6.3,NA
-cairo_cup,P-Bars Qualification Results,NA,EGY,NA,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6,NA
-cairo_cup,P-Bars Qualification Results,NA,TWN,NA,NA,NA,NA,13.966,NA,NA,NA,NA,NA,NA,5.9,NA
-cairo_cup,P-Bars Qualification Results,NA,HUN,NA,NA,NA,NA,13.833,NA,NA,NA,NA,NA,NA,5.9,NA
-cairo_cup,P-Bars Qualification Results,NA,KAZ,NA,NA,NA,NA,13.733,NA,NA,NA,NA,NA,NA,5.7,NA
-cairo_cup,P-Bars Qualification Results,NA,GBR,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,5.5,NA
-cairo_cup,P-Bars Qualification Results,NA,MEX,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,5.9,NA
-cairo_cup,P-Bars Qualification Results,NA,BRA,NA,NA,NA,NA,13.433,NA,NA,NA,NA,NA,NA,6,NA
-cairo_cup,P-Bars Qualification Results,NA,NOR,NA,NA,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.3,NA
-cairo_cup,P-Bars Qualification Results,NA,ESP,NA,NA,NA,NA,13.3,NA,NA,NA,NA,NA,NA,5.9,NA
-cairo_cup,P-Bars Qualification Results,NA,TUR,NA,NA,NA,NA,13.1,NA,NA,NA,NA,NA,NA,5.1,NA
-cairo_cup,P-Bars Qualification Results,NA,AUS,NA,NA,NA,NA,13.033,NA,NA,NA,NA,NA,NA,6.1,NA
-cairo_cup,P-Bars Qualification Results,NA,LTU,NA,NA,NA,NA,12.933,NA,NA,NA,NA,NA,NA,5.6,NA
-cairo_cup,P-Bars Qualification Results,NA,ISL,NA,NA,NA,NA,12.866,NA,NA,NA,NA,NA,NA,5.2,NA
-cairo_cup,P-Bars Qualification Results,NA,PRT,NA,NA,NA,NA,12.7,NA,NA,NA,NA,NA,NA,4.3,NA
-cairo_cup,P-Bars Qualification Results,NA,BGR,NA,NA,NA,NA,12.5,NA,NA,NA,NA,NA,NA,5.8,NA
-cairo_cup,P-Bars Qualification Results,NA,FIN,NA,NA,NA,NA,12.5,NA,NA,NA,NA,NA,NA,5.5,NA
-cairo_cup,P-Bars Qualification Results,NA,GEO,NA,NA,NA,NA,12.3,NA,NA,NA,NA,NA,NA,4.8,NA
-cairo_cup,P-Bars Qualification Results,NA,GRC,NA,NA,NA,NA,12.266,NA,NA,NA,NA,NA,NA,5.8,NA
-cairo_cup,P-Bars Qualification Results,NA,DOM,NA,NA,NA,NA,12.233,NA,NA,NA,NA,NA,NA,5.7,NA
-cairo_cup,P-Bars Qualification Results,NA,IND,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA,4.7,NA
-cairo_cup,P-Bars Qualification Results,NA,CUB,NA,NA,NA,NA,11.666,NA,NA,NA,NA,NA,NA,5.5,NA
-cairo_cup,P-Bars Qualification Results,NA,POL,NA,NA,NA,NA,11.166,NA,NA,NA,NA,NA,NA,4.8,NA
-cairo_cup,P-Bars Qualification Results,NA,JOR,NA,NA,NA,NA,10.5,NA,NA,NA,NA,NA,NA,4.6,NA
-cairo_cup,P-Bars Qualification Results,NA,SRB,NA,NA,NA,NA,10.466,NA,NA,NA,NA,NA,NA,5.4,NA
-cairo_cup,P-Bars Qualification Results,NA,AZE,NA,NA,NA,NA,10.4,NA,NA,NA,NA,NA,NA,4.5,NA
-cairo_cup,P-Bars Qualification Results,NA,ITA,NA,NA,NA,NA,9.866,NA,NA,NA,NA,NA,NA,5.2,NA
-cairo_cup,P-Bars Qualification Results,NA,CHL,NA,NA,NA,NA,8.433,NA,NA,NA,NA,NA,NA,3.1,NA
-cairo_cup,High Bar Qualification Results,NA,COL,NA,NA,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,6.8
-cairo_cup,High Bar Qualification Results,NA,GBR,NA,NA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,6
-cairo_cup,High Bar Qualification Results,NA,LTU,NA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,5.7
-cairo_cup,High Bar Qualification Results,NA,CYP,NA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,5.9
-cairo_cup,High Bar Qualification Results,NA,EGY,NA,NA,NA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,5.7
-cairo_cup,High Bar Qualification Results,NA,TWN,NA,NA,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.6
-cairo_cup,High Bar Qualification Results,NA,JPN,NA,NA,NA,NA,NA,13.833,NA,NA,NA,NA,NA,NA,5.6
-cairo_cup,High Bar Qualification Results,NA,NOR,NA,NA,NA,NA,NA,13.733,NA,NA,NA,NA,NA,NA,5.6
-cairo_cup,High Bar Qualification Results,NA,HUN,NA,NA,NA,NA,NA,13.733,NA,NA,NA,NA,NA,NA,5.6
-cairo_cup,High Bar Qualification Results,NA,FIN,NA,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,5.2
-cairo_cup,High Bar Qualification Results,NA,SRB,NA,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,5.1
-cairo_cup,High Bar Qualification Results,NA,FRA,NA,NA,NA,NA,NA,13.3,NA,NA,NA,NA,NA,NA,5.6
-cairo_cup,High Bar Qualification Results,NA,CUB,NA,NA,NA,NA,NA,13.266,NA,NA,NA,NA,NA,NA,5.6
-cairo_cup,High Bar Qualification Results,NA,HTI,NA,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5
-cairo_cup,High Bar Qualification Results,NA,GRC,NA,NA,NA,NA,NA,13.133,NA,NA,NA,NA,NA,NA,5.2
-cairo_cup,High Bar Qualification Results,NA,ISL,NA,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,4.4
-cairo_cup,High Bar Qualification Results,NA,AZE,NA,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,4.9
-cairo_cup,High Bar Qualification Results,NA,UKR,NA,NA,NA,NA,NA,12.8,NA,NA,NA,NA,NA,NA,6.1
-cairo_cup,High Bar Qualification Results,NA,BRA,NA,NA,NA,NA,NA,12.766,NA,NA,NA,NA,NA,NA,5.8
-cairo_cup,High Bar Qualification Results,NA,PRT,NA,NA,NA,NA,NA,12.466,NA,NA,NA,NA,NA,NA,4.4
-cairo_cup,High Bar Qualification Results,NA,KAZ,NA,NA,NA,NA,NA,12.4,NA,NA,NA,NA,NA,NA,4.5
-cairo_cup,High Bar Qualification Results,NA,DOM,NA,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,5.2
-cairo_cup,High Bar Qualification Results,NA,MEX,NA,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,5.3
-cairo_cup,High Bar Qualification Results,NA,ITA,NA,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,6.4
-cairo_cup,High Bar Qualification Results,NA,ESP,NA,NA,NA,NA,NA,11.9,NA,NA,NA,NA,NA,NA,4.8
-cairo_cup,High Bar Qualification Results,NA,POL,NA,NA,NA,NA,NA,11.6,NA,NA,NA,NA,NA,NA,5.2
-cairo_cup,High Bar Qualification Results,NA,BGR,NA,NA,NA,NA,NA,11.566,NA,NA,NA,NA,NA,NA,4.9
-cairo_cup,High Bar Qualification Results,NA,AUS,NA,NA,NA,NA,NA,11.3,NA,NA,NA,NA,NA,NA,5.5
-cairo_cup,High Bar Qualification Results,NA,PER,NA,NA,NA,NA,NA,11.2,NA,NA,NA,NA,NA,NA,5
-cairo_cup,High Bar Qualification Results,NA,NZL,NA,NA,NA,NA,NA,11.1,NA,NA,NA,NA,NA,NA,4.5
-cairo_cup,High Bar Qualification Results,NA,GEO,NA,NA,NA,NA,NA,10.5,NA,NA,NA,NA,NA,NA,4.5
+cairo_cup,Floor Final Results,Ryu Sunghyun,KOR,14.066,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+cairo_cup,Floor Final Results,Diorges Escobar,CUB,13.9,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cairo_cup,Floor Final Results,Eddie Penev,BGR,13.8,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Final Results,Dmitriy Patanin,KAZ,13.7,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Final Results,Benjamin Osberger,FRA,13.633,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Final Results,Ilyas Azizov,KAZ,13.633,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Final Results,Kim Hansol,KOR,13.566,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Final Results,Clay Mason Stephens,AUS,13.2,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cairo_cup,Pommels Final Results,Ahmad Abu Al Soud,JOR,NA,15.066,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+cairo_cup,Pommels Final Results,Hur Woong,KOR,NA,14.933,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+cairo_cup,Pommels Final Results,Zeinolla Idrissov,KAZ,NA,14.8,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+cairo_cup,Pommels Final Results,Benjamin Osberger,FRA,NA,14.4,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cairo_cup,Pommels Final Results,Nariman Kurbanov,KAZ,NA,14.033,NA,NA,NA,NA,NA,NA,6.6,NA,NA,NA,NA
+cairo_cup,Pommels Final Results,Filip Ude,HRV,NA,13.466,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cairo_cup,Pommels Final Results,Joe Fraser,GBR,NA,13.466,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
+cairo_cup,Pommels Final Results,Illia Kovtun,UKR,NA,13.333,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cairo_cup,Rings Final Results,Jong Ryong Il,PRK,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Rings Final Results,Vahagn Davtyan,ARM,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cairo_cup,Rings Final Results,Salvatore Maresca,ITA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Rings Final Results,Artur Avetisyan,ARM,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cairo_cup,Rings Final Results,Samir Aït Saïd,FRA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cairo_cup,Rings Final Results,Nikita Simonov,AZE,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Rings Final Results,Daniel Villafañe,ARG,NA,NA,14.2,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cairo_cup,Rings Final Results,Courtney Tulloch,GBR,NA,NA,12.166,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Vault Final Results,Artur Davtyan,ARM,NA,NA,NA,15.033,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Final Results,Nazar Chepurnyi,UKR,NA,NA,NA,14.966,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Final Results,Shek Wai Hung,HKG,NA,NA,NA,14.833,NA,NA,NA,NA,NA,NA,6,NA,NA
+cairo_cup,Vault Final Results,Jacob Karlsen,NOR,NA,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Final Results,Mahdi Olfati,IRN,NA,NA,NA,14.933,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Final Results,Trinh Hai Khang,VNM,NA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Final Results,James Bacueti,AUS,NA,NA,NA,14.1,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Final Results,Dimitar Dimitrov,BGR,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,P-Bars Final Results,Illia Kovtun,UKR,NA,NA,NA,NA,15.6,NA,NA,NA,NA,NA,NA,6.7,NA
+cairo_cup,P-Bars Final Results,Oleg Verniaiev,UKR,NA,NA,NA,NA,15.233,NA,NA,NA,NA,NA,NA,6.6,NA
+cairo_cup,P-Bars Final Results,Jossimar Calvo,COL,NA,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,6.7,NA
+cairo_cup,P-Bars Final Results,Sugimoto Kaito,JPN,NA,NA,NA,NA,14.866,NA,NA,NA,NA,NA,NA,6.6,NA
+cairo_cup,P-Bars Final Results,Cameron-Lie Bernard,FRA,NA,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,6.3,NA
+cairo_cup,P-Bars Final Results,Rasuljon Abdurakhimov,UZB,NA,NA,NA,NA,13.633,NA,NA,NA,NA,NA,NA,5.6,NA
+cairo_cup,P-Bars Final Results,Ilias Georgiou,CYP,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.6,NA
+cairo_cup,P-Bars Final Results,Angel Barajas,COL,NA,NA,NA,NA,10.566,NA,NA,NA,NA,NA,NA,5.8,NA
+cairo_cup,High Bar Final Results,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6.4
+cairo_cup,High Bar Final Results,Joe Fraser,GBR,NA,NA,NA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.1
+cairo_cup,High Bar Final Results,Angel Barajas,COL,NA,NA,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,6.6
+cairo_cup,High Bar Final Results,Tanigawa Kakeru,JPN,NA,NA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,5.7
+cairo_cup,High Bar Final Results,Robert Tvorogal,LTU,NA,NA,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.5
+cairo_cup,High Bar Final Results,Ahmed Elmaraghy,EGY,NA,NA,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.7
+cairo_cup,High Bar Final Results,Marios Georgiou,CYP,NA,NA,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.9
+cairo_cup,High Bar Final Results,Ilias Georgiou,CYP,NA,NA,NA,NA,NA,12.9,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,Floor Qualification Results,Ryu Sunghyun,KOR,14.266,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Kim Hansol,KOR,14.2,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Benjamin Osberger,FRA,14.166,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Diorges Escobar,CUB,14.133,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Dmitriy Patanin,KAZ,14.066,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Ilyas Azizov,KAZ,13.933,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Clay Mason Stephens,AUS,13.9,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Tanigawa Wataru,JPN,13.866,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Eddie Penev,BGR,13.833,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Yuri Guimarães,BRA,13.833,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Peder Skogvang,NOR,13.833,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Eamon Montgomery,IRL,13.8,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Omar Mohamed,EGY,13.633,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Chiba Kenta,JPN,13.633,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Dominick Cunningham,IRL,13.566,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Aurel Benovic,HRV,13.533,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Oskar Kirmes,FIN,13.5,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Enkhtuvshin Damdindorj,MNG,13.5,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Jose Nogueira,PRT,13.5,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Lorenzo Casali,ITA,13.5,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Trinh Hai Khang,VNM,13.5,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Michalis Chari,CYP,13.4,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Usukhbayar Erkhembayar,MNG,13.333,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Elias Koski,FIN,13.266,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Juan Larrahondo,COL,13.266,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Alonso Perez,MEX,13.266,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Benedek Tomcsanyi,HUN,13.166,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Adam Tobin,GBR,13.166,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Jorge Vega Lopez,GTM,13.133,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Yahor Sharamkou,BLR,13.133,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Bernardo Miranda,BRA,13.1,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Valgard Reinhardsson,ISL,13.1,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Dimitar Dimitrov,BGR,13,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Ignacio Varas,CHL,12.933,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Filip Lidbeck,SWE,12.9,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Achraf Quistas,MAR,12.833,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Sebastian Gawronski,POL,12.8,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Wilfry Contreras,DOM,12.766,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Alkinoos Graikos,GRC,12.666,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Guilherme Campos,PRT,12.666,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Saleem Naghouj,JOR,12.533,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Ioane Jimsheleishvili,GEO,12.533,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Oleg Verniaiev,UKR,12.2,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Rasul Ahmadzada,AZE,12.2,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Nicolau Mir,ESP,12,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Botond Molnar,HUN,11.933,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Mehmet Ayberk Kosak,TUR,11.833,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Joe Fraser,GBR,11.833,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,William Fu-Allen,NZL,11.8,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Daniel Stoddart,NZL,11.8,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Thierno Diallo,ESP,11.766,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Mansum Safarov,AZE,11.7,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Josue Armijo,CHL,11.633,NA,NA,NA,NA,NA,NA,4.5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Abdulaziz Mirvaliev,UZB,11.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Ricards Plate,LVA,11.3,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Van Vi Luong,VNM,10.9,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Khumoyon Islomov,UZB,10.5,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Ujwal Naidu,IND,9.833,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA,NA
+cairo_cup,Floor Qualification Results,Rodrigo Gomez,MEX,8,NA,NA,NA,NA,NA,NA,3.8,NA,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Hur Woong,KOR,NA,15.233,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Nariman Kurbanov,KAZ,NA,15.166,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Benjamin Osberger,FRA,NA,14.8,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Ahmad Abu Al Soud,JOR,NA,14.8,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Zeinolla Idrissov,KAZ,NA,14.8,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Joe Fraser,GBR,NA,14.666,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Filip Ude,HRV,NA,14.466,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Illia Kovtun,UKR,NA,14.466,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Harutyun Merdinyan,ARM,NA,14.333,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Shiao Yu-Jan,TWN,NA,14.266,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Lee Chih-Kai,TWN,NA,14.233,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Omar Elshobki,EGY,NA,14.2,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Edoardo de Rosa,ITA,NA,14.2,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Matvei Petrov,ALB,NA,14.133,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Dmitrijs Mickevics,LVA,NA,14.066,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Dang Ngoc Xuan Thien,VNM,NA,14.066,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Marios Georgiou,CYP,NA,13.966,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Vedant Sawant,AUS,NA,13.966,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Thierno Diallo,ESP,NA,13.933,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Abdelrahman Abdelhaleem,EGY,NA,13.833,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Nelson Guilbe,PRI,NA,13.8,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Gagik Khachikyan,ARM,NA,13.7,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Carlo Macchini,ITA,NA,13.566,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Tanigawa Kakeru,JPN,NA,13.5,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Chiba Kenta,JPN,NA,13.4,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Ilias Georgiou,CYP,NA,13.4,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Oleg Verniaiev,UKR,NA,13.4,NA,NA,NA,NA,NA,NA,6.6,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Alkinoos Graikos,GRC,NA,13.2,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Usukhbayar Erkhembayar,MNG,NA,13.066,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Cyril Tommasone,FRA,NA,12.966,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Alexander Yolshina Cash,GBR,NA,12.966,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Radomir Sliz,CZE,NA,12.9,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Enkhtuvshin Damdindorj,MNG,NA,12.766,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Levan Skhiladze,GEO,NA,12.566,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Dagur Olafsson,ISL,NA,12.533,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Hasan Bulut,TUR,NA,12.4,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Bozhidar Zlatanov,BGR,NA,12.133,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Adria Vera,ESP,NA,12,NA,NA,NA,NA,NA,NA,4,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Benedek Tomcsanyi,HUN,NA,11.933,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Antonios Tantalidis,GRC,NA,11.7,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Oskar Kirmes,FIN,NA,11.566,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Elias Koski,FIN,NA,11.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Al-Harith Rakan,QAT,NA,11.233,NA,NA,NA,NA,NA,NA,3.9,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Bernardo Miranda,BRA,NA,11.233,NA,NA,NA,NA,NA,NA,4.1,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Dimitar Dimitrov,BGR,NA,10.233,NA,NA,NA,NA,NA,NA,3.9,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Ivan Tikhonov,AZE,NA,10.2,NA,NA,NA,NA,NA,NA,4.1,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Rodrigo Gomez,MEX,NA,10.066,NA,NA,NA,NA,NA,NA,4.5,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Rasul Ahmadzada,AZE,NA,9.866,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,Krisztian Balazs,HUN,NA,9.833,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA
+cairo_cup,Pommels Qualification Results,William Fu-Allen,NZL,NA,9.8,NA,NA,NA,NA,NA,NA,3.1,NA,NA,NA,NA
+cairo_cup,Rings Qualification Results,Artur Avetisyan,ARM,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cairo_cup,Rings Qualification Results,Vahagn Davtyan,ARM,NA,NA,14.533,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Nikita Simonov,AZE,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Rings Qualification Results,Samir Aït Saïd,FRA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cairo_cup,Rings Qualification Results,Salvatore Maresca,ITA,NA,NA,14.366,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Rings Qualification Results,Courtney Tulloch,GBR,NA,NA,14.366,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA
+cairo_cup,Rings Qualification Results,Jong Ryong Il,PRK,NA,NA,14.2,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Rings Qualification Results,Daniel Villafañe,ARG,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Vinzenz Höck,AUT,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cairo_cup,Rings Qualification Results,Tanigawa Wataru,JPN,NA,NA,14.133,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Caio Souza,BRA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Sokratis Pilakouris,CYP,NA,NA,13.966,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cairo_cup,Rings Qualification Results,Nguyen Van Khanh Phong,VNM,NA,NA,13.9,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cairo_cup,Rings Qualification Results,Ibrahim Colak,TUR,NA,NA,13.9,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Rings Qualification Results,Sugimoto Kaito,JPN,NA,NA,13.833,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cairo_cup,Rings Qualification Results,Mehmet Ayberk Kosak,TUR,NA,NA,13.766,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Jacob Karlsen,NOR,NA,NA,13.633,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Luka Bojanc,SVN,NA,NA,13.6,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA
+cairo_cup,Rings Qualification Results,Joaquin Alvarez,CHL,NA,NA,13.566,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA
+cairo_cup,Rings Qualification Results,Rakesh Patra,IND,NA,NA,13.433,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+cairo_cup,Rings Qualification Results,Ali Zahran,EGY,NA,NA,13.433,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cairo_cup,Rings Qualification Results,Illia Kovtun,UKR,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+cairo_cup,Rings Qualification Results,Lorenzo Casali,ITA,NA,NA,13.333,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA
+cairo_cup,Rings Qualification Results,Elias Koski,FIN,NA,NA,13.3,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+cairo_cup,Rings Qualification Results,Mahdi Ahmad Kohani,IRN,NA,NA,13.166,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Nicolau Mir,ESP,NA,NA,13.033,NA,NA,NA,NA,NA,NA,4.7,NA,NA,NA
+cairo_cup,Rings Qualification Results,Lin Guan-Yi,TWN,NA,NA,12.966,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Saleem Naghouj,JOR,NA,NA,12.833,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
+cairo_cup,Rings Qualification Results,Luis Il-Sung Melander,SWE,NA,NA,12.8,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cairo_cup,Rings Qualification Results,Samuel Dick,NZL,NA,NA,12.666,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Tapan Mohanty,IND,NA,NA,12.566,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+cairo_cup,Rings Qualification Results,Ally Hamuda Abdullah,MYS,NA,NA,12.366,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cairo_cup,Rings Qualification Results,Levan Skhiladze,GEO,NA,NA,12.066,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
+cairo_cup,Rings Qualification Results,Daniel Stoddart,NZL,NA,NA,11.8,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA
+cairo_cup,Rings Qualification Results,Jose Lopez,PRI,NA,NA,11.7,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA
+cairo_cup,Rings Qualification Results,Jon Gunnarsson,ISL,NA,NA,11.666,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cairo_cup,Rings Qualification Results,Adria Vera,ESP,NA,NA,7.833,NA,NA,NA,NA,NA,NA,3.7,NA,NA,NA
+cairo_cup,Vault Qualification Results,Artur Davtyan,ARM,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Nazar Chepurnyi,UKR,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Shek Wai Hung,HKG,NA,NA,NA,14.733,NA,NA,NA,NA,NA,NA,6,NA,NA
+cairo_cup,Vault Qualification Results,Mahdi Olfati,IRN,NA,NA,NA,15.133,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Jacob Karlsen,NOR,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Dimitar Dimitrov,BGR,NA,NA,NA,14.366,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,James Bacueti,AUS,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Trinh Hai Khang,VNM,NA,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Aurel Benovic,HRV,NA,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Oleg Verniaiev,UKR,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Dominick Cunningham,IRL,NA,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Omar Mohamed,ESP,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Josue Armijo,CHL,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Eddie Penev,BGR,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Shin Jeahwan,KOR,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6,NA,NA
+cairo_cup,Vault Qualification Results,Courtney Tulloch,GBR,NA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6,NA,NA
+cairo_cup,Vault Qualification Results,Ewan McAteer,IRL,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Tseng Wei-Sheng,TWN,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Juan Larrahondo,COL,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Enkhtuvshin Damdindorj,MNG,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+cairo_cup,Vault Qualification Results,Jose Lopez,PRI,NA,NA,NA,14.266,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Lorenzo Casali,ITA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Javier Rojo,MEX,NA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Botond Molnar,HUN,NA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Ivan Tikhonov,AZE,NA,NA,NA,13.866,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Léo Saladino,FRA,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Muhammad Sharul Aimy,MYS,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Saleem Naghouj,JOR,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Ng Ka Ki,HKG,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Sebastian Gawronski,POL,NA,NA,NA,13.633,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Leandro Peña,DOM,NA,NA,NA,13.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Joona Reiman,FIN,NA,NA,NA,13.666,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Achraf Quistas,MAR,NA,NA,NA,13.566,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+cairo_cup,Vault Qualification Results,Jorge Vega Lopez,GTM,NA,NA,NA,13.766,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Usukhbayar Erkhembayar,MNG,NA,NA,NA,13.7,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+cairo_cup,Vault Qualification Results,Dilan Jimenez,COL,NA,NA,NA,13.666,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Mehmet Ayberk Kosak,TUR,NA,NA,NA,13.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Wilfry Contreras,DOM,NA,NA,NA,13.433,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cairo_cup,Vault Qualification Results,Yahor Sharamkou,BLR,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Ujwal Naidu,IND,NA,NA,NA,12.933,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Yuri Guimarães,BRA,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cairo_cup,Vault Qualification Results,Ng Chun Chen,MYS,NA,NA,NA,10.1,NA,NA,NA,NA,NA,NA,1.6,NA,NA
+cairo_cup,Vault Qualification Results,Elias Koski,FIN,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+cairo_cup,Vault Qualification Results,Ignacio Varas,CHL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+cairo_cup,P-Bars Qualification Results,Illia Kovtun,UKR,NA,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,6.7,NA
+cairo_cup,P-Bars Qualification Results,Oleg Verniaiev,UKR,NA,NA,NA,NA,14.966,NA,NA,NA,NA,NA,NA,6.6,NA
+cairo_cup,P-Bars Qualification Results,Rasuljon Abdurakhimov,UZB,NA,NA,NA,NA,14.866,NA,NA,NA,NA,NA,NA,5.9,NA
+cairo_cup,P-Bars Qualification Results,Angel Barajas,COL,NA,NA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,6.7,NA
+cairo_cup,P-Bars Qualification Results,Ilias Georgiou,CYP,NA,NA,NA,NA,14.633,NA,NA,NA,NA,NA,NA,6,NA
+cairo_cup,P-Bars Qualification Results,Jossimar Calvo,COL,NA,NA,NA,NA,14.466,NA,NA,NA,NA,NA,NA,6.7,NA
+cairo_cup,P-Bars Qualification Results,Sugimoto Kaito,JPN,NA,NA,NA,NA,14.333,NA,NA,NA,NA,NA,NA,6.3,NA
+cairo_cup,P-Bars Qualification Results,Cameron-Lie Bernard,FRA,NA,NA,NA,NA,14.333,NA,NA,NA,NA,NA,NA,6.3,NA
+cairo_cup,P-Bars Qualification Results,Marios Georgiou,CYP,NA,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.8,NA
+cairo_cup,P-Bars Qualification Results,Mohamed Afify,EGY,NA,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6,NA
+cairo_cup,P-Bars Qualification Results,Hung Yuan-Hsi,TWN,NA,NA,NA,NA,13.966,NA,NA,NA,NA,NA,NA,5.9,NA
+cairo_cup,P-Bars Qualification Results,Krisztian Balazs,HUN,NA,NA,NA,NA,13.833,NA,NA,NA,NA,NA,NA,5.9,NA
+cairo_cup,P-Bars Qualification Results,Dmitriy Patanin,KAZ,NA,NA,NA,NA,13.733,NA,NA,NA,NA,NA,NA,5.7,NA
+cairo_cup,P-Bars Qualification Results,Alexander Yolshina Cash,GBR,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,5.5,NA
+cairo_cup,P-Bars Qualification Results,Isaac Nuñez,MEX,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,5.9,NA
+cairo_cup,P-Bars Qualification Results,Caio Souza,BRA,NA,NA,NA,NA,13.433,NA,NA,NA,NA,NA,NA,6,NA
+cairo_cup,P-Bars Qualification Results,Harald Wibye,NOR,NA,NA,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.3,NA
+cairo_cup,P-Bars Qualification Results,Nicolau Mir,ESP,NA,NA,NA,NA,13.3,NA,NA,NA,NA,NA,NA,5.5,NA
+cairo_cup,P-Bars Qualification Results,Thierno Diallo,ESP,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.9,NA
+cairo_cup,P-Bars Qualification Results,Ibrahim Colak,TUR,NA,NA,NA,NA,13.1,NA,NA,NA,NA,NA,NA,4.9,NA
+cairo_cup,P-Bars Qualification Results,Ilyas Azizov,KAZ,NA,NA,NA,NA,13.033,NA,NA,NA,NA,NA,NA,5.1,NA
+cairo_cup,P-Bars Qualification Results,Mitchell Morgans,AUS,NA,NA,NA,NA,13.033,NA,NA,NA,NA,NA,NA,6.1,NA
+cairo_cup,P-Bars Qualification Results,Robert Tvorogal,LTU,NA,NA,NA,NA,12.933,NA,NA,NA,NA,NA,NA,5.6,NA
+cairo_cup,P-Bars Qualification Results,Valgard Reinhardsson,ISL,NA,NA,NA,NA,12.866,NA,NA,NA,NA,NA,NA,5.2,NA
+cairo_cup,P-Bars Qualification Results,Guilherme Campos,PRT,NA,NA,NA,NA,12.7,NA,NA,NA,NA,NA,NA,4.1,NA
+cairo_cup,P-Bars Qualification Results,Hasan Bulut,TUR,NA,NA,NA,NA,12.633,NA,NA,NA,NA,NA,NA,5.1,NA
+cairo_cup,P-Bars Qualification Results,Peder Skogvang,NOR,NA,NA,NA,NA,12.533,NA,NA,NA,NA,NA,NA,4.4,NA
+cairo_cup,P-Bars Qualification Results,Bozhidar Zlatanov,BGR,NA,NA,NA,NA,12.5,NA,NA,NA,NA,NA,NA,5.4,NA
+cairo_cup,P-Bars Qualification Results,Elias Koski,FIN,NA,NA,NA,NA,12.5,NA,NA,NA,NA,NA,NA,5.5,NA
+cairo_cup,P-Bars Qualification Results,Mathias Philippe,FRA,NA,NA,NA,NA,12.5,NA,NA,NA,NA,NA,NA,5.6,NA
+cairo_cup,P-Bars Qualification Results,Jose Nogueira,PRT,NA,NA,NA,NA,12.466,NA,NA,NA,NA,NA,NA,4.3,NA
+cairo_cup,P-Bars Qualification Results,Levan Skhiladze,GEO,NA,NA,NA,NA,12.3,NA,NA,NA,NA,NA,NA,4.8,NA
+cairo_cup,P-Bars Qualification Results,Benedek Tomcsanyi,HUN,NA,NA,NA,NA,12.3,NA,NA,NA,NA,NA,NA,5.4,NA
+cairo_cup,P-Bars Qualification Results,Yordan Aleksandrov,BGR,NA,NA,NA,NA,12.266,NA,NA,NA,NA,NA,NA,5.8,NA
+cairo_cup,P-Bars Qualification Results,Stefanos Tsolakidis,GRC,NA,NA,NA,NA,12.266,NA,NA,NA,NA,NA,NA,5.8,NA
+cairo_cup,P-Bars Qualification Results,Jeordy Ramirez,DOM,NA,NA,NA,NA,12.233,NA,NA,NA,NA,NA,NA,5.7,NA
+cairo_cup,P-Bars Qualification Results,Chiba Kenta,JPN,NA,NA,NA,NA,12.166,NA,NA,NA,NA,NA,NA,5.5,NA
+cairo_cup,P-Bars Qualification Results,Tapan Mohanty,IND,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA,4.7,NA
+cairo_cup,P-Bars Qualification Results,Diorges Escobar,CUB,NA,NA,NA,NA,11.666,NA,NA,NA,NA,NA,NA,5.5,NA
+cairo_cup,P-Bars Qualification Results,Sebastian Gawronski,POL,NA,NA,NA,NA,11.166,NA,NA,NA,NA,NA,NA,4.8,NA
+cairo_cup,P-Bars Qualification Results,Bernardo Miranda,BRA,NA,NA,NA,NA,11.166,NA,NA,NA,NA,NA,NA,4.8,NA
+cairo_cup,P-Bars Qualification Results,Joona Reiman,FIN,NA,NA,NA,NA,11.066,NA,NA,NA,NA,NA,NA,3.6,NA
+cairo_cup,P-Bars Qualification Results,Nikolaos Iliopoulos,GRC,NA,NA,NA,NA,10.933,NA,NA,NA,NA,NA,NA,5.5,NA
+cairo_cup,P-Bars Qualification Results,Courtney Tulloch,GBR,NA,NA,NA,NA,10.533,NA,NA,NA,NA,NA,NA,5,NA
+cairo_cup,P-Bars Qualification Results,Saleem Naghouj,JOR,NA,NA,NA,NA,10.5,NA,NA,NA,NA,NA,NA,4.6,NA
+cairo_cup,P-Bars Qualification Results,Petar Vefic,SRB,NA,NA,NA,NA,10.466,NA,NA,NA,NA,NA,NA,5.4,NA
+cairo_cup,P-Bars Qualification Results,Rasul Ahmadzada,AZE,NA,NA,NA,NA,10.4,NA,NA,NA,NA,NA,NA,4.5,NA
+cairo_cup,P-Bars Qualification Results,Javier Rojo,MEX,NA,NA,NA,NA,10.1,NA,NA,NA,NA,NA,NA,4.4,NA
+cairo_cup,P-Bars Qualification Results,Edoardo de Rosa,ITA,NA,NA,NA,NA,9.866,NA,NA,NA,NA,NA,NA,5.2,NA
+cairo_cup,P-Bars Qualification Results,Lorenzo Casali,ITA,NA,NA,NA,NA,9.566,NA,NA,NA,NA,NA,NA,5,NA
+cairo_cup,P-Bars Qualification Results,Dagur Olafsson,ISL,NA,NA,NA,NA,8.533,NA,NA,NA,NA,NA,NA,4.7,NA
+cairo_cup,P-Bars Qualification Results,Joaquin Alvarez,CHL,NA,NA,NA,NA,8.433,NA,NA,NA,NA,NA,NA,3.1,NA
+cairo_cup,High Bar Qualification Results,Angel Barajas,COL,NA,NA,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,6.8
+cairo_cup,High Bar Qualification Results,Joe Fraser,GBR,NA,NA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,6
+cairo_cup,High Bar Qualification Results,Robert Tvorogal,LTU,NA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,5.7
+cairo_cup,High Bar Qualification Results,Marios Georgiou,CYP,NA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,5.9
+cairo_cup,High Bar Qualification Results,Ahmed Elmaraghy,EGY,NA,NA,NA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,5.7
+cairo_cup,High Bar Qualification Results,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,High Bar Qualification Results,Ilias Georgiou,CYP,NA,NA,NA,NA,NA,13.866,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,High Bar Qualification Results,Tanigawa Kakeru,JPN,NA,NA,NA,NA,NA,13.833,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,High Bar Qualification Results,Sofus Heggemsnes,NOR,NA,NA,NA,NA,NA,13.733,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,High Bar Qualification Results,Krisztian Balazs,HUN,NA,NA,NA,NA,NA,13.733,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,High Bar Qualification Results,David Vecsernyes,HUN,NA,NA,NA,NA,NA,13.666,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,High Bar Qualification Results,Elias Koski,FIN,NA,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,5.2
+cairo_cup,High Bar Qualification Results,Ivan Dejanovic,SRB,NA,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,5.1
+cairo_cup,High Bar Qualification Results,Mathias Philippe,FRA,NA,NA,NA,NA,NA,13.3,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,High Bar Qualification Results,Diorges Escobar,CUB,NA,NA,NA,NA,NA,13.266,NA,NA,NA,NA,NA,NA,5.6
+cairo_cup,High Bar Qualification Results,Yvenel Stephan,HTI,NA,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5
+cairo_cup,High Bar Qualification Results,Leo Lehtinen,FIN,NA,NA,NA,NA,NA,13.133,NA,NA,NA,NA,NA,NA,4.9
+cairo_cup,High Bar Qualification Results,Nikolaos Iliopoulos,GRC,NA,NA,NA,NA,NA,13.133,NA,NA,NA,NA,NA,NA,5
+cairo_cup,High Bar Qualification Results,Apostolos Kanellos,GRC,NA,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,5.2
+cairo_cup,High Bar Qualification Results,Dagur Olafsson,ISL,NA,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,4.4
+cairo_cup,High Bar Qualification Results,Ivan Tikhonov,AZE,NA,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,4.9
+cairo_cup,High Bar Qualification Results,Illia Kovtun,UKR,NA,NA,NA,NA,NA,12.8,NA,NA,NA,NA,NA,NA,6.1
+cairo_cup,High Bar Qualification Results,Arthur Mariano,BRA,NA,NA,NA,NA,NA,12.766,NA,NA,NA,NA,NA,NA,5.8
+cairo_cup,High Bar Qualification Results,Valgard Reinhardsson,ISL,NA,NA,NA,NA,NA,12.466,NA,NA,NA,NA,NA,NA,4.4
+cairo_cup,High Bar Qualification Results,Jose Nogueira,PRT,NA,NA,NA,NA,NA,12.466,NA,NA,NA,NA,NA,NA,4.4
+cairo_cup,High Bar Qualification Results,Dmitriy Patanin,KAZ,NA,NA,NA,NA,NA,12.4,NA,NA,NA,NA,NA,NA,4.5
+cairo_cup,High Bar Qualification Results,Caio Souza,BRA,NA,NA,NA,NA,NA,12.4,NA,NA,NA,NA,NA,NA,5.8
+cairo_cup,High Bar Qualification Results,Adam Tobin,GBR,NA,NA,NA,NA,NA,12.233,NA,NA,NA,NA,NA,NA,5.2
+cairo_cup,High Bar Qualification Results,Leandro Peña,DOM,NA,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,5
+cairo_cup,High Bar Qualification Results,Isaac Nuñez,MEX,NA,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,5.3
+cairo_cup,High Bar Qualification Results,Carlo Macchini,ITA,NA,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,6.4
+cairo_cup,High Bar Qualification Results,Thierno Diallo,ESP,NA,NA,NA,NA,NA,11.9,NA,NA,NA,NA,NA,NA,4.8
+cairo_cup,High Bar Qualification Results,Nicolau Mir,ESP,NA,NA,NA,NA,NA,11.833,NA,NA,NA,NA,NA,NA,4.6
+cairo_cup,High Bar Qualification Results,Jeordy Ramirez,DOM,NA,NA,NA,NA,NA,11.666,NA,NA,NA,NA,NA,NA,5.2
+cairo_cup,High Bar Qualification Results,Sebastian Gawronski,POL,NA,NA,NA,NA,NA,11.6,NA,NA,NA,NA,NA,NA,5.2
+cairo_cup,High Bar Qualification Results,Yordan Aleksandrov,BGR,NA,NA,NA,NA,NA,11.566,NA,NA,NA,NA,NA,NA,4.9
+cairo_cup,High Bar Qualification Results,Ilyas Azizov,KAZ,NA,NA,NA,NA,NA,11.466,NA,NA,NA,NA,NA,NA,4.3
+cairo_cup,High Bar Qualification Results,Tyson Bull,AUS,NA,NA,NA,NA,NA,11.3,NA,NA,NA,NA,NA,NA,5.5
+cairo_cup,High Bar Qualification Results,Nicolas Garfias,PER,NA,NA,NA,NA,NA,11.2,NA,NA,NA,NA,NA,NA,5
+cairo_cup,High Bar Qualification Results,Mitchell Morgans,AUS,NA,NA,NA,NA,NA,11.2,NA,NA,NA,NA,NA,NA,5.5
+cairo_cup,High Bar Qualification Results,Daniel Stoddart,NZL,NA,NA,NA,NA,NA,11.1,NA,NA,NA,NA,NA,NA,4.5
+cairo_cup,High Bar Qualification Results,Mansum Safarov,AZE,NA,NA,NA,NA,NA,10.566,NA,NA,NA,NA,NA,NA,3.6
+cairo_cup,High Bar Qualification Results,Ioane Jimsheleishvili,GEO,NA,NA,NA,NA,NA,10.5,NA,NA,NA,NA,NA,NA,4.5
+cairo_cup,High Bar Qualification Results,Peder Skogvang,NOR,NA,NA,NA,NA,NA,10.166,NA,NA,NA,NA,NA,NA,4.7

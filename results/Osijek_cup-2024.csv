@@ -1,89 +1,195 @@
 MEET,ROUND,NAME,TEAM,FX,PH,SR,VT,PB,HB,AA,FX_D,PH_D,SR_D,VT_D,PB_D,HB_D
-antalya_cup,F,Illia Kovtun,UKR,14.4,NA,NA,NA,15.35,NA,NA,5.9,NA,NA,NA,6.9,NA
-antalya_cup,F,Ilyas Azizov,KAZ,14.2,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-antalya_cup,F,Kevin Penev,BGR,13.95,NA,13.25,14.4,NA,NA,NA,6.1,NA,5,5.4,NA,NA
-antalya_cup,F,Enkhtuvshin Damdindorj,MNG,13.8,NA,NA,13.95,NA,NA,NA,5.5,NA,NA,4.8,NA,NA
-antalya_cup,F,Usukhbayar Erkhembayar,MNG,13.55,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-antalya_cup,F,Krisztofer Meszaros,HUN,13.55,NA,NA,NA,12.65,NA,NA,6.3,NA,NA,NA,5.9,NA
-antalya_cup,F,Aurel Benovic,HRV,13.55,NA,NA,14.85,NA,NA,NA,6.3,NA,NA,5.6,NA,NA
-antalya_cup,F,Cameron Lynn,GBR,13.4,NA,NA,NA,14,13.45,NA,5.6,NA,NA,NA,5.5,5.4
-antalya_cup,F,Ilyas Azizov,KAZ,NA,14.6,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-antalya_cup,F,Filip Ude,HRV,NA,14.3,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-antalya_cup,F,Marko Sambolec,HRV,NA,14,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
-antalya_cup,F,Unai Baigorri,ESP,NA,13.65,NA,14.55,NA,NA,NA,NA,5.1,NA,5.2,NA,NA
-antalya_cup,F,Adam Tobin,GBR,NA,13.6,NA,NA,13.7,13.5,NA,NA,5.8,NA,NA,5.5,5.5
-antalya_cup,F,Ahmet Burak Ekici,TUR,NA,12.5,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA
-antalya_cup,F,Kevin Buckley,SVN,NA,11.85,13,NA,NA,NA,NA,NA,4.1,4.3,NA,NA,NA
-antalya_cup,F,Adam Steele,IRL,NA,8.4,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
-antalya_cup,F,Pau Jimenez,ESP,NA,NA,12.95,14.7,NA,NA,NA,NA,NA,4.9,5.2,NA,NA
-antalya_cup,F,Balazs Kiss,HUN,NA,NA,12.9,NA,NA,13.35,NA,NA,NA,5.1,NA,NA,4.9
-antalya_cup,F,Yunus Gündogdu,TUR,NA,NA,12.85,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
-antalya_cup,F,Jermain Grünberg,NLD,NA,NA,12.45,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA
-antalya_cup,F,Roman Mamenov,KAZ,NA,NA,12.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
-antalya_cup,F,Szilard Zavory,HUN,NA,NA,12.2,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
-antalya_cup,F,Daniel Trifonov,BGR,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA
-antalya_cup,F,Dusan Djordjevic,SRB,NA,NA,NA,14.05,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-antalya_cup,F,Luca Giubellini,CHE,NA,NA,NA,13.75,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-antalya_cup,F,Lukas Dauser,DEU,NA,NA,NA,NA,15.55,NA,NA,NA,NA,NA,NA,6.7,NA
-antalya_cup,F,Noe Seifert,CHE,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.3,NA
-antalya_cup,F,Daniel Carrion,ESP,NA,NA,NA,NA,13.75,13.15,NA,NA,NA,NA,NA,5.3,5
-antalya_cup,F,Sercan Demir,TUR,NA,NA,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.9,NA
-antalya_cup,F,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,15.35,NA,NA,NA,NA,NA,NA,6.5
-antalya_cup,F,Tin Srbic,HRV,NA,NA,NA,NA,NA,14.65,NA,NA,NA,NA,NA,NA,6.1
-antalya_cup,F,Alexander Myakinin,ISR,NA,NA,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,5.9
-antalya_cup,F,Taha Serhani,CHE,NA,NA,NA,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.5
-antalya_cup,Q,Aurel Benovic,HRV,14.15,NA,NA,14.8,NA,NA,NA,6.3,NA,NA,5.6,NA,NA
-antalya_cup,Q,Krisztofer Meszaros,HUN,14.05,13.45,NA,NA,14.7,12.95,NA,6.3,5.8,NA,NA,6.2,5.1
-antalya_cup,Q,Illia Kovtun,UKR,13.85,13.1,NA,14.45,14.65,12.05,NA,5.9,6.4,NA,5.6,7,5.5
-antalya_cup,Q,Enkhtuvshin Damdindorj,MNG,13.7,13.2,NA,13.95,NA,10.45,NA,5.5,5.7,NA,4.8,NA,3.7
-antalya_cup,Q,Usukhbayar Erkhembayar,MNG,13.5,NA,NA,13.45,NA,NA,NA,5.6,NA,NA,4.8,NA,NA
-antalya_cup,Q,Ilyas Azizov,KAZ,13.45,14.65,NA,NA,NA,13.1,NA,5.8,5.9,NA,NA,NA,4.7
-antalya_cup,Q,Kevin Penev,BGR,13.4,13.2,12.8,14.15,NA,12.8,NA,6.1,5.6,5,5.2,NA,4.9
-antalya_cup,Q,Cameron Lynn,GBR,13.35,13.5,NA,NA,14,13.3,NA,5.6,5.7,NA,NA,5.5,5.4
-antalya_cup,Q,Anze Hribar,SVN,13.35,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
-antalya_cup,Q,Taha Serhani,CHE,13.3,NA,NA,NA,13.95,13.95,NA,5.5,NA,NA,NA,5.6,5.9
-antalya_cup,Q,Pau Jimenez,ESP,13.25,NA,13.05,14.25,NA,NA,NA,5.4,NA,4.9,5.2,NA,NA
-antalya_cup,Q,Adam Tobin,GBR,13.1,14.1,NA,NA,14.05,13.35,NA,5.5,5.8,NA,NA,5.5,5.4
-antalya_cup,Q,Pascal Brendel,DEU,12.95,12.3,NA,NA,14,12.15,NA,5.9,5.3,NA,NA,5.8,4.8
-antalya_cup,Q,Unai Baigorri,ESP,12.8,13.7,NA,14.25,NA,NA,NA,4.9,5.1,NA,5.2,NA,NA
-antalya_cup,Q,Dusan Djordjevic,SRB,12.8,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
-antalya_cup,Q,Adam Steele,IRL,12.8,13.75,NA,NA,13.55,12.9,NA,5.5,5.3,NA,NA,5.2,4.5
-antalya_cup,Q,Ahmet Burak Ekici,TUR,12.75,13.65,NA,NA,NA,10.9,NA,5.2,5.5,NA,NA,NA,2.9
-antalya_cup,Q,Sercan Demir,TUR,12.25,NA,11.75,NA,14.05,13,NA,5.2,NA,4.6,NA,5.9,4.7
-antalya_cup,Q,Teodor Trifonov,BGR,12,NA,11.8,NA,12.15,NA,NA,5.2,NA,4.2,NA,4.6,NA
-antalya_cup,Q,Volodymyr Otreshko,SVK,11.6,13.3,11.35,NA,12.95,11.2,NA,4.6,5.4,4.2,NA,4.8,3
-antalya_cup,Q,Luca Giubellini,CHE,11.6,12.7,NA,14.45,NA,NA,NA,5.9,5.9,NA,5.6,NA,NA
-antalya_cup,Q,Jermain Grünberg,NLD,11.5,11.65,12.95,NA,13.2,12.6,NA,5.3,4.6,4.3,NA,6.2,5
-antalya_cup,Q,Petar Vefic,SRB,11.4,12.55,NA,13.45,12.05,11.25,NA,5.2,4.2,NA,4.8,5,4.2
-antalya_cup,Q,Oliver Kasala,SVK,10.95,12.55,12.4,NA,13.3,12.65,NA,4.8,4.8,4.4,NA,5.4,4.6
-antalya_cup,Q,Roman Mamenov,KAZ,10.4,NA,12.8,13.35,NA,NA,NA,5,NA,4.8,5.2,NA,NA
-antalya_cup,Q,Marko Jovicic,HRV,10.3,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA,NA
-antalya_cup,Q,Gregor Turk,SVN,10.2,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA,NA
-antalya_cup,Q,Marko Sambolec,HRV,NA,13.85,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
-antalya_cup,Q,Kevin Buckley,SVN,NA,13.6,12.6,NA,10.9,11.85,NA,NA,5.1,4.3,NA,4.2,4.8
-antalya_cup,Q,Filip Ude,HRV,NA,13.55,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-antalya_cup,Q,Daniel Carrion,ESP,NA,13.45,NA,NA,14,13.35,NA,NA,5.2,NA,NA,5.3,5
-antalya_cup,Q,Alexander Myakinin,ISR,NA,13.4,NA,NA,NA,14.25,NA,NA,5.7,NA,NA,NA,5.9
-antalya_cup,Q,Gregor Rakovic,SVN,NA,13.35,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
-antalya_cup,Q,Balazs Kiss,HUN,NA,13.1,12.9,NA,NA,13.55,NA,NA,5.2,5.1,NA,NA,5
-antalya_cup,Q,Noe Seifert,CHE,NA,12.9,12.4,NA,14.45,12.95,NA,NA,6.1,5.1,NA,6.1,5.5
-antalya_cup,Q,Lukas Dauser,DEU,NA,12.8,NA,NA,14.6,12.65,NA,NA,5.4,NA,NA,6.6,5
-antalya_cup,Q,Rayan Radkov,BGR,NA,12.45,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-antalya_cup,Q,Daniel Fox,IRL,NA,12.1,12.6,NA,13.35,NA,NA,NA,4.9,5.1,NA,5,NA
-antalya_cup,Q,Umur Mehmet Filiz,TUR,NA,10.4,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA,NA
-antalya_cup,Q,Petar Velickovic,SRB,NA,10.3,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA
-antalya_cup,Q,Alisher Toibazarov,KAZ,NA,10.15,11.4,NA,12.45,NA,NA,NA,4.3,4.4,NA,5,NA
-antalya_cup,Q,Illia Kovtun,TUR,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
-antalya_cup,Q,Szilard Zavory,HUN,NA,NA,13.05,13.7,12.2,NA,NA,NA,NA,4.9,4.8,4.4,NA
-antalya_cup,Q,Yunus Gündogdu,TUR,NA,NA,12.75,14.15,13.6,NA,NA,NA,NA,5.8,5.2,5.2,NA
-antalya_cup,Q,Marco Bencomo,ESP,NA,NA,12.35,NA,10.4,10.35,NA,NA,NA,4.7,NA,4.3,4.1
-antalya_cup,Q,Luka Bojanc,SVN,NA,NA,12.25,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
-antalya_cup,Q,Srecko Stojadinovic,SRB,NA,NA,11.5,NA,NA,NA,NA,NA,NA,3.7,NA,NA,NA
-antalya_cup,Q,Daniel Trifonov,BGR,NA,NA,NA,14.15,11.75,11.65,NA,NA,NA,NA,4.8,4.3,4.2
-antalya_cup,Q,Dusan Dordjevic,SRB,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-antalya_cup,Q,Beno Kunst,SVN,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-antalya_cup,Q,Farukh Nabiyev,KAZ,NA,NA,NA,13.9,11.1,12.35,NA,NA,NA,NA,5.2,4.9,4.5
-antalya_cup,Q,Ron Pyatov,ISR,NA,NA,NA,NA,13.95,NA,NA,NA,NA,NA,NA,5.7,NA
-antalya_cup,Q,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,6.3
-antalya_cup,Q,Tin Srbic,HRV,NA,NA,NA,NA,NA,13.45,NA,NA,NA,NA,NA,NA,5.2
-antalya_cup,Q,Ivan Dejanovic,SRB,NA,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.1
+osijek_cup,Floor Final Results,Illia Kovtun,UKR,14.4,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+osijek_cup,Floor Final Results,Ilyas Azizov,KAZ,14.2,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+osijek_cup,Floor Final Results,Kevin Penev,BGR,13.95,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+osijek_cup,Floor Final Results,Enkhtuvshin Damdindorj,MNG,13.8,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+osijek_cup,Floor Final Results,Usukhbayar Erkhembayar,MNG,13.55,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+osijek_cup,Floor Final Results,Krisztofer Meszaros,HUN,13.55,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA,NA
+osijek_cup,Floor Final Results,Aurel Benovic,HRV,13.55,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA,NA
+osijek_cup,Floor Final Results,Cameron Lynn,GBR,13.4,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+osijek_cup,Pommels Final Results,Ilyas Azizov,KAZ,NA,14.6,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+osijek_cup,Pommels Final Results,Filip Ude,HRV,NA,14.3,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+osijek_cup,Pommels Final Results,Marko Sambolec,HRV,NA,14,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+osijek_cup,Pommels Final Results,Unai Baigorri,ESP,NA,13.65,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA,NA
+osijek_cup,Pommels Final Results,Adam Tobin,GBR,NA,13.6,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+osijek_cup,Pommels Final Results,Ahmet Burak Ekici,TUR,NA,12.5,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA
+osijek_cup,Pommels Final Results,Kevin Buckley,SVN,NA,11.85,NA,NA,NA,NA,NA,NA,4.1,NA,NA,NA,NA
+osijek_cup,Pommels Final Results,Adam Steele,IRL,NA,8.4,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
+osijek_cup,Rings Final Results,Kevin Penev,BGR,NA,NA,13.25,NA,NA,NA,NA,NA,NA,5,NA,NA,NA
+osijek_cup,Rings Final Results,Kevin Buckley,SVN,NA,NA,13,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA
+osijek_cup,Rings Final Results,Pau Jimenez,ESP,NA,NA,12.95,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+osijek_cup,Rings Final Results,Balazs Kiss,HUN,NA,NA,12.9,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA
+osijek_cup,Rings Final Results,Yunus Gündogdu,TUR,NA,NA,12.85,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+osijek_cup,Rings Final Results,Jermain Grünberg,NLD,NA,NA,12.45,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA
+osijek_cup,Rings Final Results,Roman Mamenov,KAZ,NA,NA,12.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
+osijek_cup,Rings Final Results,Szilard Zavory,HUN,NA,NA,12.2,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+osijek_cup,Vault Final Results,Aurel Benovic,HRV,NA,NA,NA,14.85,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+osijek_cup,Vault Final Results,Pau Jimenez,ESP,NA,NA,NA,14.7,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Final Results,Kevin Penev,BGR,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,5.4,NA,NA
+osijek_cup,Vault Final Results,Daniel Trifonov,BGR,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+osijek_cup,Vault Final Results,Unai Baigorri,ESP,NA,NA,NA,14.55,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Final Results,Enkhtuvshin Damdindorj,MNG,NA,NA,NA,13.95,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+osijek_cup,Vault Final Results,Dusan Djordjevic,SRB,NA,NA,NA,14.05,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Final Results,Luca Giubellini,CHE,NA,NA,NA,13.75,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+osijek_cup,P-Bars Final Results,Lukas Dauser,DEU,NA,NA,NA,NA,15.55,NA,NA,NA,NA,NA,NA,6.7,NA
+osijek_cup,P-Bars Final Results,Illia Kovtun,UKR,NA,NA,NA,NA,15.35,NA,NA,NA,NA,NA,NA,6.9,NA
+osijek_cup,P-Bars Final Results,Noe Seifert,CHE,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.3,NA
+osijek_cup,P-Bars Final Results,Cameron Lynn,GBR,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.5,NA
+osijek_cup,P-Bars Final Results,Daniel Carrion,ESP,NA,NA,NA,NA,13.75,NA,NA,NA,NA,NA,NA,5.3,NA
+osijek_cup,P-Bars Final Results,Adam Tobin,GBR,NA,NA,NA,NA,13.7,NA,NA,NA,NA,NA,NA,5.5,NA
+osijek_cup,P-Bars Final Results,Sercan Demir,TUR,NA,NA,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.9,NA
+osijek_cup,P-Bars Final Results,Krisztofer Meszaros,HUN,NA,NA,NA,NA,12.65,NA,NA,NA,NA,NA,NA,5.9,NA
+osijek_cup,High Bar Final Results,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,15.35,NA,NA,NA,NA,NA,NA,6.5
+osijek_cup,High Bar Final Results,Tin Srbic,HRV,NA,NA,NA,NA,NA,14.65,NA,NA,NA,NA,NA,NA,6.1
+osijek_cup,High Bar Final Results,Alexander Myakinin,ISR,NA,NA,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,5.9
+osijek_cup,High Bar Final Results,Adam Tobin,GBR,NA,NA,NA,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.5
+osijek_cup,High Bar Final Results,Cameron Lynn,GBR,NA,NA,NA,NA,NA,13.45,NA,NA,NA,NA,NA,NA,5.4
+osijek_cup,High Bar Final Results,Taha Serhani,CHE,NA,NA,NA,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.5
+osijek_cup,High Bar Final Results,Balazs Kiss,HUN,NA,NA,NA,NA,NA,13.35,NA,NA,NA,NA,NA,NA,4.9
+osijek_cup,High Bar Final Results,Daniel Carrion,ESP,NA,NA,NA,NA,NA,13.15,NA,NA,NA,NA,NA,NA,5
+osijek_cup,Floor Qualification Results,Aurel Benovic,HRV,14.15,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Krisztofer Meszaros,HUN,14.05,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Illia Kovtun,UKR,13.85,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Enkhtuvshin Damdindorj,MNG,13.7,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Usukhbayar Erkhembayar,MNG,13.5,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Ilyas Azizov,KAZ,13.45,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Kevin Penev,BGR,13.4,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Cameron Lynn,GBR,13.35,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Anze Hribar,SVN,13.35,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Taha Serhani,CHE,13.3,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Pau Jimenez,ESP,13.25,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Adam Tobin,GBR,13.1,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Pascal Brendel,DEU,12.95,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Unai Baigorri,ESP,12.8,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Dusan Djordjevic,SRB,12.8,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Adam Steele,IRL,12.8,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Ahmet Burak Ekici,TUR,12.75,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Sercan Demir,TUR,12.25,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Teodor Trifonov,BGR,12,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Volodymyr Otreshko,SVK,11.6,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Luca Giubellini,CHE,11.6,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Jermain Grünberg,NLD,11.5,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Petar Vefic,SRB,11.4,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Oliver Kasala,SVK,10.95,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Roman Mamenov,KAZ,10.4,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Marko Jovicic,HRV,10.3,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA,NA
+osijek_cup,Floor Qualification Results,Gregor Turk,SVN,10.2,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Ilyas Azizov,KAZ,NA,14.65,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Adam Tobin,GBR,NA,14.1,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Marko Sambolec,HRV,NA,13.85,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Adam Steele,IRL,NA,13.75,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Unai Baigorri,ESP,NA,13.7,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Ahmet Burak Ekici,TUR,NA,13.65,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Kevin Buckley,SVN,NA,13.6,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Filip Ude,HRV,NA,13.55,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Cameron Lynn,GBR,NA,13.5,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Daniel Carrion,ESP,NA,13.45,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Krisztofer Meszaros,HUN,NA,13.45,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Alexander Myakinin,ISR,NA,13.4,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Gregor Rakovic,SVN,NA,13.35,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Volodymyr Otreshko,SVK,NA,13.3,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Kevin Penev,BGR,NA,13.2,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Enkhtuvshin Damdindorj,MNG,NA,13.2,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Balazs Kiss,HUN,NA,13.1,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Illia Kovtun,UKR,NA,13.1,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Noe Seifert,CHE,NA,12.9,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Lukas Dauser,DEU,NA,12.8,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Luca Giubellini,CHE,NA,12.7,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Petar Vefic,SRB,NA,12.55,NA,NA,NA,NA,NA,NA,4.2,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Oliver Kasala,SVK,NA,12.55,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Rayan Radkov,BGR,NA,12.45,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Pascal Brendel,DEU,NA,12.3,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Daniel Fox,IRL,NA,12.1,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Jermain Grünberg,NLD,NA,11.65,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Umur Mehmet Filiz,TUR,NA,10.4,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Petar Velickovic,SRB,NA,10.3,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA
+osijek_cup,Pommels Qualification Results,Alisher Toibazarov,KAZ,NA,10.15,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA,NA
+osijek_cup,Rings Qualification Results,Illia Kovtun,TUR,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+osijek_cup,Rings Qualification Results,Szilard Zavory,HUN,NA,NA,13.05,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+osijek_cup,Rings Qualification Results,Pau Jimenez,ESP,NA,NA,13.05,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+osijek_cup,Rings Qualification Results,Jermain Grünberg,NLD,NA,NA,12.95,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA
+osijek_cup,Rings Qualification Results,Balazs Kiss,HUN,NA,NA,12.9,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA
+osijek_cup,Rings Qualification Results,Roman Mamenov,KAZ,NA,NA,12.8,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
+osijek_cup,Rings Qualification Results,Kevin Penev,BGR,NA,NA,12.8,NA,NA,NA,NA,NA,NA,5,NA,NA,NA
+osijek_cup,Rings Qualification Results,Yunus Gündogdu,TUR,NA,NA,12.75,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+osijek_cup,Rings Qualification Results,Kevin Buckley,SVN,NA,NA,12.6,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA
+osijek_cup,Rings Qualification Results,Daniel Fox,IRL,NA,NA,12.6,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA
+osijek_cup,Rings Qualification Results,Oliver Kasala,SVK,NA,NA,12.4,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA
+osijek_cup,Rings Qualification Results,Noe Seifert,CHE,NA,NA,12.4,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA
+osijek_cup,Rings Qualification Results,Marco Bencomo,ESP,NA,NA,12.35,NA,NA,NA,NA,NA,NA,4.7,NA,NA,NA
+osijek_cup,Rings Qualification Results,Luka Bojanc,SVN,NA,NA,12.25,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+osijek_cup,Rings Qualification Results,Teodor Trifonov,BGR,NA,NA,11.8,NA,NA,NA,NA,NA,NA,4.2,NA,NA,NA
+osijek_cup,Rings Qualification Results,Sercan Demir,TUR,NA,NA,11.75,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA
+osijek_cup,Rings Qualification Results,Srecko Stojadinovic,SRB,NA,NA,11.5,NA,NA,NA,NA,NA,NA,3.7,NA,NA,NA
+osijek_cup,Rings Qualification Results,Alisher Toibazarov,KAZ,NA,NA,11.4,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA
+osijek_cup,Rings Qualification Results,Volodymyr Otreshko,SVK,NA,NA,11.35,NA,NA,NA,NA,NA,NA,4.2,NA,NA,NA
+osijek_cup,Vault Qualification Results,Aurel Benovic,HRV,NA,NA,NA,14.8,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+osijek_cup,Vault Qualification Results,Pau Jimenez,ESP,NA,NA,NA,14.25,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Qualification Results,Kevin Penev,BGR,NA,NA,NA,14.15,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Qualification Results,Daniel Trifonov,BGR,NA,NA,NA,14.15,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+osijek_cup,Vault Qualification Results,Unai Baigorri,ESP,NA,NA,NA,14.25,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Qualification Results,Enkhtuvshin Damdindorj,MNG,NA,NA,NA,13.95,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+osijek_cup,Vault Qualification Results,Luca Giubellini,CHE,NA,NA,NA,14.45,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+osijek_cup,Vault Qualification Results,Dusan Dordjevic,SRB,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Qualification Results,Beno Kunst,SVN,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Qualification Results,Yunus Gündogdu,TUR,NA,NA,NA,14.15,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Qualification Results,Usukhbayar Erkhembayar,MNG,NA,NA,NA,13.45,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+osijek_cup,Vault Qualification Results,Petar Vefic,SRB,NA,NA,NA,13.45,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+osijek_cup,Vault Qualification Results,Farukh Nabiyev,KAZ,NA,NA,NA,13.9,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Qualification Results,Roman Mamenov,KAZ,NA,NA,NA,13.35,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+osijek_cup,Vault Qualification Results,Szilard Zavory,HUN,NA,NA,NA,13.7,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+osijek_cup,Vault Qualification Results,Illia Kovtun,UKR,NA,NA,NA,14.45,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+osijek_cup,Vault Qualification Results,Umur Mehmet Filiz,TUR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+osijek_cup,P-Bars Qualification Results,Krisztofer Meszaros,HUN,NA,NA,NA,NA,14.7,NA,NA,NA,NA,NA,NA,6.2,NA
+osijek_cup,P-Bars Qualification Results,Illia Kovtun,UKR,NA,NA,NA,NA,14.65,NA,NA,NA,NA,NA,NA,7,NA
+osijek_cup,P-Bars Qualification Results,Lukas Dauser,DEU,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.6,NA
+osijek_cup,P-Bars Qualification Results,Noe Seifert,CHE,NA,NA,NA,NA,14.45,NA,NA,NA,NA,NA,NA,6.1,NA
+osijek_cup,P-Bars Qualification Results,Adam Tobin,GBR,NA,NA,NA,NA,14.05,NA,NA,NA,NA,NA,NA,5.5,NA
+osijek_cup,P-Bars Qualification Results,Sercan Demir,TUR,NA,NA,NA,NA,14.05,NA,NA,NA,NA,NA,NA,5.9,NA
+osijek_cup,P-Bars Qualification Results,Daniel Carrion,ESP,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.3,NA
+osijek_cup,P-Bars Qualification Results,Cameron Lynn,GBR,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.5,NA
+osijek_cup,P-Bars Qualification Results,Pascal Brendel,DEU,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.8,NA
+osijek_cup,P-Bars Qualification Results,Taha Serhani,CHE,NA,NA,NA,NA,13.95,NA,NA,NA,NA,NA,NA,5.6,NA
+osijek_cup,P-Bars Qualification Results,Ron Pyatov,ISR,NA,NA,NA,NA,13.95,NA,NA,NA,NA,NA,NA,5.7,NA
+osijek_cup,P-Bars Qualification Results,Yunus Gündogdu,TUR,NA,NA,NA,NA,13.6,NA,NA,NA,NA,NA,NA,5.2,NA
+osijek_cup,P-Bars Qualification Results,Adam Steele,IRL,NA,NA,NA,NA,13.55,NA,NA,NA,NA,NA,NA,5.2,NA
+osijek_cup,P-Bars Qualification Results,Daniel Fox,IRL,NA,NA,NA,NA,13.35,NA,NA,NA,NA,NA,NA,5,NA
+osijek_cup,P-Bars Qualification Results,Oliver Kasala,SVK,NA,NA,NA,NA,13.3,NA,NA,NA,NA,NA,NA,5.4,NA
+osijek_cup,P-Bars Qualification Results,Jermain Grünberg,NLD,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,6.2,NA
+osijek_cup,P-Bars Qualification Results,Volodymyr Otreshko,SVK,NA,NA,NA,NA,12.95,NA,NA,NA,NA,NA,NA,4.8,NA
+osijek_cup,P-Bars Qualification Results,Alisher Toibazarov,KAZ,NA,NA,NA,NA,12.45,NA,NA,NA,NA,NA,NA,5,NA
+osijek_cup,P-Bars Qualification Results,Szilard Zavory,HUN,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,4.4,NA
+osijek_cup,P-Bars Qualification Results,Teodor Trifonov,BGR,NA,NA,NA,NA,12.15,NA,NA,NA,NA,NA,NA,4.6,NA
+osijek_cup,P-Bars Qualification Results,Petar Vefic,SRB,NA,NA,NA,NA,12.05,NA,NA,NA,NA,NA,NA,5,NA
+osijek_cup,P-Bars Qualification Results,Daniel Trifonov,BGR,NA,NA,NA,NA,11.75,NA,NA,NA,NA,NA,NA,4.3,NA
+osijek_cup,P-Bars Qualification Results,Farukh Nabiyev,KAZ,NA,NA,NA,NA,11.1,NA,NA,NA,NA,NA,NA,4.9,NA
+osijek_cup,P-Bars Qualification Results,Kevin Buckley,SVN,NA,NA,NA,NA,10.9,NA,NA,NA,NA,NA,NA,4.2,NA
+osijek_cup,P-Bars Qualification Results,Marco Bencomo,ESP,NA,NA,NA,NA,10.4,NA,NA,NA,NA,NA,NA,4.3,NA
+osijek_cup,High Bar Qualification Results,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,6.3
+osijek_cup,High Bar Qualification Results,Alexander Myakinin,ISR,NA,NA,NA,NA,NA,14.25,NA,NA,NA,NA,NA,NA,5.9
+osijek_cup,High Bar Qualification Results,Taha Serhani,CHE,NA,NA,NA,NA,NA,13.95,NA,NA,NA,NA,NA,NA,5.9
+osijek_cup,High Bar Qualification Results,Balazs Kiss,HUN,NA,NA,NA,NA,NA,13.55,NA,NA,NA,NA,NA,NA,5
+osijek_cup,High Bar Qualification Results,Tin Srbic,HRV,NA,NA,NA,NA,NA,13.45,NA,NA,NA,NA,NA,NA,5.2
+osijek_cup,High Bar Qualification Results,Daniel Carrion,ESP,NA,NA,NA,NA,NA,13.35,NA,NA,NA,NA,NA,NA,5
+osijek_cup,High Bar Qualification Results,Adam Tobin,GBR,NA,NA,NA,NA,NA,13.35,NA,NA,NA,NA,NA,NA,5.4
+osijek_cup,High Bar Qualification Results,Cameron Lynn,GBR,NA,NA,NA,NA,NA,13.3,NA,NA,NA,NA,NA,NA,5.4
+osijek_cup,High Bar Qualification Results,Ivan Dejanovic,SRB,NA,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.1
+osijek_cup,High Bar Qualification Results,Ilyas Azizov,KAZ,NA,NA,NA,NA,NA,13.1,NA,NA,NA,NA,NA,NA,4.7
+osijek_cup,High Bar Qualification Results,Sercan Demir,TUR,NA,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,4.7
+osijek_cup,High Bar Qualification Results,Krisztofer Meszaros,HUN,NA,NA,NA,NA,NA,12.95,NA,NA,NA,NA,NA,NA,5.1
+osijek_cup,High Bar Qualification Results,Noe Seifert,CHE,NA,NA,NA,NA,NA,12.95,NA,NA,NA,NA,NA,NA,5.5
+osijek_cup,High Bar Qualification Results,Adam Steele,IRL,NA,NA,NA,NA,NA,12.9,NA,NA,NA,NA,NA,NA,4.5
+osijek_cup,High Bar Qualification Results,Kevin Penev,BGR,NA,NA,NA,NA,NA,12.8,NA,NA,NA,NA,NA,NA,4.9
+osijek_cup,High Bar Qualification Results,Oliver Kasala,SVK,NA,NA,NA,NA,NA,12.65,NA,NA,NA,NA,NA,NA,4.6
+osijek_cup,High Bar Qualification Results,Lukas Dauser,DEU,NA,NA,NA,NA,NA,12.65,NA,NA,NA,NA,NA,NA,5
+osijek_cup,High Bar Qualification Results,Jermain Grünberg,NLD,NA,NA,NA,NA,NA,12.6,NA,NA,NA,NA,NA,NA,5
+osijek_cup,High Bar Qualification Results,Farukh Nabiyev,KAZ,NA,NA,NA,NA,NA,12.35,NA,NA,NA,NA,NA,NA,4.5
+osijek_cup,High Bar Qualification Results,Pascal Brendel,DEU,NA,NA,NA,NA,NA,12.15,NA,NA,NA,NA,NA,NA,4.8
+osijek_cup,High Bar Qualification Results,Illia Kovtun,UKR,NA,NA,NA,NA,NA,12.05,NA,NA,NA,NA,NA,NA,5.5
+osijek_cup,High Bar Qualification Results,Kevin Buckley,SVN,NA,NA,NA,NA,NA,11.85,NA,NA,NA,NA,NA,NA,4.8
+osijek_cup,High Bar Qualification Results,Daniel Trifonov,BGR,NA,NA,NA,NA,NA,11.65,NA,NA,NA,NA,NA,NA,4.2
+osijek_cup,High Bar Qualification Results,Petar Vefic,SRB,NA,NA,NA,NA,NA,11.25,NA,NA,NA,NA,NA,NA,4.2
+osijek_cup,High Bar Qualification Results,Volodymyr Otreshko,SVK,NA,NA,NA,NA,NA,11.2,NA,NA,NA,NA,NA,NA,3
+osijek_cup,High Bar Qualification Results,Ahmet Burak Ekici,TUR,NA,NA,NA,NA,NA,10.9,NA,NA,NA,NA,NA,NA,2.9
+osijek_cup,High Bar Qualification Results,Enkhtuvshin Damdindorj,MNG,NA,NA,NA,NA,NA,10.45,NA,NA,NA,NA,NA,NA,3.7
+osijek_cup,High Bar Qualification Results,Marco Bencomo,ESP,NA,NA,NA,NA,NA,10.35,NA,NA,NA,NA,NA,NA,4.1

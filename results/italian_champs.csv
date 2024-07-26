@@ -1,0 +1,67 @@
+MEET,           ROUND,                  NAME,                 TEAM,                 FX,    PH,    SR,    VT,    PB,    HB,    AA,    FX_D, PH_D, SR_D, VT_D, PB_D, HB_D
+italian_champs, All-Around Results,     Lorenzo Casali,       ITA,  13.75, 13.45, 13.7,  14.4,  14.2,  12.85, 82.35, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Mario Macchiati,      ITA,  13.65, 14.1,  13.1,  13.75, 14.5,  13.15, 82.25, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Yumin Abbadini,       ITA,  14.2,  14.35, 13.55, 13.45, 13.55, 13.05, 82.15, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Lorenzo Bonicelli,    ITA,  14.2,  12.75, 12.95, 13.55, 14.15, 13.8,  81.4,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Niccolò Vannucchi,    ITA,  14.2,  12,    13.9,  14.7,  12.6,  11.2,  78.6,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Fabrizio Valle,       ITA,  13.45, 11.8,  13.2,  13.6,  13.75, 12.75, 78.55, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Lorenzo Galli,        ITA,  12.8,  11.8,  13.2,  14.05, 13.5,  13.05, 78.4,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Ivan Brunello,        ITA,  13.65, 12.4,  13,    13.5,  11.85, 13.25, 77.65, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Manuel Berettera,     ITA,  13.75, 12.95, 12.85, 13.55, 12.4,  11.75, 77.25, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Diego Vazzola,        ITA,  13.5,  12.25, 12.6,  12.9,  13.15, 12.7,  77.1,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Matteo Levantesi,     ITA,  13.25, 13,    13.2,  13.45, 11.9,  12.25, 77.05, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Umberto Zurlini,      ITA,  13.5,  11.5,  12.55, 13.55, 12.95, 12,    76.05, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Filippo Castellaro,   ITA,  12.4,  11.8,  12.85, 14,    12.05, 12.65, 75.75, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Stefano Patron,       ITA,  13.55, 10.75, 13.1,  13.3,  12.2,  12.5,  75.4,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Lay Giannini,         ITA,  13.9,  13.05, NA,    14.45, 14.15, 13.35, 68.9,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Nicola Bartolini,     ITA,  14.55, 13.1,  NA,    14.75, 13.65, NA,    56.05, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Edoardo de Rosa,      ITA,  NA,    14.95, 13.4,  NA,    13.6,  NA,    41.95, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Marco Sarrugerio,     ITA,  NA,    12.25, 13.1,  NA,    13.75, NA,    39.1,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Roberto Marzocchi,    ITA,  NA,    11.35, 13.85, NA,    NA,    10.25, 35.45, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Marco Lodadio,        ITA,  NA,    NA,    14.5,  14.35, NA,    NA,    28.85, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Carlo Macchini,       ITA,  NA,    13.5,  NA,    NA,    NA,    14.4,  27.9,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Thomas Grasso,        ITA,  12,    NA,    NA,    14.15, NA,    NA,    26.15, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Steven Matteo,        ITA,  NA,    NA,    NA,    14.35, NA,    NA,    14.35, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Andrea Russo,         ITA,  NA,    NA,    14.1,  NA,    NA,    NA,    14.1,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Andrea Canazza,       ITA,  NA,    13.9,  NA,    NA,    NA,    NA,    13.9,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Andrea Cingolani,     ITA,  NA,    NA,    13.9,  NA,    NA,    NA,    13.9,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Edoardo Sugamele,     ITA,  13.75, NA,    NA,    NA,    NA,    NA,    13.75, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Gabriele Targhetta,   ITA,  NA,    13.5,  NA,    NA,    NA,    NA,    13.5,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Gabriele Tisselli,    ITA,  NA,    NA,    NA,    NA,    NA,    13,    13,    NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Ares Federici,        ITA,  NA,    NA,    NA,    NA,    12.7,  NA,    12.7,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Saul Fermin,          ITA,  NA,    10.55, NA,    NA,    NA,    NA,    10.55, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Xuan Mario Bergamini, ITA,  NA,    NA,    NA,    NA,    NA,    10.4,  10.4,  NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, All-Around Results,     Davide Oppizzio,      ITA,  NA,    NA,    NA,    NA,    10.25, NA,    10.25, NA,   NA,   NA,   NA,   NA,   NA
+italian_champs, Floor Final Results,    Nicola Bartolini,     ITA,  14.65, NA,    NA,    NA,    NA,    NA,    NA,    5.9,  NA,   NA,   NA,   NA,   NA
+italian_champs, Floor Final Results,    Manuel Berettera,     ITA,  13.75, NA,    NA,    NA,    NA,    NA,    NA,    5.5,  NA,   NA,   NA,   NA,   NA
+italian_champs, Floor Final Results,    Lorenzo Bonicelli,    ITA,  12.85, NA,    NA,    NA,    NA,    NA,    NA,    5.6,  NA,   NA,   NA,   NA,   NA
+italian_champs, Floor Final Results,    Edoardo Sugamele,     ITA,  12.75, NA,    NA,    NA,    NA,    NA,    NA,    5.6,  NA,   NA,   NA,   NA,   NA
+italian_champs, Floor Final Results,    Niccolò Vannucchi,    ITA,  11.35, NA,    NA,    NA,    NA,    NA,    NA,    5.9,  NA,   NA,   NA,   NA,   NA
+italian_champs, Floor Final Results,    Lay Giannini,         ITA,  11.25, NA,    NA,    NA,    NA,    NA,    NA,    5.3,  NA,   NA,   NA,   NA,   NA
+italian_champs, Pommels Final Results,  Edoardo de Rosa,      ITA,  NA,    15.3,  NA,    NA,    NA,    NA,    NA,    NA,   6.4,  NA,   NA,   NA,   NA
+italian_champs, Pommels Final Results,  Gabriele Targhetta,   ITA,  NA,    15.2,  NA,    NA,    NA,    NA,    NA,    NA,   6.2,  NA,   NA,   NA,   NA
+italian_champs, Pommels Final Results,  Andrea Canazza,       ITA,  NA,    14.55, NA,    NA,    NA,    NA,    NA,    NA,   6.3,  NA,   NA,   NA,   NA
+italian_champs, Pommels Final Results,  Yumin Abbadini,       ITA,  NA,    14.5,  NA,    NA,    NA,    NA,    NA,    NA,   5.8,  NA,   NA,   NA,   NA
+italian_champs, Pommels Final Results,  Mario Macchiati,      ITA,  NA,    14.5,  NA,    NA,    NA,    NA,    NA,    NA,   5.9,  NA,   NA,   NA,   NA
+italian_champs, Pommels Final Results,  Carlo Macchini,       ITA,  NA,    13.2,  NA,    NA,    NA,    NA,    NA,    NA,   5.1,  NA,   NA,   NA,   NA
+italian_champs, Rings Final Results,    Marco Lodadio,        ITA,  NA,    NA,    14.65, NA,    NA,    NA,    NA,    NA,   NA,   6.2,  NA,   NA,   NA
+italian_champs, Rings Final Results,    Andrea Russo,         ITA,  NA,    NA,    14.05, NA,    NA,    NA,    NA,    NA,   NA,   5.8,  NA,   NA,   NA
+italian_champs, Rings Final Results,    Niccolò Vannucchi,    ITA,  NA,    NA,    13.8,  NA,    NA,    NA,    NA,    NA,   NA,   5.7,  NA,   NA,   NA
+italian_champs, Rings Final Results,    Lorenzo Casali,       ITA,  NA,    NA,    13.65, NA,    NA,    NA,    NA,    NA,   NA,   5.2,  NA,   NA,   NA
+italian_champs, Rings Final Results,    Andrea Cingolani,     ITA,  NA,    NA,    12.8,  NA,    NA,    NA,    NA,    NA,   NA,   6,    NA,   NA,   NA
+italian_champs, Rings Final Results,    Roberto Marzocchi,    ITA,  NA,    NA,    12.5,  NA,    NA,    NA,    NA,    NA,   NA,   5.4,  NA,   NA,   NA
+italian_champs, Vault Final Results,    Steven Matteo,        ITA,  NA,    NA,    NA,    14.75, NA,    NA,    NA,    NA,   NA,   NA,   5.6,  NA,   NA
+italian_champs, Vault Final Results,    Thomas Grasso,        ITA,  NA,    NA,    NA,    14.7,  NA,    NA,    NA,    NA,   NA,   NA,   5.6,  NA,   NA
+italian_champs, Vault Final Results,    Niccolò Vannucchi,    ITA,  NA,    NA,    NA,    14.1,  NA,    NA,    NA,    NA,   NA,   NA,   5.6,  NA,   NA
+italian_champs, P-Bars Final Results,   Lay Giannini,         ITA,  NA,    NA,    NA,    NA,    14.7,  NA,    NA,    NA,   NA,   NA,   NA,   6,    NA
+italian_champs, P-Bars Final Results,   Mario Macchiati,      ITA,  NA,    NA,    NA,    NA,    14.5,  NA,    NA,    NA,   NA,   NA,   NA,   6,    NA
+italian_champs, P-Bars Final Results,   Marco Sarrugerio,     ITA,  NA,    NA,    NA,    NA,    14.4,  NA,    NA,    NA,   NA,   NA,   NA,   5.8,  NA
+italian_champs, P-Bars Final Results,   Fabrizio Valle,       ITA,  NA,    NA,    NA,    NA,    13.4,  NA,    NA,    NA,   NA,   NA,   NA,   5.4,  NA
+italian_champs, P-Bars Final Results,   Lorenzo Casali,       ITA,  NA,    NA,    NA,    NA,    13.25, NA,    NA,    NA,   NA,   NA,   NA,   5.6,  NA
+italian_champs, P-Bars Final Results,   Lorenzo Bonicelli,    ITA,  NA,    NA,    NA,    NA,    12.6,  NA,    NA,    NA,   NA,   NA,   NA,   5.3,  NA
+italian_champs, High Bar Final Results, Carlo Macchini,       ITA,  NA,    NA,    NA,    NA,    NA,    14.65, NA,    NA,   NA,   NA,   NA,   NA,   6.5
+italian_champs, High Bar Final Results, Yumin Abbadini,       ITA,  NA,    NA,    NA,    NA,    NA,    14.4,  NA,    NA,   NA,   NA,   NA,   NA,   6.2
+italian_champs, High Bar Final Results, Lorenzo Bonicelli,    ITA,  NA,    NA,    NA,    NA,    NA,    14.2,  NA,    NA,   NA,   NA,   NA,   NA,   5.6
+italian_champs, High Bar Final Results, Ivan Brunello,        ITA,  NA,    NA,    NA,    NA,    NA,    13.85, NA,    NA,   NA,   NA,   NA,   NA,   5.4
+italian_champs, High Bar Final Results, Lorenzo Galli,        ITA,  NA,    NA,    NA,    NA,    NA,    13.55, NA,    NA,   NA,   NA,   NA,   NA,   5.7
+italian_champs, High Bar Final Results, Lay Giannini,         ITA,  NA,    NA,    NA,    NA,    NA,    12.25, NA,    NA,   NA,   NA,   NA,   NA,   4.9

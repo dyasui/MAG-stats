@@ -1,242 +1,390 @@
 MEET,ROUND,NAME,TEAM,FX,PH,SR,VT,PB,HB,AA,FX_D,PH_D,SR_D,VT_D,PB_D,HB_D
-cottbus_cup,F,Harry Hepworth,GBR,14.9,NA,14.2,14.9,NA,NA,NA,6.8,NA,5.8,5.6,NA,NA
-cottbus_cup,F,Artem Dolgopyat,ISR,14.866,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA,NA
-cottbus_cup,F,Ryu Sunghyun,KOR,14.366,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
-cottbus_cup,F,Kim Hansol,KOR,14.333,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
-cottbus_cup,F,Milan Hosseini,DEU,14.333,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
-cottbus_cup,F,Yahor Sharamkou,BLR,14.133,NA,NA,14.633,NA,NA,NA,6.4,NA,NA,5.6,NA,NA
-cottbus_cup,F,Benjamin Osberger,FRA,14.1,12.933,NA,NA,NA,NA,NA,5.9,6,NA,NA,NA,NA
-cottbus_cup,F,Aurel Benovic,HRV,11.433,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
-cottbus_cup,F,Nariman Kurbanov,KAZ,NA,15.433,NA,NA,NA,NA,NA,NA,6.7,NA,NA,NA,NA
-cottbus_cup,F,Ahmad Abu Al Soud,JOR,NA,15.3,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
-cottbus_cup,F,Hur Woong,KOR,NA,15.3,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
-cottbus_cup,F,Illia Kovtun,UKR,NA,15,NA,NA,15.266,NA,NA,NA,6.5,NA,NA,6.7,NA
-cottbus_cup,F,Matvei Petrov,ALB,NA,14.833,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
-cottbus_cup,F,Gagik Khachikyan,ARM,NA,14.8,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
-cottbus_cup,F,Loran de Munck,NLD,NA,14.666,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
-cottbus_cup,F,Nikita Simonov,AZE,NA,NA,14.7,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cottbus_cup,F,Samir Aït Saïd,FRA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cottbus_cup,F,Vahagn Davtyan,ARM,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cottbus_cup,F,Artur Avetisyan,ARM,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
-cottbus_cup,F,Jong Ryong Il,PRK,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cottbus_cup,F,Courtney Tulloch,GBR,NA,NA,14.4,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cottbus_cup,F,Vinzenz Höck,AUT,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cottbus_cup,F,Artur Davtyan,ARM,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,F,Mahdi Olfati,IRN,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,F,Chen Yilu,CHN,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,5.8,NA,NA
-cottbus_cup,F,James Bacueti,AUS,NA,NA,NA,14.766,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,F,Tseng Wei-Sheng,TWN,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,F,Milad Karimi,KAZ,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,F,Oleg Verniaiev,UKR,NA,NA,NA,NA,15.166,NA,NA,NA,NA,NA,NA,6.6,NA
-cottbus_cup,F,Rasuljon Abdurakhimov,UZB,NA,NA,NA,NA,14.766,NA,NA,NA,NA,NA,NA,5.9,NA
-cottbus_cup,F,Angel Barajas,COL,NA,NA,NA,NA,14.733,NA,NA,NA,NA,NA,NA,6.7,NA
-cottbus_cup,F,Kawakami Shohei,JPN,NA,NA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,6.3,NA
-cottbus_cup,F,Khoi Young,USA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,5.7,NA
-cottbus_cup,F,Hung Yuan-Hsi,TWN,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,6.5,NA
-cottbus_cup,F,Jossimar Calvo,COL,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,6.3,NA
-cottbus_cup,F,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.1
-cottbus_cup,F,Tian Hao,CHN,NA,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.3
-cottbus_cup,F,Robert Tvorogal,LTU,NA,NA,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.7
-cottbus_cup,F,Bart Deurloo,NLD,NA,NA,NA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.2
-cottbus_cup,F,Joel Plata,ESP,NA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,6.1
-cottbus_cup,F,Arthur Mariano,BRA,NA,NA,NA,NA,NA,13.9,NA,NA,NA,NA,NA,NA,5.9
-cottbus_cup,F,Miwa Teppei,JPN,NA,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,5.8
-cottbus_cup,F,Tyson Bull,AUS,NA,NA,NA,NA,NA,12.6,NA,NA,NA,NA,NA,NA,5.4
-cottbus_cup,Q,Artem Dolgopyat,ISR,14.9,13.6,NA,NA,NA,NA,NA,6.4,5.7,NA,NA,NA,NA
-cottbus_cup,Q,Yahor Sharamkou,BLR,14.566,NA,NA,14.7,NA,NA,NA,6.4,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Ryu Sunghyun,KOR,14.466,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
-cottbus_cup,Q,Milan Hosseini,DEU,14.433,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
-cottbus_cup,Q,Aurel Benovic,HRV,14.433,NA,NA,14.233,NA,NA,NA,6.1,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Benjamin Osberger,FRA,14.4,14.533,NA,NA,NA,NA,NA,5.9,6,NA,NA,NA,NA
-cottbus_cup,Q,Kim Hansol,KOR,14.366,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
-cottbus_cup,Q,Harry Hepworth,GBR,14.333,NA,14.1,14.533,NA,NA,NA,6.8,NA,5.8,5.6,NA,NA
-cottbus_cup,Q,Yang Yanzhi,CHN,14.3,NA,13.833,NA,NA,NA,NA,6.1,NA,5.7,NA,NA,NA
-cottbus_cup,Q,Pau Jimenez,ESP,14.266,NA,12.033,13.266,NA,NA,NA,5.6,NA,4.6,5.6,NA,NA
-cottbus_cup,Q,Illia Kovtun,UKR,14.2,14.8,13.166,NA,15.166,13.766,NA,5.9,6.5,5.3,NA,6.7,6.1
-cottbus_cup,Q,Lucas Kochan,DEU,14.2,14.166,NA,NA,NA,13.866,NA,5.9,5.8,NA,NA,NA,5.6
-cottbus_cup,Q,Clay Mason Stephens,AUS,14.133,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
-cottbus_cup,Q,Milad Karimi,KAZ,14.033,NA,NA,14.7,14.066,10.133,NA,6.3,NA,NA,5.6,5.9,5.2
-cottbus_cup,Q,Oleg Verniaiev,UKR,14,14.533,13.433,14.233,15,NA,NA,5.7,6.2,5,5.6,6.6,NA
-cottbus_cup,Q,Kaya Kazuma,JPN,13.933,14.3,14,NA,NA,13.8,NA,5.7,6.3,5.8,NA,NA,5.7
-cottbus_cup,Q,Eddie Penev,BGR,13.933,NA,NA,NA,NA,12.6,NA,5.8,NA,NA,NA,NA,5
-cottbus_cup,Q,John Ivan Cruz,PHL,13.866,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cottbus_cup,Q,Dominick Cunningham,IRL,13.833,NA,NA,14.466,NA,NA,NA,5.7,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Kawakami Shohei,JPN,13.8,NA,NA,NA,14.5,NA,NA,5.8,NA,NA,NA,6.3,NA
-cottbus_cup,Q,Rodrigo Gomez,MEX,13.766,11.033,NA,NA,NA,NA,NA,5.6,4.5,NA,NA,NA,NA
-cottbus_cup,Q,Peder Skogvang,NOR,13.666,NA,NA,NA,9.7,10.133,NA,5.9,NA,NA,NA,3.6,4.2
-cottbus_cup,Q,Anze Hribar,SVN,13.633,NA,NA,14.1,NA,NA,NA,5.7,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Abdulaziz Mirvaliev,UZB,13.566,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cottbus_cup,Q,Usukhbayar Erkhembayar,MNG,13.533,12.7,NA,13.8,NA,NA,NA,5.6,5.5,NA,4.8,NA,NA
-cottbus_cup,Q,Jorge Vega Lopez,GTM,13.533,NA,NA,14.233,NA,NA,NA,5.6,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Khumoyun Islomov,UZB,13.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cottbus_cup,Q,Sebastian Gawronski,POL,13.5,NA,NA,13.8,NA,10.766,NA,5.7,NA,NA,5.2,NA,4.9
-cottbus_cup,Q,Omar Mohamed,EGY,13.433,NA,14,14.533,NA,NA,NA,5.6,NA,5.7,5.6,NA,NA
-cottbus_cup,Q,Dusan Djordjevic,SRB,13.433,NA,NA,13.4,NA,NA,NA,5.4,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Eamon Montgomery,IRL,13.3,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
-cottbus_cup,Q,Ignacio Varas,CHL,13.166,NA,NA,12.466,NA,NA,NA,5.8,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Wilfry Contreras,DOM,13.166,NA,NA,13.333,NA,NA,NA,5.6,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Guilherme Campos,PRT,13.1,NA,NA,NA,12.066,NA,NA,5.5,NA,NA,NA,4.1,NA
-cottbus_cup,Q,Kim Wanström,SWE,13.033,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cottbus_cup,Q,Colt Walker,USA,13,NA,13.033,NA,12.3,11.466,NA,5.4,NA,5.3,NA,5.9,5.2
-cottbus_cup,Q,Yuri Guimarães,BRA,12.966,NA,NA,14.3,NA,NA,NA,5.9,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Enkhtuvshin Damdindorj,MNG,12.9,13.533,NA,13.8,NA,NA,NA,5.4,5.8,NA,4.8,NA,NA
-cottbus_cup,Q,Dmitriy Patanin,KAZ,12.9,NA,NA,NA,13.666,NA,NA,5.7,NA,NA,NA,5.7,NA
-cottbus_cup,Q,Valgard Reinhardsson,ISL,12.866,NA,NA,NA,12.866,12.066,NA,5.1,NA,NA,NA,5.2,4.6
-cottbus_cup,Q,Mansum Safarov,AZE,12.866,NA,NA,NA,NA,12.3,NA,5.1,NA,NA,NA,NA,3.9
-cottbus_cup,Q,Amine Abaidi,NLD,12.866,NA,NA,NA,NA,12.7,NA,5.8,NA,NA,NA,NA,4.9
-cottbus_cup,Q,Saleem Naghouj,JOR,12.733,NA,11.533,12.566,11.7,NA,NA,4.5,NA,4.8,5.2,4.6,NA
-cottbus_cup,Q,Asher Hong,USA,12.733,12.266,13.8,14.7,NA,13.633,NA,6.2,5.5,6.1,6,NA,5.5
-cottbus_cup,Q,Michalis Chari,CYP,12.7,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
-cottbus_cup,Q,Alonso Perez,MEX,12.633,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
-cottbus_cup,Q,Ioane Jimsheleishvili,GEO,12.633,NA,NA,NA,NA,10.9,NA,5.4,NA,NA,NA,NA,4.7
-cottbus_cup,Q,Diorges Escobar,CUB,12.6,NA,NA,NA,13.133,12.733,NA,5.5,NA,NA,NA,5.7,5.3
-cottbus_cup,Q,Rasul Ahmadzada,AZE,12.466,11.033,NA,NA,11.866,NA,NA,5.6,5.9,NA,NA,4.8,NA
-cottbus_cup,Q,Ilia Liubimov,ISR,12.433,13.066,NA,NA,12.566,NA,NA,5.3,5.1,NA,NA,4.9,NA
-cottbus_cup,Q,Alkinoos Graikos,GRC,12.433,10.9,NA,NA,NA,NA,NA,5.4,5.4,NA,NA,NA,NA
-cottbus_cup,Q,William Fu-Allen,NZL,12.366,10.1,NA,NA,NA,NA,NA,5,3.3,NA,NA,NA,NA
-cottbus_cup,Q,Nikolaj Bozic,SVN,12.366,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
-cottbus_cup,Q,Benedek Tomcsanyi,HUN,12.333,14.033,NA,NA,13.833,NA,NA,5.2,5.9,NA,NA,5.4,NA
-cottbus_cup,Q,Josue Armijo,CHL,12.233,NA,NA,13.4,NA,NA,NA,5.4,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Trinh Hai Khang,VNM,11.933,NA,NA,14.566,NA,NA,NA,5.6,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Van Vi Luong,VNM,11.733,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
-cottbus_cup,Q,Yang Haonan,CHN,11.733,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
-cottbus_cup,Q,Jose Nogueira,PRT,11.666,NA,NA,NA,13.166,10.966,NA,5.2,NA,NA,NA,4.3,3.9
-cottbus_cup,Q,Daniel Stoddart,NZL,11.533,NA,12.5,NA,NA,10.9,NA,5.4,NA,4.2,NA,NA,4.2
-cottbus_cup,Q,Filip Lidbeck,SWE,11.5,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
-cottbus_cup,Q,Bernardo Miranda,BRA,11.4,10.766,NA,NA,13.366,NA,NA,5.7,4.9,NA,NA,5.6,NA
-cottbus_cup,Q,Eric Terres,ESP,11.2,NA,11.466,13.166,NA,NA,NA,5.2,NA,4.1,5.2,NA,NA
-cottbus_cup,Q,Dimitar Dimitrov,BGR,11.033,NA,NA,14.233,NA,NA,NA,5.8,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Botond Molnar,HUN,10.8,NA,NA,13.766,NA,NA,NA,5.8,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Ricards Plate,LVA,8.766,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA,NA,NA
-cottbus_cup,Q,Nariman Kurbanov,KAZ,NA,15.6,NA,NA,NA,NA,NA,NA,6.7,NA,NA,NA,NA
-cottbus_cup,Q,Hur Woong,KOR,NA,15.2,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA
-cottbus_cup,Q,Matvei Petrov,ALB,NA,15,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
-cottbus_cup,Q,Gagik Khachikyan,ARM,NA,14.833,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
-cottbus_cup,Q,Ahmad Abu Al Soud,JOR,NA,14.8,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
-cottbus_cup,Q,Loran de Munck,NLD,NA,14.666,NA,NA,11,NA,NA,NA,6.5,NA,NA,5.1,NA
-cottbus_cup,Q,Cyril Tommasone,FRA,NA,14.466,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
-cottbus_cup,Q,Khoi Young,USA,NA,14.433,NA,14.666,14.3,NA,NA,NA,6.5,NA,5.6,5.7,NA
-cottbus_cup,Q,Zeinolla Idrissov,KAZ,NA,14.3,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
-cottbus_cup,Q,Vedant Sawant,AUS,NA,14.3,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
-cottbus_cup,Q,Marios Georgiou,CYP,NA,14.266,NA,NA,13.366,12.666,NA,NA,6,NA,NA,6.1,6
-cottbus_cup,Q,Nils Dunkel,DEU,NA,14.266,NA,NA,13.933,NA,NA,NA,6.2,NA,NA,6,NA
-cottbus_cup,Q,Harutyun Merdinyan,ARM,NA,14.233,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
-cottbus_cup,Q,Dang Ngoc Xuan Thien,VNM,NA,14.233,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
-cottbus_cup,Q,Dmitrijs Mickevics,LVA,NA,14.2,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
-cottbus_cup,Q,Dagur Olafsson,ISL,NA,14.166,NA,NA,12.6,10.466,NA,NA,5.9,NA,NA,5.4,4
-cottbus_cup,Q,Abdelrahman Abdelhaleem,EGY,NA,14,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-cottbus_cup,Q,Casimir Schmidt,NLD,NA,13.9,13.6,NA,NA,NA,NA,NA,6,5.5,NA,NA,NA
-cottbus_cup,Q,Tian Hao,CHN,NA,13.866,NA,NA,NA,14.566,NA,NA,6,NA,NA,NA,6.3
-cottbus_cup,Q,Shiao Yu-Jan,TWN,NA,13.8,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
-cottbus_cup,Q,Lee Chih-Kai,TWN,NA,13.8,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-cottbus_cup,Q,Ferhat Arican,TUR,NA,13.7,NA,NA,13.866,NA,NA,NA,5.8,NA,NA,6.5,NA
-cottbus_cup,Q,Omar Elshobki,EGY,NA,13.666,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
-cottbus_cup,Q,Levan Skhiladze,GEO,NA,13.633,13.1,NA,12.766,NA,NA,NA,5.7,4.8,NA,4.8,NA
-cottbus_cup,Q,Nelson Guilbe,PRI,NA,13.533,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
-cottbus_cup,Q,Thierno Diallo,ESP,NA,13.5,NA,NA,14.133,12.9,NA,NA,5.9,NA,NA,6.3,5.2
-cottbus_cup,Q,Radomir Sliz,CZE,NA,13.466,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
-cottbus_cup,Q,Filip Ude,HRV,NA,13.3,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
-cottbus_cup,Q,Yin Dehang,CHN,NA,13.3,NA,NA,14.3,NA,NA,NA,6.1,NA,NA,6.4,NA
-cottbus_cup,Q,David Rumbutis,SWE,NA,13.266,NA,NA,13.366,NA,NA,NA,5.5,NA,NA,5.7,NA
-cottbus_cup,Q,Kitazono Takeru,JPN,NA,13.266,NA,NA,13.633,NA,NA,NA,5.7,NA,NA,6.4,NA
-cottbus_cup,Q,Ilias Georgiou,CYP,NA,13.166,NA,NA,13.533,13.366,NA,NA,5,NA,NA,6,6.1
-cottbus_cup,Q,Ivan Tikhonov,AZE,NA,13.1,NA,14.666,13.666,9.8,NA,NA,5.7,NA,5.6,5.6,4.2
-cottbus_cup,Q,Ethan Dick,NZL,NA,12.833,NA,NA,12.833,NA,NA,NA,4.9,NA,NA,5.2,NA
-cottbus_cup,Q,James Hall,GBR,NA,12.666,NA,NA,13.366,13.5,NA,NA,6,NA,NA,6.1,5.8
-cottbus_cup,Q,Robert Kirmes,FIN,NA,12.533,12.333,NA,13.533,NA,NA,NA,5.7,5.3,NA,5.6,NA
-cottbus_cup,Q,Joel Plata,ESP,NA,12.4,NA,NA,11.933,14.233,NA,NA,5.5,NA,NA,5.9,5.9
-cottbus_cup,Q,Xheni Dyrmishi,AUT,NA,12.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
-cottbus_cup,Q,Manuel Arnold,AUT,NA,12.233,NA,NA,NA,NA,NA,NA,4.7,NA,NA,NA,NA
-cottbus_cup,Q,Al-Harith Rakan,QAT,NA,12.033,NA,NA,NA,NA,NA,NA,4.5,NA,NA,NA,NA
-cottbus_cup,Q,Ahmad Habeeb,JOR,NA,11.933,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
-cottbus_cup,Q,Antonios Tantalidis,GRC,NA,11.766,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA
-cottbus_cup,Q,Elias Koski,FIN,NA,11.3,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA
-cottbus_cup,Q,Bozhidar Zlatanov,BGR,NA,11,NA,13.9,13.833,NA,NA,NA,4.1,NA,5.2,6,NA
-cottbus_cup,Q,Krisztian Balazs,HUN,NA,11,NA,NA,14.1,12.533,NA,NA,4.2,NA,NA,5.9,5.7
-cottbus_cup,Q,Pablo Figueroa,CHL,NA,9.6,NA,NA,12.033,12.433,NA,NA,4.3,NA,NA,4.5,4.4
-cottbus_cup,Q,Nikita Simonov,AZE,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cottbus_cup,Q,Samir Aït Saïd,FRA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cottbus_cup,Q,Mahdi Ahmad Kohani,IRN,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cottbus_cup,Q,Vahagn Davtyan,ARM,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
-cottbus_cup,Q,Artur Avetisyan,ARM,NA,NA,14.366,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
-cottbus_cup,Q,Vinzenz Höck,AUT,NA,NA,14.333,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cottbus_cup,Q,Courtney Tulloch,GBR,NA,NA,14.233,14.033,NA,NA,NA,NA,NA,6.2,6,NA,NA
-cottbus_cup,Q,Jong Ryong Il,PRK,NA,NA,14.133,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cottbus_cup,Q,Daniel Villafañe,ARG,NA,NA,13.966,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cottbus_cup,Q,Sokratis Pilakouris,CYP,NA,NA,13.9,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
-cottbus_cup,Q,Luis Il-Sung Melander,SWE,NA,NA,13.866,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
-cottbus_cup,Q,Ali Zahran,EGY,NA,NA,13.833,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
-cottbus_cup,Q,Jacob Karlsen,NOR,NA,NA,13.8,14.6,NA,NA,NA,NA,NA,5.6,5.6,NA,NA
-cottbus_cup,Q,Nguyen Van Khanh Phong,VNM,NA,NA,13.733,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
-cottbus_cup,Q,Glen Cuyle,BEL,NA,NA,13.633,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
-cottbus_cup,Q,Kerem Sener,TUR,NA,NA,13.566,NA,NA,11.233,NA,NA,NA,5.2,NA,NA,5
-cottbus_cup,Q,Caio Souza,BRA,NA,NA,13.466,NA,12.566,13.966,NA,NA,NA,6,NA,5.7,6.3
-cottbus_cup,Q,Ibrahim Colak,TUR,NA,NA,13.433,NA,13.466,NA,NA,NA,NA,6.2,NA,4.9,NA
-cottbus_cup,Q,Carlo Hörr,DEU,NA,NA,13.266,NA,NA,11.5,NA,NA,NA,5.1,NA,NA,5
-cottbus_cup,Q,Jose Lopez,PRI,NA,NA,13.1,14.533,NA,NA,NA,NA,NA,5.3,5.6,NA,NA
-cottbus_cup,Q,Joaquin Alvarez,CHL,NA,NA,13.066,NA,12.2,NA,NA,NA,NA,5.3,NA,4,NA
-cottbus_cup,Q,Dario Sissakis,DEU,NA,NA,13.033,14.333,13.2,NA,NA,NA,NA,4.9,5.2,5.2,NA
-cottbus_cup,Q,Pavel Gulidov,ISR,NA,NA,12.966,14.5,NA,NA,NA,NA,NA,5.3,5.2,NA,NA
-cottbus_cup,Q,Samuel Dick,NZL,NA,NA,12.966,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA
-cottbus_cup,Q,Lin Guan-Yi,TWN,NA,NA,12.9,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
-cottbus_cup,Q,Luka Bojanc,SVN,NA,NA,12.733,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA
-cottbus_cup,Q,Miwa Teppei,JPN,NA,NA,12.6,NA,NA,14.033,NA,NA,NA,5.8,NA,NA,5.8
-cottbus_cup,Q,Ally Hamuda Abdullah,MYS,NA,NA,12.3,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
-cottbus_cup,Q,Jon Gunnarsson,ISL,NA,NA,12,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
-cottbus_cup,Q,Artur Davtyan,ARM,NA,NA,NA,15.033,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Mahdi Olfati,IRN,NA,NA,NA,14.9,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Chen Yilu,CHN,NA,NA,NA,14.766,NA,NA,NA,NA,NA,NA,5.8,NA,NA
-cottbus_cup,Q,Tseng Wei-Sheng,TWN,NA,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,James Bacueti,AUS,NA,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Dilan Jimenez,COL,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Muhammad Sharul Aimy,MYS,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Miguel Besana,PHL,NA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Joona Reiman,FIN,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Ng Ka Ki,HKG,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Nazar Chepurnyi,UKR,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Felix Remuta,DEU,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Andrey Medvedev,ISR,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Shin Jeahwan,KOR,NA,NA,NA,14.966,NA,NA,NA,NA,NA,NA,6,NA,NA
-cottbus_cup,Q,Ng Chun Chen,MYS,NA,NA,NA,14.333,NA,NA,NA,NA,NA,NA,5.6,NA,NA
-cottbus_cup,Q,Shek Wai Hung,HKG,NA,NA,NA,14.1,NA,NA,NA,NA,NA,NA,6,NA,NA
-cottbus_cup,Q,Javier Rojo,MEX,NA,NA,NA,13.733,13.333,NA,NA,NA,NA,NA,5.2,5.1,NA
-cottbus_cup,Q,Ewan McAteer,IRL,NA,NA,NA,14.1,NA,NA,NA,NA,NA,NA,5.2,NA,NA
-cottbus_cup,Q,Jossimar Calvo,COL,NA,NA,NA,NA,14.833,NA,NA,NA,NA,NA,NA,6.7,NA
-cottbus_cup,Q,Rasuljon Abdurakhimov,UZB,NA,NA,NA,NA,14.733,NA,NA,NA,NA,NA,NA,5.9,NA
-cottbus_cup,Q,Angel Barajas,COL,NA,NA,NA,NA,14.7,12.9,NA,NA,NA,NA,NA,6.7,6.8
-cottbus_cup,Q,Hung Yuan-Hsi,TWN,NA,NA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,5.9,NA
-cottbus_cup,Q,Cameron-Lie Bernard,FRA,NA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,6.3,NA
-cottbus_cup,Q,Xie Chenyi,CHN,NA,NA,NA,NA,14.166,12.666,NA,NA,NA,NA,NA,6.1,5.1
-cottbus_cup,Q,Mohamed Afify,EGY,NA,NA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,6,NA
-cottbus_cup,Q,Isaac Nuñez,MEX,NA,NA,NA,NA,14.066,13.666,NA,NA,NA,NA,NA,6.1,5.6
-cottbus_cup,Q,Ron Pyatov,ISR,NA,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.7,NA
-cottbus_cup,Q,Mathias Philippe,FRA,NA,NA,NA,NA,13.866,13.633,NA,NA,NA,NA,NA,5.8,5.6
-cottbus_cup,Q,Nikolaos Iliopoulos,GRC,NA,NA,NA,NA,13.6,12.8,NA,NA,NA,NA,NA,5.4,5.1
-cottbus_cup,Q,Luke Whitehouse,GBR,NA,NA,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.7,NA
-cottbus_cup,Q,Harald Wibye,NOR,NA,NA,NA,NA,13.166,NA,NA,NA,NA,NA,NA,5.6,NA
-cottbus_cup,Q,Ng Chun Chen,CUB,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,5,NA
-cottbus_cup,Q,Noah Kuavita,BEL,NA,NA,NA,NA,12.733,13.6,NA,NA,NA,NA,NA,5.6,6.5
-cottbus_cup,Q,Jeordy Ramirez,DOM,NA,NA,NA,NA,12.633,12,NA,NA,NA,NA,NA,5.7,4.9
-cottbus_cup,Q,Mitchell Morgans,AUS,NA,NA,NA,NA,12.6,13.766,NA,NA,NA,NA,NA,5.6,5.6
-cottbus_cup,Q,Petar Vefic,SRB,NA,NA,NA,NA,12.566,NA,NA,NA,NA,NA,NA,5.4,NA
-cottbus_cup,Q,Vlada Rakovic,SRB,NA,NA,NA,NA,12.233,NA,NA,NA,NA,NA,NA,5.2,NA
-cottbus_cup,Q,Stefanos Tsolakidis,GRC,NA,NA,NA,NA,11.466,NA,NA,NA,NA,NA,NA,5.4,NA
-cottbus_cup,Q,Yordan Aleksandrov,BGR,NA,NA,NA,NA,11.233,11.8,NA,NA,NA,NA,NA,5.7,4.9
-cottbus_cup,Q,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.1
-cottbus_cup,Q,Bart Deurloo,NLD,NA,NA,NA,NA,NA,14.266,NA,NA,NA,NA,NA,NA,6.4
-cottbus_cup,Q,Robert Tvorogal,LTU,NA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,5.7
-cottbus_cup,Q,Arthur Mariano,BRA,NA,NA,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.6
-cottbus_cup,Q,Tyson Bull,AUS,NA,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.7
-cottbus_cup,Q,Ahmed Elmaraghy,EGY,NA,NA,NA,NA,NA,13.966,NA,NA,NA,NA,NA,NA,5.7
-cottbus_cup,Q,Alexander Myakinin,ISR,NA,NA,NA,NA,NA,13.933,NA,NA,NA,NA,NA,NA,5.9
-cottbus_cup,Q,David Vecsernyes,HUN,NA,NA,NA,NA,NA,13.266,NA,NA,NA,NA,NA,NA,5.6
-cottbus_cup,Q,Ivan Dejanovic,SRB,NA,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.1
-cottbus_cup,Q,Adham Alsqour,JOR,NA,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,5.3
-cottbus_cup,Q,Yvenel Stephan,HTI,NA,NA,NA,NA,NA,12.866,NA,NA,NA,NA,NA,NA,5
-cottbus_cup,Q,Leo Lehtinen,FIN,NA,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,4.9
-cottbus_cup,Q,Sercan Demir,TUR,NA,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,5
-cottbus_cup,Q,Dmitry Patanin,KAZ,NA,NA,NA,NA,NA,12.1,NA,NA,NA,NA,NA,NA,4.7
-cottbus_cup,Q,Nicolas Garfias,PER,NA,NA,NA,NA,NA,11.966,NA,NA,NA,NA,NA,NA,4.8
-cottbus_cup,Q,Apostolos Kanellos,GRC,NA,NA,NA,NA,NA,11.7,NA,NA,NA,NA,NA,NA,5.2
-cottbus_cup,Q,Sofus Heggemsnes,NOR,NA,NA,NA,NA,NA,11.066,NA,NA,NA,NA,NA,NA,5
-cottbus_cup,Q,Leandro Peña,DOM,NA,NA,NA,NA,NA,6.233,NA,NA,NA,NA,NA,NA,2.9
+cottbus_cup,Floor Final Results,Harry Hepworth,GBR,14.9,NA,NA,NA,NA,NA,NA,6.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Final Results,Artem Dolgopyat,ISR,14.866,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Final Results,Ryu Sunghyun,KOR,14.366,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+cottbus_cup,Floor Final Results,Kim Hansol,KOR,14.333,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Final Results,Milan Hosseini,DEU,14.333,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Final Results,Yahor Sharamkou,BLR,14.133,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Final Results,Benjamin Osberger,FRA,14.1,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cottbus_cup,Floor Final Results,Aurel Benovic,HRV,11.433,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+cottbus_cup,Pommels Final Results,Nariman Kurbanov,KAZ,NA,15.433,NA,NA,NA,NA,NA,NA,6.7,NA,NA,NA,NA
+cottbus_cup,Pommels Final Results,Ahmad Abu Al Soud,JOR,NA,15.3,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+cottbus_cup,Pommels Final Results,Hur Woong,KOR,NA,15.3,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Final Results,Illia Kovtun,UKR,NA,15,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Final Results,Matvei Petrov,ALB,NA,14.833,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+cottbus_cup,Pommels Final Results,Gagik Khachikyan,ARM,NA,14.8,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Final Results,Loran de Munck,NLD,NA,14.666,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Final Results,Benjamin Osberger,FRA,NA,12.933,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cottbus_cup,Rings Final Results,Nikita Simonov,AZE,NA,NA,14.7,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cottbus_cup,Rings Final Results,Samir Aït Saïd,FRA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cottbus_cup,Rings Final Results,Vahagn Davtyan,ARM,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cottbus_cup,Rings Final Results,Artur Avetisyan,ARM,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cottbus_cup,Rings Final Results,Jong Ryong Il,PRK,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cottbus_cup,Rings Final Results,Courtney Tulloch,GBR,NA,NA,14.4,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cottbus_cup,Rings Final Results,Harry Hepworth,GBR,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cottbus_cup,Rings Final Results,Vinzenz Höck,AUT,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cottbus_cup,Vault Final Results,Artur Davtyan,ARM,NA,NA,NA,15.1,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Final Results,Mahdi Olfati,IRN,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Final Results,Chen Yilu,CHN,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,5.8,NA,NA
+cottbus_cup,Vault Final Results,Harry Hepworth,GBR,NA,NA,NA,14.9,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Final Results,James Bacueti,AUS,NA,NA,NA,14.766,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Final Results,Yahor Sharamkou,BLR,NA,NA,NA,14.633,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Final Results,Tseng Wei-Sheng,TWN,NA,NA,NA,14.4,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Final Results,Milad Karimi,KAZ,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,P-Bars Final Results,Illia Kovtun,UKR,NA,NA,NA,NA,15.266,NA,NA,NA,NA,NA,NA,6.7,NA
+cottbus_cup,P-Bars Final Results,Oleg Verniaiev,UKR,NA,NA,NA,NA,15.166,NA,NA,NA,NA,NA,NA,6.6,NA
+cottbus_cup,P-Bars Final Results,Rasuljon Abdurakhimov,UZB,NA,NA,NA,NA,14.766,NA,NA,NA,NA,NA,NA,5.9,NA
+cottbus_cup,P-Bars Final Results,Angel Barajas,COL,NA,NA,NA,NA,14.733,NA,NA,NA,NA,NA,NA,6.7,NA
+cottbus_cup,P-Bars Final Results,Kawakami Shohei,JPN,NA,NA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,6.3,NA
+cottbus_cup,P-Bars Final Results,Khoi Young,USA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Final Results,Hung Yuan-Hsi,TWN,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,6.5,NA
+cottbus_cup,P-Bars Final Results,Jossimar Calvo,COL,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,6.3,NA
+cottbus_cup,High Bar Final Results,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.1
+cottbus_cup,High Bar Final Results,Tian Hao,CHN,NA,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.3
+cottbus_cup,High Bar Final Results,Robert Tvorogal,LTU,NA,NA,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.7
+cottbus_cup,High Bar Final Results,Bart Deurloo,NLD,NA,NA,NA,NA,NA,14.433,NA,NA,NA,NA,NA,NA,6.2
+cottbus_cup,High Bar Final Results,Joel Plata,ESP,NA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,6.1
+cottbus_cup,High Bar Final Results,Arthur Mariano,BRA,NA,NA,NA,NA,NA,13.9,NA,NA,NA,NA,NA,NA,5.9
+cottbus_cup,High Bar Final Results,Miwa Teppei,JPN,NA,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,5.8
+cottbus_cup,High Bar Final Results,Tyson Bull,AUS,NA,NA,NA,NA,NA,12.6,NA,NA,NA,NA,NA,NA,5.4
+cottbus_cup,Floor Qualification Results,Artem Dolgopyat,ISR,14.9,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Yahor Sharamkou,BLR,14.566,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Ryu Sunghyun,KOR,14.466,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Milan Hosseini,DEU,14.433,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Aurel Benovic,HRV,14.433,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Benjamin Osberger,FRA,14.4,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Kim Hansol,KOR,14.366,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Harry Hepworth,GBR,14.333,NA,NA,NA,NA,NA,NA,6.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Yang Yanzhi,CHN,14.3,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Pau Jimenez,ESP,14.266,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Illia Kovtun,UKR,14.2,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Lucas Kochan,DEU,14.2,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Clay Mason Stephens,AUS,14.133,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Milad Karimi,KAZ,14.033,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Oleg Verniaiev,UKR,14,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Kaya Kazuma,JPN,13.933,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Eddie Penev,BGR,13.933,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,John Ivan Cruz,PHL,13.866,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Dominick Cunningham,IRL,13.833,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Kawakami Shohei,JPN,13.8,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Rodrigo Gomez,MEX,13.766,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Peder Skogvang,NOR,13.666,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Anze Hribar,SVN,13.633,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Abdulaziz Mirvaliev,UZB,13.566,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Usukhbayar Erkhembayar,MNG,13.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Jorge Vega Lopez,GTM,13.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Khumoyun Islomov,UZB,13.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Sebastian Gawronski,POL,13.5,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Omar Mohamed,EGY,13.433,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Dusan Djordjevic,SRB,13.433,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Eamon Montgomery,IRL,13.3,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Ignacio Varas,CHL,13.166,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Wilfry Contreras,DOM,13.166,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Guilherme Campos,PRT,13.1,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Kim Wanström,SWE,13.033,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Colt Walker,USA,13,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Yuri Guimarães,BRA,12.966,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Enkhtuvshin Damdindorj,MNG,12.9,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Dmitriy Patanin,KAZ,12.9,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Valgard Reinhardsson,ISL,12.866,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Mansum Safarov,AZE,12.866,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Amine Abaidi,NLD,12.866,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Saleem Naghouj,JOR,12.733,NA,NA,NA,NA,NA,NA,4.5,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Asher Hong,USA,12.733,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Michalis Chari,CYP,12.7,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Alonso Perez,MEX,12.633,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Ioane Jimsheleishvili,GEO,12.633,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Diorges Escobar,CUB,12.6,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Rasul Ahmadzada,AZE,12.466,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Ilia Liubimov,ISR,12.433,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Alkinoos Graikos,GRC,12.433,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,William Fu-Allen,NZL,12.366,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Nikolaj Bozic,SVN,12.366,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Benedek Tomcsanyi,HUN,12.333,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Josue Armijo,CHL,12.233,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Trinh Hai Khang,VNM,11.933,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Van Vi Luong,VNM,11.733,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Yang Haonan,CHN,11.733,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Jose Nogueira,PRT,11.666,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Daniel Stoddart,NZL,11.533,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Filip Lidbeck,SWE,11.5,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Bernardo Miranda,BRA,11.4,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Eric Terres,ESP,11.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Dimitar Dimitrov,BGR,11.033,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Botond Molnar,HUN,10.8,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA,NA
+cottbus_cup,Floor Qualification Results,Ricards Plate,LVA,8.766,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Nariman Kurbanov,KAZ,NA,15.6,NA,NA,NA,NA,NA,NA,6.7,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Hur Woong,KOR,NA,15.2,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Matvei Petrov,ALB,NA,15,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Gagik Khachikyan,ARM,NA,14.833,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Ahmad Abu Al Soud,JOR,NA,14.8,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Illia Kovtun,UKR,NA,14.8,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Loran de Munck,NLD,NA,14.666,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Benjamin Osberger,FRA,NA,14.533,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Oleg Verniaiev,UKR,NA,14.533,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Cyril Tommasone,FRA,NA,14.466,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Khoi Young,USA,NA,14.433,NA,NA,NA,NA,NA,NA,6.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Zeinolla Idrissov,KAZ,NA,14.3,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Kaya Kazuma,JPN,NA,14.3,NA,NA,NA,NA,NA,NA,6.3,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Vedant Sawant,AUS,NA,14.3,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Marios Georgiou,CYP,NA,14.266,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Nils Dunkel,DEU,NA,14.266,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Harutyun Merdinyan,ARM,NA,14.233,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Dang Ngoc Xuan Thien,VNM,NA,14.233,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Dmitrijs Mickevics,LVA,NA,14.2,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Lucas Kochan,DEU,NA,14.166,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Dagur Olafsson,ISL,NA,14.166,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Benedek Tomcsanyi,HUN,NA,14.033,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Abdelrahman Abdelhaleem,EGY,NA,14,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Casimir Schmidt,NLD,NA,13.9,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Tian Hao,CHN,NA,13.866,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Shiao Yu-Jan,TWN,NA,13.8,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Lee Chih-Kai,TWN,NA,13.8,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Ferhat Arican,TUR,NA,13.7,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Omar Elshobki,EGY,NA,13.666,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Levan Skhiladze,GEO,NA,13.633,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Artem Dolgopyat,ISR,NA,13.6,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Nelson Guilbe,PRI,NA,13.533,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Enkhtuvshin Damdindorj,MNG,NA,13.533,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Thierno Diallo,ESP,NA,13.5,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Radomir Sliz,CZE,NA,13.466,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Filip Ude,HRV,NA,13.3,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Yin Dehang,CHN,NA,13.3,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,David Rumbutis,SWE,NA,13.266,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Kitazono Takeru,JPN,NA,13.266,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Ilias Georgiou,CYP,NA,13.166,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Ivan Tikhonov,AZE,NA,13.1,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Ilia Liubimov,ISR,NA,13.066,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Ethan Dick,NZL,NA,12.833,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Usukhbayar Erkhembayar,MNG,NA,12.7,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,James Hall,GBR,NA,12.666,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Robert Kirmes,FIN,NA,12.533,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Joel Plata,ESP,NA,12.4,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Xheni Dyrmishi,AUT,NA,12.3,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Asher Hong,USA,NA,12.266,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Manuel Arnold,AUT,NA,12.233,NA,NA,NA,NA,NA,NA,4.7,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Al-Harith Rakan,QAT,NA,12.033,NA,NA,NA,NA,NA,NA,4.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Ahmad Habeeb,JOR,NA,11.933,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Antonios Tantalidis,GRC,NA,11.766,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Elias Koski,FIN,NA,11.3,NA,NA,NA,NA,NA,NA,4.4,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Rodrigo Gomez,MEX,NA,11.033,NA,NA,NA,NA,NA,NA,4.5,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Rasul Ahmadzada,AZE,NA,11.033,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Bozhidar Zlatanov,BGR,NA,11,NA,NA,NA,NA,NA,NA,4.1,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Krisztian Balazs,HUN,NA,11,NA,NA,NA,NA,NA,NA,4.2,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Alkinoos Graikos,GRC,NA,10.9,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Bernardo Miranda,BRA,NA,10.766,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,William Fu-Allen,NZL,NA,10.1,NA,NA,NA,NA,NA,NA,3.3,NA,NA,NA,NA
+cottbus_cup,Pommels Qualification Results,Pablo Figueroa,CHL,NA,9.6,NA,NA,NA,NA,NA,NA,4.3,NA,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Nikita Simonov,AZE,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Samir Aït Saïd,FRA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Mahdi Ahmad Kohani,IRN,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Vahagn Davtyan,ARM,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Artur Avetisyan,ARM,NA,NA,14.366,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Vinzenz Höck,AUT,NA,NA,14.333,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Courtney Tulloch,GBR,NA,NA,14.233,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Jong Ryong Il,PRK,NA,NA,14.133,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Harry Hepworth,GBR,NA,NA,14.1,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Omar Mohamed,EGY,NA,NA,14,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Kaya Kazuma,JPN,NA,NA,14,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Daniel Villafañe,ARG,NA,NA,13.966,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Sokratis Pilakouris,CYP,NA,NA,13.9,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Luis Il-Sung Melander,SWE,NA,NA,13.866,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Yang Yanzhi,CHN,NA,NA,13.833,NA,NA,NA,NA,NA,NA,5.7,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Ali Zahran,EGY,NA,NA,13.833,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Jacob Karlsen,NOR,NA,NA,13.8,NA,NA,NA,NA,NA,NA,5.6,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Asher Hong,USA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Nguyen Van Khanh Phong,VNM,NA,NA,13.733,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Glen Cuyle,BEL,NA,NA,13.633,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Casimir Schmidt,NLD,NA,NA,13.6,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Kerem Sener,TUR,NA,NA,13.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Caio Souza,BRA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,6,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Oleg Verniaiev,UKR,NA,NA,13.433,NA,NA,NA,NA,NA,NA,5,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Ibrahim Colak,TUR,NA,NA,13.433,NA,NA,NA,NA,NA,NA,6.2,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Carlo Hörr,DEU,NA,NA,13.266,NA,NA,NA,NA,NA,NA,5.1,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Illia Kovtun,UKR,NA,NA,13.166,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Levan Skhiladze,GEO,NA,NA,13.1,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Jose Lopez,PRI,NA,NA,13.1,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Joaquin Alvarez,CHL,NA,NA,13.066,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Dario Sissakis,DEU,NA,NA,13.033,NA,NA,NA,NA,NA,NA,4.9,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Colt Walker,USA,NA,NA,13.033,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Pavel Gulidov,ISR,NA,NA,12.966,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Samuel Dick,NZL,NA,NA,12.966,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Lin Guan-Yi,TWN,NA,NA,12.9,NA,NA,NA,NA,NA,NA,5.9,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Luka Bojanc,SVN,NA,NA,12.733,NA,NA,NA,NA,NA,NA,5.4,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Miwa Teppei,JPN,NA,NA,12.6,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Daniel Stoddart,NZL,NA,NA,12.5,NA,NA,NA,NA,NA,NA,4.2,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Robert Kirmes,FIN,NA,NA,12.333,NA,NA,NA,NA,NA,NA,5.3,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Ally Hamuda Abdullah,MYS,NA,NA,12.3,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Pau Jimenez,ESP,NA,NA,12.033,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Jon Gunnarsson,ISL,NA,NA,12,NA,NA,NA,NA,NA,NA,5.8,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Saleem Naghouj,JOR,NA,NA,11.533,NA,NA,NA,NA,NA,NA,4.8,NA,NA,NA
+cottbus_cup,Rings Qualification Results,Eric Terres,ESP,NA,NA,11.466,NA,NA,NA,NA,NA,NA,4.1,NA,NA,NA
+cottbus_cup,Vault Qualification Results,Artur Davtyan,ARM,NA,NA,NA,15.033,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Mahdi Olfati,IRN,NA,NA,NA,14.9,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Yahor Sharamkou,BLR,NA,NA,NA,14.7,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Chen Yilu,CHN,NA,NA,NA,14.766,NA,NA,NA,NA,NA,NA,5.8,NA,NA
+cottbus_cup,Vault Qualification Results,Milad Karimi,KAZ,NA,NA,NA,14.7,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Harry Hepworth,GBR,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Tseng Wei-Sheng,TWN,NA,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,James Bacueti,AUS,NA,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Trinh Hai Khang,VNM,NA,NA,NA,14.566,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Asher Hong,USA,NA,NA,NA,14.7,NA,NA,NA,NA,NA,NA,6,NA,NA
+cottbus_cup,Vault Qualification Results,Omar Mohamed,EGY,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Khoi Young,USA,NA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Yuri Guimarães,BRA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Ivan Tikhonov,AZE,NA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Dilan Jimenez,COL,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Jacob Karlsen,NOR,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Muhammad Sharul Aimy,MYS,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Aurel Benovic,HRV,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Miguel Besana,PHL,NA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Dominick Cunningham,IRL,NA,NA,NA,14.466,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Joona Reiman,FIN,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Ng Ka Ki,HKG,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Nazar Chepurnyi,UKR,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Felix Remuta,DEU,NA,NA,NA,14.2,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Andrey Medvedev,ISR,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Shin Jeahwan,KOR,NA,NA,NA,14.966,NA,NA,NA,NA,NA,NA,6,NA,NA
+cottbus_cup,Vault Qualification Results,Jorge Vega Lopez,GTM,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Ng Chun Chen,MYS,NA,NA,NA,14.333,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Enkhtuvshin Damdindorj,MNG,NA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+cottbus_cup,Vault Qualification Results,Shek Wai Hung,HKG,NA,NA,NA,14.1,NA,NA,NA,NA,NA,NA,6,NA,NA
+cottbus_cup,Vault Qualification Results,Pavel Gulidov,ISR,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Dario Sissakis,DEU,NA,NA,NA,14.333,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Courtney Tulloch,GBR,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,6,NA,NA
+cottbus_cup,Vault Qualification Results,Jose Lopez,PRI,NA,NA,NA,14.533,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Bozhidar Zlatanov,BGR,NA,NA,NA,13.9,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Oleg Verniaiev,UKR,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Anze Hribar,SVN,NA,NA,NA,14.1,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Botond Molnar,HUN,NA,NA,NA,13.766,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Dimitar Dimitrov,BGR,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Usukhbayar Erkhembayar,MNG,NA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,4.8,NA,NA
+cottbus_cup,Vault Qualification Results,Josue Armijo,CHL,NA,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Pau Jimenez,ESP,NA,NA,NA,13.266,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Eric Terres,ESP,NA,NA,NA,13.166,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Dusan Djordjevic,SRB,NA,NA,NA,13.4,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Wilfry Contreras,DOM,NA,NA,NA,13.333,NA,NA,NA,NA,NA,NA,5.6,NA,NA
+cottbus_cup,Vault Qualification Results,Javier Rojo,MEX,NA,NA,NA,13.733,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Ignacio Varas,CHL,NA,NA,NA,12.466,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Saleem Naghouj,JOR,NA,NA,NA,12.566,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Ewan McAteer,IRL,NA,NA,NA,14.1,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,Vault Qualification Results,Sebastian Gawronski,POL,NA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,5.2,NA,NA
+cottbus_cup,P-Bars Qualification Results,Illia Kovtun,UKR,NA,NA,NA,NA,15.166,NA,NA,NA,NA,NA,NA,6.7,NA
+cottbus_cup,P-Bars Qualification Results,Oleg Verniaiev,UKR,NA,NA,NA,NA,15,NA,NA,NA,NA,NA,NA,6.6,NA
+cottbus_cup,P-Bars Qualification Results,Jossimar Calvo,COL,NA,NA,NA,NA,14.833,NA,NA,NA,NA,NA,NA,6.7,NA
+cottbus_cup,P-Bars Qualification Results,Rasuljon Abdurakhimov,UZB,NA,NA,NA,NA,14.733,NA,NA,NA,NA,NA,NA,5.9,NA
+cottbus_cup,P-Bars Qualification Results,Angel Barajas,COL,NA,NA,NA,NA,14.7,NA,NA,NA,NA,NA,NA,6.7,NA
+cottbus_cup,P-Bars Qualification Results,Hung Yuan-Hsi,TWN,NA,NA,NA,NA,14.666,NA,NA,NA,NA,NA,NA,5.9,NA
+cottbus_cup,P-Bars Qualification Results,Kawakami Shohei,JPN,NA,NA,NA,NA,14.5,NA,NA,NA,NA,NA,NA,6.3,NA
+cottbus_cup,P-Bars Qualification Results,Khoi Young,USA,NA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,Cameron-Lie Bernard,FRA,NA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,6.3,NA
+cottbus_cup,P-Bars Qualification Results,Yin Dehang,CHN,NA,NA,NA,NA,14.3,NA,NA,NA,NA,NA,NA,6.4,NA
+cottbus_cup,P-Bars Qualification Results,Xie Chenyi,CHN,NA,NA,NA,NA,14.166,NA,NA,NA,NA,NA,NA,6.1,NA
+cottbus_cup,P-Bars Qualification Results,Thierno Diallo,ESP,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,6.3,NA
+cottbus_cup,P-Bars Qualification Results,Krisztian Balazs,HUN,NA,NA,NA,NA,14.1,NA,NA,NA,NA,NA,NA,5.9,NA
+cottbus_cup,P-Bars Qualification Results,Milad Karimi,KAZ,NA,NA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,5.9,NA
+cottbus_cup,P-Bars Qualification Results,Mohamed Afify,EGY,NA,NA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,6,NA
+cottbus_cup,P-Bars Qualification Results,Isaac Nuñez,MEX,NA,NA,NA,NA,14.066,NA,NA,NA,NA,NA,NA,6.1,NA
+cottbus_cup,P-Bars Qualification Results,Ron Pyatov,ISR,NA,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,Nils Dunkel,DEU,NA,NA,NA,NA,13.933,NA,NA,NA,NA,NA,NA,6,NA
+cottbus_cup,P-Bars Qualification Results,Mathias Philippe,FRA,NA,NA,NA,NA,13.866,NA,NA,NA,NA,NA,NA,5.8,NA
+cottbus_cup,P-Bars Qualification Results,Ferhat Arican,TUR,NA,NA,NA,NA,13.866,NA,NA,NA,NA,NA,NA,6.5,NA
+cottbus_cup,P-Bars Qualification Results,Benedek Tomcsanyi,HUN,NA,NA,NA,NA,13.833,NA,NA,NA,NA,NA,NA,5.4,NA
+cottbus_cup,P-Bars Qualification Results,Bozhidar Zlatanov,BGR,NA,NA,NA,NA,13.833,NA,NA,NA,NA,NA,NA,6,NA
+cottbus_cup,P-Bars Qualification Results,Ivan Tikhonov,AZE,NA,NA,NA,NA,13.666,NA,NA,NA,NA,NA,NA,5.6,NA
+cottbus_cup,P-Bars Qualification Results,Dmitriy Patanin,KAZ,NA,NA,NA,NA,13.666,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,Kitazono Takeru,JPN,NA,NA,NA,NA,13.633,NA,NA,NA,NA,NA,NA,6.4,NA
+cottbus_cup,P-Bars Qualification Results,Nikolaos Iliopoulos,GRC,NA,NA,NA,NA,13.6,NA,NA,NA,NA,NA,NA,5.4,NA
+cottbus_cup,P-Bars Qualification Results,Robert Kirmes,FIN,NA,NA,NA,NA,13.533,NA,NA,NA,NA,NA,NA,5.6,NA
+cottbus_cup,P-Bars Qualification Results,Ilias Georgiou,CYP,NA,NA,NA,NA,13.533,NA,NA,NA,NA,NA,NA,6,NA
+cottbus_cup,P-Bars Qualification Results,Luke Whitehouse,GBR,NA,NA,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,Ibrahim Colak,TUR,NA,NA,NA,NA,13.466,NA,NA,NA,NA,NA,NA,4.9,NA
+cottbus_cup,P-Bars Qualification Results,Bernardo Miranda,BRA,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,5.6,NA
+cottbus_cup,P-Bars Qualification Results,David Rumbutis,SWE,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,James Hall,GBR,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,6.1,NA
+cottbus_cup,P-Bars Qualification Results,Marios Georgiou,CYP,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,6.1,NA
+cottbus_cup,P-Bars Qualification Results,Javier Rojo,MEX,NA,NA,NA,NA,13.333,NA,NA,NA,NA,NA,NA,5.1,NA
+cottbus_cup,P-Bars Qualification Results,Dario Sissakis,DEU,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.2,NA
+cottbus_cup,P-Bars Qualification Results,Jose Nogueira,PRT,NA,NA,NA,NA,13.166,NA,NA,NA,NA,NA,NA,4.3,NA
+cottbus_cup,P-Bars Qualification Results,Harald Wibye,NOR,NA,NA,NA,NA,13.166,NA,NA,NA,NA,NA,NA,5.6,NA
+cottbus_cup,P-Bars Qualification Results,Diorges Escobar,CUB,NA,NA,NA,NA,13.133,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,Ng Chun Chen,CUB,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,5,NA
+cottbus_cup,P-Bars Qualification Results,Valgard Reinhardsson,ISL,NA,NA,NA,NA,12.866,NA,NA,NA,NA,NA,NA,5.2,NA
+cottbus_cup,P-Bars Qualification Results,Ethan Dick,NZL,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,5.2,NA
+cottbus_cup,P-Bars Qualification Results,Levan Skhiladze,GEO,NA,NA,NA,NA,12.766,NA,NA,NA,NA,NA,NA,4.8,NA
+cottbus_cup,P-Bars Qualification Results,Noah Kuavita,BEL,NA,NA,NA,NA,12.733,NA,NA,NA,NA,NA,NA,5.6,NA
+cottbus_cup,P-Bars Qualification Results,Jeordy Ramirez,DOM,NA,NA,NA,NA,12.633,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,Dagur Olafsson,ISL,NA,NA,NA,NA,12.6,NA,NA,NA,NA,NA,NA,5.4,NA
+cottbus_cup,P-Bars Qualification Results,Mitchell Morgans,AUS,NA,NA,NA,NA,12.6,NA,NA,NA,NA,NA,NA,5.6,NA
+cottbus_cup,P-Bars Qualification Results,Ilia Liubimov,ISR,NA,NA,NA,NA,12.566,NA,NA,NA,NA,NA,NA,4.9,NA
+cottbus_cup,P-Bars Qualification Results,Petar Vefic,SRB,NA,NA,NA,NA,12.566,NA,NA,NA,NA,NA,NA,5.4,NA
+cottbus_cup,P-Bars Qualification Results,Caio Souza,BRA,NA,NA,NA,NA,12.566,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,Colt Walker,USA,NA,NA,NA,NA,12.3,NA,NA,NA,NA,NA,NA,5.9,NA
+cottbus_cup,P-Bars Qualification Results,Vlada Rakovic,SRB,NA,NA,NA,NA,12.233,NA,NA,NA,NA,NA,NA,5.2,NA
+cottbus_cup,P-Bars Qualification Results,Joaquin Alvarez,CHL,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,4,NA
+cottbus_cup,P-Bars Qualification Results,Guilherme Campos,PRT,NA,NA,NA,NA,12.066,NA,NA,NA,NA,NA,NA,4.1,NA
+cottbus_cup,P-Bars Qualification Results,Pablo Figueroa,CHL,NA,NA,NA,NA,12.033,NA,NA,NA,NA,NA,NA,4.5,NA
+cottbus_cup,P-Bars Qualification Results,Joel Plata,ESP,NA,NA,NA,NA,11.933,NA,NA,NA,NA,NA,NA,5.9,NA
+cottbus_cup,P-Bars Qualification Results,Rasul Ahmadzada,AZE,NA,NA,NA,NA,11.866,NA,NA,NA,NA,NA,NA,4.8,NA
+cottbus_cup,P-Bars Qualification Results,Saleem Naghouj,JOR,NA,NA,NA,NA,11.7,NA,NA,NA,NA,NA,NA,4.6,NA
+cottbus_cup,P-Bars Qualification Results,Stefanos Tsolakidis,GRC,NA,NA,NA,NA,11.466,NA,NA,NA,NA,NA,NA,5.4,NA
+cottbus_cup,P-Bars Qualification Results,Yordan Aleksandrov,BGR,NA,NA,NA,NA,11.233,NA,NA,NA,NA,NA,NA,5.7,NA
+cottbus_cup,P-Bars Qualification Results,Loran de Munck,NLD,NA,NA,NA,NA,11,NA,NA,NA,NA,NA,NA,5.1,NA
+cottbus_cup,P-Bars Qualification Results,Peder Skogvang,NOR,NA,NA,NA,NA,9.7,NA,NA,NA,NA,NA,NA,3.6,NA
+cottbus_cup,High Bar Qualification Results,Tang Chia-Hung,TWN,NA,NA,NA,NA,NA,14.6,NA,NA,NA,NA,NA,NA,6.1
+cottbus_cup,High Bar Qualification Results,Tian Hao,CHN,NA,NA,NA,NA,NA,14.566,NA,NA,NA,NA,NA,NA,6.3
+cottbus_cup,High Bar Qualification Results,Bart Deurloo,NLD,NA,NA,NA,NA,NA,14.266,NA,NA,NA,NA,NA,NA,6.4
+cottbus_cup,High Bar Qualification Results,Joel Plata,ESP,NA,NA,NA,NA,NA,14.233,NA,NA,NA,NA,NA,NA,5.9
+cottbus_cup,High Bar Qualification Results,Robert Tvorogal,LTU,NA,NA,NA,NA,NA,14.133,NA,NA,NA,NA,NA,NA,5.7
+cottbus_cup,High Bar Qualification Results,Arthur Mariano,BRA,NA,NA,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.6
+cottbus_cup,High Bar Qualification Results,Miwa Teppei,JPN,NA,NA,NA,NA,NA,14.033,NA,NA,NA,NA,NA,NA,5.8
+cottbus_cup,High Bar Qualification Results,Tyson Bull,AUS,NA,NA,NA,NA,NA,14,NA,NA,NA,NA,NA,NA,5.7
+cottbus_cup,High Bar Qualification Results,Ahmed Elmaraghy,EGY,NA,NA,NA,NA,NA,13.966,NA,NA,NA,NA,NA,NA,5.7
+cottbus_cup,High Bar Qualification Results,Caio Souza,BRA,NA,NA,NA,NA,NA,13.966,NA,NA,NA,NA,NA,NA,6.3
+cottbus_cup,High Bar Qualification Results,Alexander Myakinin,ISR,NA,NA,NA,NA,NA,13.933,NA,NA,NA,NA,NA,NA,5.9
+cottbus_cup,High Bar Qualification Results,Lucas Kochan,DEU,NA,NA,NA,NA,NA,13.866,NA,NA,NA,NA,NA,NA,5.6
+cottbus_cup,High Bar Qualification Results,Kaya Kazuma,JPN,NA,NA,NA,NA,NA,13.8,NA,NA,NA,NA,NA,NA,5.7
+cottbus_cup,High Bar Qualification Results,Mitchell Morgans,AUS,NA,NA,NA,NA,NA,13.766,NA,NA,NA,NA,NA,NA,5.6
+cottbus_cup,High Bar Qualification Results,Illia Kovtun,UKR,NA,NA,NA,NA,NA,13.766,NA,NA,NA,NA,NA,NA,6.1
+cottbus_cup,High Bar Qualification Results,Isaac Nuñez,MEX,NA,NA,NA,NA,NA,13.666,NA,NA,NA,NA,NA,NA,5.6
+cottbus_cup,High Bar Qualification Results,Asher Hong,USA,NA,NA,NA,NA,NA,13.633,NA,NA,NA,NA,NA,NA,5.5
+cottbus_cup,High Bar Qualification Results,Mathias Philippe,FRA,NA,NA,NA,NA,NA,13.633,NA,NA,NA,NA,NA,NA,5.6
+cottbus_cup,High Bar Qualification Results,Noah Kuavita,BEL,NA,NA,NA,NA,NA,13.6,NA,NA,NA,NA,NA,NA,6.5
+cottbus_cup,High Bar Qualification Results,James Hall,GBR,NA,NA,NA,NA,NA,13.5,NA,NA,NA,NA,NA,NA,5.8
+cottbus_cup,High Bar Qualification Results,Ilias Georgiou,CYP,NA,NA,NA,NA,NA,13.366,NA,NA,NA,NA,NA,NA,6.1
+cottbus_cup,High Bar Qualification Results,David Vecsernyes,HUN,NA,NA,NA,NA,NA,13.266,NA,NA,NA,NA,NA,NA,5.6
+cottbus_cup,High Bar Qualification Results,Ivan Dejanovic,SRB,NA,NA,NA,NA,NA,13.2,NA,NA,NA,NA,NA,NA,5.1
+cottbus_cup,High Bar Qualification Results,Adham Alsqour,JOR,NA,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,5.3
+cottbus_cup,High Bar Qualification Results,Thierno Diallo,ESP,NA,NA,NA,NA,NA,12.9,NA,NA,NA,NA,NA,NA,5.2
+cottbus_cup,High Bar Qualification Results,Angel Barajas,COL,NA,NA,NA,NA,NA,12.9,NA,NA,NA,NA,NA,NA,6.8
+cottbus_cup,High Bar Qualification Results,Yvenel Stephan,HTI,NA,NA,NA,NA,NA,12.866,NA,NA,NA,NA,NA,NA,5
+cottbus_cup,High Bar Qualification Results,Leo Lehtinen,FIN,NA,NA,NA,NA,NA,12.833,NA,NA,NA,NA,NA,NA,4.9
+cottbus_cup,High Bar Qualification Results,Nikolaos Iliopoulos,GRC,NA,NA,NA,NA,NA,12.8,NA,NA,NA,NA,NA,NA,5.1
+cottbus_cup,High Bar Qualification Results,Diorges Escobar,CUB,NA,NA,NA,NA,NA,12.733,NA,NA,NA,NA,NA,NA,5.3
+cottbus_cup,High Bar Qualification Results,Amine Abaidi,NLD,NA,NA,NA,NA,NA,12.7,NA,NA,NA,NA,NA,NA,4.9
+cottbus_cup,High Bar Qualification Results,Xie Chenyi,CHN,NA,NA,NA,NA,NA,12.666,NA,NA,NA,NA,NA,NA,5.1
+cottbus_cup,High Bar Qualification Results,Marios Georgiou,CYP,NA,NA,NA,NA,NA,12.666,NA,NA,NA,NA,NA,NA,6
+cottbus_cup,High Bar Qualification Results,Eddie Penev,BGR,NA,NA,NA,NA,NA,12.6,NA,NA,NA,NA,NA,NA,5
+cottbus_cup,High Bar Qualification Results,Krisztian Balazs,HUN,NA,NA,NA,NA,NA,12.533,NA,NA,NA,NA,NA,NA,5.7
+cottbus_cup,High Bar Qualification Results,Pablo Figueroa,CHL,NA,NA,NA,NA,NA,12.433,NA,NA,NA,NA,NA,NA,4.4
+cottbus_cup,High Bar Qualification Results,Mansum Safarov,AZE,NA,NA,NA,NA,NA,12.3,NA,NA,NA,NA,NA,NA,3.9
+cottbus_cup,High Bar Qualification Results,Sercan Demir,TUR,NA,NA,NA,NA,NA,12.2,NA,NA,NA,NA,NA,NA,5
+cottbus_cup,High Bar Qualification Results,Dmitry Patanin,KAZ,NA,NA,NA,NA,NA,12.1,NA,NA,NA,NA,NA,NA,4.7
+cottbus_cup,High Bar Qualification Results,Valgard Reinhardsson,ISL,NA,NA,NA,NA,NA,12.066,NA,NA,NA,NA,NA,NA,4.6
+cottbus_cup,High Bar Qualification Results,Jeordy Ramirez,DOM,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,NA,NA,4.9
+cottbus_cup,High Bar Qualification Results,Nicolas Garfias,PER,NA,NA,NA,NA,NA,11.966,NA,NA,NA,NA,NA,NA,4.8
+cottbus_cup,High Bar Qualification Results,Yordan Aleksandrov,BGR,NA,NA,NA,NA,NA,11.8,NA,NA,NA,NA,NA,NA,4.9
+cottbus_cup,High Bar Qualification Results,Apostolos Kanellos,GRC,NA,NA,NA,NA,NA,11.7,NA,NA,NA,NA,NA,NA,5.2
+cottbus_cup,High Bar Qualification Results,Carlo Hörr,DEU,NA,NA,NA,NA,NA,11.5,NA,NA,NA,NA,NA,NA,5
+cottbus_cup,High Bar Qualification Results,Colt Walker,USA,NA,NA,NA,NA,NA,11.466,NA,NA,NA,NA,NA,NA,5.2
+cottbus_cup,High Bar Qualification Results,Kerem Sener,TUR,NA,NA,NA,NA,NA,11.233,NA,NA,NA,NA,NA,NA,5
+cottbus_cup,High Bar Qualification Results,Sofus Heggemsnes,NOR,NA,NA,NA,NA,NA,11.066,NA,NA,NA,NA,NA,NA,5
+cottbus_cup,High Bar Qualification Results,Jose Nogueira,PRT,NA,NA,NA,NA,NA,10.966,NA,NA,NA,NA,NA,NA,3.9
+cottbus_cup,High Bar Qualification Results,Daniel Stoddart,NZL,NA,NA,NA,NA,NA,10.9,NA,NA,NA,NA,NA,NA,4.2
+cottbus_cup,High Bar Qualification Results,Ioane Jimsheleishvili,GEO,NA,NA,NA,NA,NA,10.9,NA,NA,NA,NA,NA,NA,4.7
+cottbus_cup,High Bar Qualification Results,Sebastian Gawronski,POL,NA,NA,NA,NA,NA,10.766,NA,NA,NA,NA,NA,NA,4.9
+cottbus_cup,High Bar Qualification Results,Dagur Olafsson,ISL,NA,NA,NA,NA,NA,10.466,NA,NA,NA,NA,NA,NA,4
+cottbus_cup,High Bar Qualification Results,Peder Skogvang,NOR,NA,NA,NA,NA,NA,10.133,NA,NA,NA,NA,NA,NA,4.2
+cottbus_cup,High Bar Qualification Results,Milad Karimi,KAZ,NA,NA,NA,NA,NA,10.133,NA,NA,NA,NA,NA,NA,5.2
+cottbus_cup,High Bar Qualification Results,Ivan Tikhonov,AZE,NA,NA,NA,NA,NA,9.8,NA,NA,NA,NA,NA,NA,4.2
+cottbus_cup,High Bar Qualification Results,Leandro Peña,DOM,NA,NA,NA,NA,NA,6.233,NA,NA,NA,NA,NA,NA,2.9

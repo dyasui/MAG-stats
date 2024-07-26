@@ -1,5 +1,17 @@
-project:
-  type: website
-  render:
-    - "*.qmd"
-    - "*.md"
+website: 
+  page-navigation: true
+  title: "Gymstats"
+  navbar:
+    right:
+      - href: main.qmd
+        text: home
+        
+      - href: USA2024/analysis.qmd
+        text: Team USA 2024
+        
+      - href: Japan2024/TeamJapan.qmd
+        text: Team Japan 2024
+      
+      - href: ParisOlympics2024/main.qmd
+        text: Olympic Games 2024
+    

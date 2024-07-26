@@ -1,0 +1,87 @@
+---
+title: "Olympics Pommel Medal Predictions"
+author: "Dante Yasui"
+date: "2024/07/21"
+format:
+  html:
+    df-print: kable
+    toc: true
+---
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+
+olympians <- read_csv("./olympic_teams.csv") %>%
+  select(NAME) %>% 
+  pull()
+
+results_df <- read_csv("./2024-aggregate-results.csv") %>% 
+  filter( 
+    !(MEET %in% c("world_champs")),
+    NAME %in% olympians
+    )
+
+indv.averages_df <- results_df %>% 
+  group_by(NAME, TEAM) %>% 
+  summarise(
+    PH = mean(PH, na.rm=TRUE),
+    PH_D = max(PH_D, na.rm=TRUE)
+    )%>% 
+  mutate(PH_D = na_if(PH_D, -Inf)) %>% 
+  arrange(desc(PH)) 
+```
+
+```{r}
+indv.averages_df %>% 
+  head(n = 8)
+```
+
+## Selected Routines
+
+### Nariman Kurbanov
+{{< video https://www.youtube.com/watch?v=FOJEHyE1hsU >}}
+
+```{r}
+results_df %>% 
+  filter(NAME == "Nariman Kurbanov") %>% 
+  select(MEET, ROUND, PH, PH_D)
+```
+
+
+### Stephen Nedoroscik
+{{< video https://www.youtube.com/watch?v=qHYwwLzQ9Y0 >}}
+
+```{r}
+results_df %>% 
+  filter(NAME == "Stephen Nedoroscik") %>% 
+  select(MEET, ROUND, PH, PH_D)
+```
+
+### Max Whitlock
+{{< video https://www.youtube.com/watch?v=qY_bIeFrj3s >}}
+
+```{r}
+results_df %>% 
+  filter(NAME == "Max Whitlock") %>% 
+  select(MEET, ROUND, PH, PH_D) %>% 
+  filter(!is.na(PH))
+```
+
+### Ahmad Abu Al Soud
+{{< video https://www.youtube.com/watch?v=yypfmxI2e-Y >}}
+
+```{r}
+results_df %>% 
+  filter(NAME == "Ahmad Abu Al Soud") %>% 
+  select(MEET, ROUND, PH, PH_D) %>% 
+  filter(!is.na(PH))
+```
+
+### Rhys McClenaghan
+{{< video https://www.youtube.com/watch?v=CaPLLtpWTVQ >}}
+
+```{r}
+results_df %>% 
+  filter(NAME == "Rhys McClenaghan") %>% 
+  select(MEET, ROUND, PH, PH_D) 
+```
