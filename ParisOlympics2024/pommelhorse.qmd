@@ -41,6 +41,7 @@ indv.averages_df %>%
 ### Nariman Kurbanov
 {{< video https://www.youtube.com/watch?v=FOJEHyE1hsU >}}
 
+<<<<<<< HEAD
 ```{r}
 results_df %>% 
   filter(NAME == "Nariman Kurbanov") %>% 
@@ -56,10 +57,18 @@ results_df %>%
   filter(NAME == "Stephen Nedoroscik") %>% 
   select(MEET, ROUND, PH, PH_D)
 ```
+=======
+### Stephen Nederoscik
+{{< video https://www.youtube.com/watch?v=qHYwwLzQ9Y0 >}}
+
+### Lee Chih Kai
+{{< video https://www.youtube.com/watch?v=uWOYqXL6_rY >}}
+>>>>>>> d35f0d043a5a73837da3504c7c38c1acdb5a9236
 
 ### Max Whitlock
 {{< video https://www.youtube.com/watch?v=qY_bIeFrj3s >}}
 
+<<<<<<< HEAD
 ```{r}
 results_df %>% 
   filter(NAME == "Max Whitlock") %>% 
@@ -85,3 +94,7 @@ results_df %>%
   filter(NAME == "Rhys McClenaghan") %>% 
   select(MEET, ROUND, PH, PH_D) 
 ```
+=======
+### Ahmad Abu Al Soud
+{{< video https://www.youtube.com/watch?v=yypfmxI2e-Y >}}
+>>>>>>> d35f0d043a5a73837da3504c7c38c1acdb5a9236
