@@ -469,3 +469,87 @@ teamsim_df %>%
   head(n=10)
 ```
 
+
+# Small aside: runner-up team
+
+I recently listened to Sam Oldham's podcast episode on the olympic team final 
+with Hamish Carter and he highlighted the depth of team USA as opposed to 
+GBR's current program by saying that the guys in US olympic trials who got left
+off the final team could probably be their own olympic team.
+
+I wanted to see who would be the next-best team after leaving out 
+Brody, Frederick, Paul, Asher, and Stephen so I filtered them out of all the 
+simulated team scores:
+```{r}
+load("./teamsim.RData")
+teamsim_df %>% 
+  filter(!str_detect(names, 'Malone|Richard|Juda|Hong|Nedoroscik')) %>% 
+  head(5) %>% 
+  kableExtra::kable()
+```
+
+These averages are just below Team GBR's Olympic team final performance in Paris
+but they have a very competitive vault and p-bar line-up.
+
+```{r}
+runnerup_team <- c("Shane Wiskus","Donnell Whittenburg", "Cameron Bock", "Khoi Young", "Curran Phillips")
+team_top_scores(runnerup_team) %>% kableExtra::kable()
+```
+
+I can also compare these gymnasts' top individual apparatus scores to the 
+Olympic event finals to see who would have been in contention for medals.
+
+```{r}
+olympic_results_df <- read_csv("~/Personal/MAG-stats/results/olympics-2024.csv") %>% 
+  filter(!ROUND %in% c("All-Around Final Results"))
+
+runnerup_v_olympics <- results_df %>% 
+  filter(NAME %in% runnerup_team) %>% 
+  group_by(NAME) %>% 
+  summarise(
+    across(FX:HB, ~ max(., na.rm = T))
+  ) %>% 
+  bind_rows(olympic_results_df)
+
+runnerup_v_olympics %>% 
+  select(NAME, FX) %>% 
+  arrange(desc(FX))
+
+runnerup_v_olympics %>% 
+  select(NAME, PH) %>% 
+  arrange(desc(PH))
+
+runnerup_v_olympics %>% 
+  select(NAME, SR) %>% 
+  arrange(desc(SR))
+
+runnerup_v_olympics %>% 
+  select(NAME, VT) %>% 
+  arrange(desc(VT))
+
+runnerup_v_olympics %>% 
+  select(NAME, PB) %>% 
+  arrange(desc(PB))
+
+runnerup_v_olympics %>% 
+  select(NAME, PB) %>% 
+  arrange(desc(PB))
+```
+
+From this, it seems like Khoi on Vault and Curran on P-bars would have been 
+the main two individual medal contenders.
+It's too bad that one of the best parallel bar workers in the world right now
+was left out of the olympics and probably won't get an opportunity to earn any 
+world championships medals either.
+I think Khoi still has a lot of time to keep getting more consistent and after 
+winning multiple medals at the 2023 world championships I think he will get
+more opportunities to grow as an international-level gymnast.
+He was probably under a lot of pressure to up his game even more during the 
+team selection processs after such a successful international and collegieate 
+season in the year prior to Paris.
+But I think that he will probably be an important part of the future of the US
+team on the road to LA 2028.
+
+Unfortunately for Donnell, Shane, and Cameron, I think Paris was probably their 
+last shot at olympic teams. However, all three have already had long and 
+internationally successful gymnastics careers.

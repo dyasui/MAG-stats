@@ -161,11 +161,11 @@ save_gym_results <- function(results, year = "2024") {
 
 read_gymternet_international(
   url = 
-    "https://thegymter.net/2023/09/30/2022-asian-games-mens-results/",
+    "https://thegymter.net/2024/08/05/2024-olympic-games-mens-results/",
   meet_name = 
-    "asian_games"
+    "olympics"
 ) %>% 
-save_gym_results(year = "2023")
+save_gym_results(year = "2024")
 
 ### National-level Competitions ###
 ###################################
