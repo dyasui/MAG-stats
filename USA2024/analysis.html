@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -60,7 +60,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -76,11 +75,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -106,48 +105,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-fixed">
+<body>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Gymstats</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../main.qmd"> 
-<span class="menu-text">home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../USA2024/analysis.html" aria-current="page"> 
-<span class="menu-text">Team USA 2024</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../Japan2024/TeamJapan.html"> 
-<span class="menu-text">Team Japan 2024</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../ParisOlympics2024/main.qmd"> 
-<span class="menu-text">Olympic Games 2024</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -180,6 +142,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#my-team-picks" id="toc-my-team-picks" class="nav-link" data-scroll-target="#my-team-picks">My team picks</a></li>
   <li><a href="#using-maximum-scores-instead-of-averages" id="toc-using-maximum-scores-instead-of-averages" class="nav-link" data-scroll-target="#using-maximum-scores-instead-of-averages">Using Maximum Scores instead of Averages</a></li>
   </ul></li>
+  <li><a href="#small-aside-runner-up-team" id="toc-small-aside-runner-up-team" class="nav-link" data-scroll-target="#small-aside-runner-up-team">Small aside: runner-up team</a></li>
   </ul>
 </nav>
     </div>
@@ -802,67 +765,55 @@ Table&nbsp;3: Top ten scoring teams on average
 <div class="kable-table">
 <table class="do-not-create-environment cell caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 84%">
-<col style="width: 7%">
+<col style="width: 91%">
 <col style="width: 8%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">names</th>
 <th style="text-align: right;">total</th>
-<th style="text-align: right;">total_max</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Donnell Whittenburg, Khoi Young , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.4375</td>
-<td style="text-align: right;">265.10</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Khoi Young , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.5625</td>
-<td style="text-align: right;">265.05</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Yul Moldauer , Khoi Young , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.2375</td>
-<td style="text-align: right;">264.60</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Khoi Young , Stephen Nedoroscik</td>
-<td style="text-align: right;">257.8625</td>
-<td style="text-align: right;">264.55</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Brody Malone, Fred Richard, Paul Juda , Asher Hong , Khoi Young</td>
-<td style="text-align: right;">257.4000</td>
-<td style="text-align: right;">264.55</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Donnell Whittenburg, Khoi Young</td>
-<td style="text-align: right;">257.1625</td>
-<td style="text-align: right;">264.50</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Asher Hong , Stephen Nedoroscik</td>
 <td style="text-align: right;">258.1000</td>
-<td style="text-align: right;">264.45</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Brody Malone , Fred Richard , Donnell Whittenburg, Khoi Young , Curran Phillips</td>
-<td style="text-align: right;">256.8458</td>
-<td style="text-align: right;">264.40</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Asher Hong , Stephen Nedoroscik</td>
+<td style="text-align: right;">258.0250</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Khoi Young , Curran Phillips</td>
-<td style="text-align: right;">256.9708</td>
-<td style="text-align: right;">264.35</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.8625</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Brody Malone , Donnell Whittenburg, Asher Hong , Khoi Young , Stephen Nedoroscik</td>
-<td style="text-align: right;">256.2375</td>
-<td style="text-align: right;">264.30</td>
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Donnell Whittenburg, Stephen Nedoroscik</td>
+<td style="text-align: right;">257.8250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Asher Hong , Cameron Bock , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.8125</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Paul Juda , Yul Moldauer , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.7750</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Khoi Young , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.7375</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Paul Juda , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.7250</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Brody Malone , Fred Richard , Shane Wiskus , Yul Moldauer , Stephen Nedoroscik</td>
+<td style="text-align: right;">257.7000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brody Malone, Fred Richard, Shane Wiskus, Paul Juda , Asher Hong</td>
+<td style="text-align: right;">257.6000</td>
 </tr>
 </tbody>
 </table>
@@ -1182,9 +1133,1537 @@ Caused by warning in `stri_count_regex()`:
 </div>
 </div>
 </div>
-
-
 </section>
+</section>
+<section id="small-aside-runner-up-team" class="level1">
+<h1>Small aside: runner-up team</h1>
+<p>I recently listened to Sam Oldham’s podcast episode on the olympic team final with Hamish Carter and he highlighted the depth of team USA as opposed to GBR’s current program by saying that the guys in US olympic trials who got left off the final team could probably be their own olympic team.</p>
+<p>I wanted to see who would be the next-best team after leaving out Brody, Frederick, Paul, Asher, and Stephen so I filtered them out of all the simulated team scores:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">"./teamsim.RData"</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>teamsim_df <span class="sc">%&gt;%</span> </span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">str_detect</span>(names, <span class="st">'Malone|Richard|Juda|Hong|Nedoroscik'</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">5</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There was 1 warning in `filter()`.
+ℹ In argument: `!str_detect(names, "Malone|Richard|Juda|Hong|Nedoroscik")`.
+Caused by warning in `stri_detect_regex()`:
+! argument is not an atomic vector; coercing</code></pre>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 79%">
+<col style="width: 7%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">team</th>
+<th style="text-align: left;">names</th>
+<th style="text-align: right;">total</th>
+<th style="text-align: right;">total_max</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">V7557</td>
+<td style="text-align: left;">Shane Wiskus , Yul Moldauer , Donnell Whittenburg, Khoi Young , Curran Phillips</td>
+<td style="text-align: right;">254.1083</td>
+<td style="text-align: right;">261.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">V8257</td>
+<td style="text-align: left;">Shane Wiskus , Donnell Whittenburg, Khoi Young , Curran Phillips , Patrick Hoopes</td>
+<td style="text-align: right;">251.1208</td>
+<td style="text-align: right;">261.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">V11442</td>
+<td style="text-align: left;">Yul Moldauer , Donnell Whittenburg, Khoi Young , Curran Phillips , Patrick Hoopes</td>
+<td style="text-align: right;">250.0333</td>
+<td style="text-align: right;">261.75</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">V7558</td>
+<td style="text-align: left;">Shane Wiskus , Yul Moldauer , Donnell Whittenburg, Khoi Young , Patrick Hoopes</td>
+<td style="text-align: right;">254.6625</td>
+<td style="text-align: right;">261.60</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">V11250</td>
+<td style="text-align: left;">Yul Moldauer , Donnell Whittenburg, Cameron Bock , Khoi Young , Curran Phillips</td>
+<td style="text-align: right;">253.6958</td>
+<td style="text-align: right;">261.60</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>These averages are just below Team GBR’s Olympic team final performance in Paris but they have a very competitive vault and p-bar line-up.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>runnerup_team <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Shane Wiskus"</span>,<span class="st">"Donnell Whittenburg"</span>, <span class="st">"Cameron Bock"</span>, <span class="st">"Khoi Young"</span>, <span class="st">"Curran Phillips"</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">team_top_scores</span>(runnerup_team) <span class="sc">%&gt;%</span> kableExtra<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 78%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Event</th>
+<th style="text-align: right;">Score</th>
+<th style="text-align: left;">OnEvent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FX</td>
+<td style="text-align: right;">42.65000</td>
+<td style="text-align: left;">Shane Wiskus , Donnell Whittenburg, Khoi Young</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">HB</td>
+<td style="text-align: right;">40.46250</td>
+<td style="text-align: left;">Cameron Bock , Shane Wiskus , Curran Phillips</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PB</td>
+<td style="text-align: right;">44.88333</td>
+<td style="text-align: left;">Curran Phillips, Khoi Young , Shane Wiskus</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PH</td>
+<td style="text-align: right;">40.98750</td>
+<td style="text-align: left;">Cameron Bock, Shane Wiskus, Khoi Young</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SR</td>
+<td style="text-align: right;">42.03750</td>
+<td style="text-align: left;">Donnell Whittenburg, Shane Wiskus , Cameron Bock</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">VT</td>
+<td style="text-align: right;">43.71250</td>
+<td style="text-align: left;">Khoi Young , Donnell Whittenburg, Shane Wiskus</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>I can also compare these gymnasts’ top individual apparatus scores to the Olympic event finals to see who would have been in contention for medals.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>olympic_results_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"~/Personal/MAG-stats/results/olympics-2024.csv"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span>ROUND <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"All-Around Final Results"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 72 Columns: 17
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (4): MEET, ROUND, NAME, TEAM
+dbl (13): FX, PH, SR, VT, PB, HB, AA, FX_D, PH_D, SR_D, VT_D, PB_D, HB_D
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>runnerup_v_olympics <span class="ot">&lt;-</span> results_df <span class="sc">%&gt;%</span> </span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(NAME <span class="sc">%in%</span> runnerup_team) <span class="sc">%&gt;%</span> </span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(NAME) <span class="sc">%&gt;%</span> </span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(FX<span class="sc">:</span>HB, <span class="sc">~</span> <span class="fu">max</span>(., <span class="at">na.rm =</span> T))</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span> </span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bind_rows</span>(olympic_results_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There were 2 warnings in `summarise()`.
+The first warning was:
+ℹ In argument: `across(FX:HB, ~max(., na.rm = T))`.
+ℹ In group 2: `NAME = "Curran Phillips"`.
+Caused by warning in `max()`:
+! no non-missing arguments to max; returning -Inf
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 1 remaining warning.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>runnerup_v_olympics <span class="sc">%&gt;%</span> </span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(NAME, FX) <span class="sc">%&gt;%</span> </span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(FX))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="kable-table">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">NAME</th>
+<th style="text-align: right;">FX</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">15.000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Artem Dolgopyat</td>
+<td style="text-align: right;">14.966</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">14.933</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Donnell Whittenburg</td>
+<td style="text-align: right;">14.850</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shane Wiskus</td>
+<td style="text-align: right;">14.600</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">14.533</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Milad Karimi</td>
+<td style="text-align: right;">14.500</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Luke Whitehouse</td>
+<td style="text-align: right;">14.466</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Khoi Young</td>
+<td style="text-align: right;">14.450</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rayderley Zapata</td>
+<td style="text-align: right;">14.333</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cameron Bock</td>
+<td style="text-align: right;">14.150</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">13.933</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Curran Phillips</td>
+<td style="text-align: right;">13.550</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rhys McClenaghan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nariman Kurbanov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stephen Nedoroscik</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Max Whitlock</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hur Woong</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Loran de Munck</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Liu Yang</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Eleftherios Petrounias</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Samir Aït Saïd</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Adem Asil</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vahagn Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Glen Cuyle</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artur Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Aurel Benovic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nazar Chepurnyi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mahdi Olfati</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Igor Radivilov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ferhat Arican</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tanigawa Wataru</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lukas Dauser</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Angel Barajas</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tang Chia-Hung</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Su Weide</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Marios Georgiou</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tin Srbic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>runnerup_v_olympics <span class="sc">%&gt;%</span> </span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(NAME, PH) <span class="sc">%&gt;%</span> </span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(PH))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="kable-table">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">NAME</th>
+<th style="text-align: right;">PH</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Rhys McClenaghan</td>
+<td style="text-align: right;">15.533</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nariman Kurbanov</td>
+<td style="text-align: right;">15.433</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stephen Nedoroscik</td>
+<td style="text-align: right;">15.300</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Max Whitlock</td>
+<td style="text-align: right;">15.200</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Khoi Young</td>
+<td style="text-align: right;">15.000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">14.966</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">14.933</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hur Woong</td>
+<td style="text-align: right;">14.300</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cameron Bock</td>
+<td style="text-align: right;">14.100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Loran de Munck</td>
+<td style="text-align: right;">13.733</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shane Wiskus</td>
+<td style="text-align: right;">13.700</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Donnell Whittenburg</td>
+<td style="text-align: right;">13.150</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Curran Phillips</td>
+<td style="text-align: right;">-Inf</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artem Dolgopyat</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Milad Karimi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Luke Whitehouse</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rayderley Zapata</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Liu Yang</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Eleftherios Petrounias</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Samir Aït Saïd</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Adem Asil</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vahagn Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Glen Cuyle</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artur Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Aurel Benovic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nazar Chepurnyi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mahdi Olfati</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Igor Radivilov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ferhat Arican</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tanigawa Wataru</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lukas Dauser</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Angel Barajas</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tang Chia-Hung</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Su Weide</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Marios Georgiou</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tin Srbic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>runnerup_v_olympics <span class="sc">%&gt;%</span> </span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(NAME, SR) <span class="sc">%&gt;%</span> </span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(SR))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="kable-table">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">NAME</th>
+<th style="text-align: right;">SR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Liu Yang</td>
+<td style="text-align: right;">15.300</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">15.233</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Eleftherios Petrounias</td>
+<td style="text-align: right;">15.100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Samir Aït Saïd</td>
+<td style="text-align: right;">15.000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Adem Asil</td>
+<td style="text-align: right;">14.966</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Vahagn Davtyan</td>
+<td style="text-align: right;">14.866</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">14.800</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Donnell Whittenburg</td>
+<td style="text-align: right;">14.600</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shane Wiskus</td>
+<td style="text-align: right;">14.200</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cameron Bock</td>
+<td style="text-align: right;">13.900</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Glen Cuyle</td>
+<td style="text-align: right;">13.833</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Khoi Young</td>
+<td style="text-align: right;">13.600</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Curran Phillips</td>
+<td style="text-align: right;">-Inf</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artem Dolgopyat</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Milad Karimi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Luke Whitehouse</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rayderley Zapata</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rhys McClenaghan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nariman Kurbanov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stephen Nedoroscik</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Max Whitlock</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hur Woong</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Loran de Munck</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artur Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Aurel Benovic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nazar Chepurnyi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mahdi Olfati</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Igor Radivilov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ferhat Arican</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tanigawa Wataru</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lukas Dauser</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Angel Barajas</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tang Chia-Hung</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Su Weide</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Marios Georgiou</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tin Srbic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>runnerup_v_olympics <span class="sc">%&gt;%</span> </span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(NAME, VT) <span class="sc">%&gt;%</span> </span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(VT))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="kable-table">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">NAME</th>
+<th style="text-align: right;">VT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">15.433</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Khoi Young</td>
+<td style="text-align: right;">15.100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">15.100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">15.066</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Aurel Benovic</td>
+<td style="text-align: right;">15.000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Artur Davtyan</td>
+<td style="text-align: right;">14.966</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nazar Chepurnyi</td>
+<td style="text-align: right;">14.966</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Donnell Whittenburg</td>
+<td style="text-align: right;">14.900</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Igor Radivilov</td>
+<td style="text-align: right;">14.900</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Shane Wiskus</td>
+<td style="text-align: right;">14.500</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Curran Phillips</td>
+<td style="text-align: right;">14.400</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mahdi Olfati</td>
+<td style="text-align: right;">14.366</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cameron Bock</td>
+<td style="text-align: right;">14.100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artem Dolgopyat</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Milad Karimi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Luke Whitehouse</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rayderley Zapata</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rhys McClenaghan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nariman Kurbanov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stephen Nedoroscik</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Max Whitlock</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hur Woong</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Loran de Munck</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Liu Yang</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Eleftherios Petrounias</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Samir Aït Saïd</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Adem Asil</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vahagn Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Glen Cuyle</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ferhat Arican</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tanigawa Wataru</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lukas Dauser</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Angel Barajas</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tang Chia-Hung</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Su Weide</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Marios Georgiou</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tin Srbic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>runnerup_v_olympics <span class="sc">%&gt;%</span> </span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(NAME, PB) <span class="sc">%&gt;%</span> </span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(PB))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="kable-table">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">NAME</th>
+<th style="text-align: right;">PB</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">16.200</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Curran Phillips</td>
+<td style="text-align: right;">15.650</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">15.500</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">15.300</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">15.100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ferhat Arican</td>
+<td style="text-align: right;">15.100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shane Wiskus</td>
+<td style="text-align: right;">14.950</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cameron Bock</td>
+<td style="text-align: right;">14.900</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Khoi Young</td>
+<td style="text-align: right;">14.900</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Donnell Whittenburg</td>
+<td style="text-align: right;">14.500</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tanigawa Wataru</td>
+<td style="text-align: right;">14.133</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lukas Dauser</td>
+<td style="text-align: right;">13.700</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">13.300</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artem Dolgopyat</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Milad Karimi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Luke Whitehouse</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rayderley Zapata</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rhys McClenaghan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nariman Kurbanov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stephen Nedoroscik</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Max Whitlock</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hur Woong</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Loran de Munck</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Liu Yang</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Eleftherios Petrounias</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Samir Aït Saïd</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Adem Asil</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vahagn Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Glen Cuyle</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artur Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Aurel Benovic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nazar Chepurnyi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mahdi Olfati</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Igor Radivilov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Angel Barajas</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tang Chia-Hung</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Su Weide</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Marios Georgiou</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tin Srbic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>runnerup_v_olympics <span class="sc">%&gt;%</span> </span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(NAME, PB) <span class="sc">%&gt;%</span> </span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(PB))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="kable-table">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">NAME</th>
+<th style="text-align: right;">PB</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">16.200</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Curran Phillips</td>
+<td style="text-align: right;">15.650</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">15.500</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">15.300</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">15.100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ferhat Arican</td>
+<td style="text-align: right;">15.100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shane Wiskus</td>
+<td style="text-align: right;">14.950</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cameron Bock</td>
+<td style="text-align: right;">14.900</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Khoi Young</td>
+<td style="text-align: right;">14.900</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Donnell Whittenburg</td>
+<td style="text-align: right;">14.500</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tanigawa Wataru</td>
+<td style="text-align: right;">14.133</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lukas Dauser</td>
+<td style="text-align: right;">13.700</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">13.300</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artem Dolgopyat</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Illia Kovtun</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Milad Karimi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Luke Whitehouse</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rayderley Zapata</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rhys McClenaghan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nariman Kurbanov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stephen Nedoroscik</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Max Whitlock</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oleg Verniaiev</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hur Woong</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Loran de Munck</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Liu Yang</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zou Jingyuan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Eleftherios Petrounias</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Samir Aït Saïd</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Adem Asil</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vahagn Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Glen Cuyle</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Carlos Yulo</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Artur Davtyan</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Harry Hepworth</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jake Jarman</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Aurel Benovic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nazar Chepurnyi</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mahdi Olfati</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Igor Radivilov</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Oka Shinnosuke</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Angel Barajas</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zhang Boheng</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tang Chia-Hung</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Su Weide</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Marios Georgiou</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sugino Takaaki</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tin Srbic</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>From this, it seems like Khoi on Vault and Curran on P-bars would have been the main two individual medal contenders. It’s too bad that one of the best parallel bar workers in the world right now was left out of the olympics and probably won’t get an opportunity to earn any world championships medals either. I think Khoi still has a lot of time to keep getting more consistent and after winning multiple medals at the 2023 world championships I think he will get more opportunities to grow as an international-level gymnast. He was probably under a lot of pressure to up his game even more during the team selection processs after such a successful international and collegieate season in the year prior to Paris. But I think that he will probably be an important part of the future of the US team on the road to LA 2028.</p>
+<p>Unfortunately for Donnell, Shane, and Cameron, I think Paris was probably their last shot at olympic teams. However, all three have already had long and internationally successful gymnastics careers.</p>
+
+
 </section>
 
 
