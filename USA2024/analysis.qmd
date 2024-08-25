@@ -449,6 +449,7 @@ team_max_total(alt_team2)
 ```
 
 ```{r}
+#| eval: false
 # record top scores for every possible team combination using individual max's
 plan(multisession, workers = 10)
 teamsim_df <- teamsim_df %>% 
